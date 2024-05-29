@@ -1,0 +1,241 @@
+{
+  "name": "N'Erud",
+  "worldDrops": [
+    "Stone of Expanse",
+    "Feedback Loop",
+    "Defensive Action Loop",
+    "Vacuum Seal",
+    "Targeting Jewel",
+    "Point Focus Ring",
+    "Ring of Restocking",
+    "Conservation Seal",
+    "Deep Pocket Ring",
+    "Reserve Boosting Gem",
+    "A'Taerii Booster",
+    "Power Complex",
+    "Emergency Switch",
+    "Kinetic Shield Exchanger",
+    "Inert Overcharger",
+    "Legacy Protocol"
+  ],
+  "locations": {
+    "Phantom Wasteland": {
+      "baseItems": ["Embrace of Sha'Hala"],
+      "isWorldDropPresent": true,
+      "events": ["Ascension Spire"]
+    },
+    "Timeless Horizon": {
+      "baseItems": ["Blasting Cap Ring", "Detonation Trigger", "Ionic Crystal"],
+      "isWorldDropPresent": true,
+      "events": ["Titan's Reach", "Extraction Hub", "Engineer"]
+    },
+    "Seeker's Rest": {
+      "baseItems": [],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Alepsis-Taura": {
+      "baseItems": ["Void Heart"],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Sentinel's Keep": {
+      "baseItems": ["Eidolon Shard", "Power Saver", "Void Cinder"],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Abyssal Rift": {
+      "baseItems": [],
+      "isWorldDropPresent": true,
+      "events": ["Ascension Spire"]
+    },
+    "The Eon Vault": {
+      "baseItems": [
+        "Blasting Cap Ring",
+        "Detonation Trigger",
+        "Difference Engine",
+        "Galvanized Resupply Band",
+        "Star Shot",
+        "Stasis Core"
+      ],
+      "isWorldDropPresent": true,
+      "events": ["Titan's Reach", "Extraction Hub", "Engineer"]
+    },
+    "Forgotten Prison": {
+      "baseItems": [
+        "Spiced Bile",
+        "Acidic Jawbone",
+        "Navigator's Pendant",
+        "Shining Essence Echo"
+      ],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Ascension Spire": {
+      "baseItems": [],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Astropath's Respíte": {
+      "baseItems": ["Rusted Navigator's Pendant", "Seeker Residue"],
+      "isWorldDropPresent": true,
+      "events": ["Gravity Drive", "Hidden Elevator", "Stargazer's Tomb"]
+    },
+    "Spectrum Nexus": {
+      "baseItems": ["Sentry's Old Iris"],
+      "isWorldDropPresent": true,
+      "events": ["Gravity Drive", "Hidden Elevator", "Stargazer's Tomb"]
+    },
+    "Terminus Station": {
+      "baseItems": ["Atom Smasher", "Footwork", "Hyperconductor"],
+      "isWorldDropPresent": true,
+      "events": ["Gravity Drive", "Hidden Elevator", "Stargazer's Tomb"]
+    },
+    "Tower of the Unseen": {
+      "baseItems": [
+        "Samoflange",
+        "Refunder",
+        "Stone of Continuance",
+        "Shielded Heart"
+      ],
+      "isWorldDropPresent": true,
+      "events": ["Gravity Drive", "Hidden Elevator", "Stargazer's Tomb"]
+    },
+    "The Putrid Domain": {
+      "baseItems": ["Mutated Growth"],
+      "isWorldDropPresent": true,
+      "events": [
+        "Aerary Glyph Door",
+        "Broken Cable",
+        "The Flooded Room",
+        "Crashed Train",
+        "Robot Hangar",
+        "Stasis Pod Chamber"
+      ]
+    },
+    "Vault of the Formless": {
+      "baseItems": ["Metal Driver", "Rupture Cannon", "Fitness"],
+      "isWorldDropPresent": true,
+      "events": [
+        "Aerary Glyph Door",
+        "Broken Cable",
+        "The Flooded Room",
+        "Crashed Train",
+        "Robot Hangar",
+        "Stasis Pod Chamber"
+      ]
+    },
+    "Void Vessel Facility": {
+      "baseItems": [
+        "Tightly Wound Coil",
+        "Transference",
+        "Space Worker Mask",
+        "Space Worker Body",
+        "Space Worker Legs",
+        "Space Worker Gloves"
+      ],
+      "isWorldDropPresent": true,
+      "events": [
+        "Aerary Glyph Door",
+        "Broken Cable",
+        "The Flooded Room",
+        "Crashed Train",
+        "Robot Hangar",
+        "Stasis Pod Chamber"
+      ]
+    },
+    "Dormant N'erudian Facility": {
+      "baseItems": ["Siphoner", "Leech", "Toxic Release Valve", "Failsafe"],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "The Dark Conduit": {
+      "baseItems": ["Crystal Heart"],
+      "isWorldDropPresent": true,
+      "events": [
+        "Aerary Glyph Door",
+        "Broken Cable",
+        "The Flooded Room",
+        "Crashed Train",
+        "Robot Hangar",
+        "Stasis Pod Chamber"
+      ]
+    },
+    "The Hatchery": {
+      "baseItems": ["Cracked Shell"],
+      "isWorldDropPresent": true,
+      "events": [
+        "Aerary Glyph Door",
+        "Broken Cable",
+        "The Flooded Room",
+        "Crashed Train",
+        "Robot Hangar",
+        "Stasis Pod Chamber"
+      ]
+    }
+  },
+  "events": {
+    "Crashed Train": {
+      "items": ["Ring of Deflection", "Focusing Shard"]
+    },
+    "Robot Hangar": {
+      "items": ["Transpose", "Excess Coil"]
+    },
+    "The Flooded Room": {
+      "items": ["Subterfuge Link", "Insulation Driver", "Generating Band"]
+    },
+    "Broken Cable": {
+      "items": ["Rerouting Cable", "Blackout Ring"]
+    },
+    "Aerary Glyph Door": {
+      "items": ["Disengage", "Ring of Crisis"]
+    },
+    "Stasis Pod Chamber": {
+      "items": ["Momentum Driver", "Atom Splitter"]
+    },
+
+    "Ascension Spire": {
+      "items": [
+        "Pulse Rifle",
+        "Escalation Circuit",
+        "Core Booster",
+        "Vice Grips",
+        "Salvaged Heart",
+        "Range Finder",
+        "Energy Diverter",
+        "Effluvium Enhancer",
+        "Microcompressor",
+        "Meteorite Shard Ring",
+        "Burden of the Mariner",
+        "Suppression Ward"
+      ]
+    },
+
+    "Titan's Reach": {
+      "items": ["Hardcore Metal Band", "Plasma Cutter"]
+    },
+    "Extraction Hub": {
+      "items": ["Navigator's Helm"]
+    },
+    "Engineer": {
+      "isUnique": false,
+      "items": [
+        "Alien Device",
+        "Technician Helmet",
+        "Technician Bodyplate",
+        "Technician Greaves",
+        "Technician Gloves"
+      ]
+    },
+
+    "Gravity Drive": {
+      "items": ["Constant Variable Ring", "Timewave"]
+    },
+    "Hidden Elevator": {
+      "items": ["Low Yield Recovery Ring", "Propulsion Loop"]
+    },
+    "Stargazer's Tomb": {
+      "items": ["Burden of the Stargazer"]
+    }
+  }
+}

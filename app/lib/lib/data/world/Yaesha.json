@@ -1,0 +1,371 @@
+{
+  "name": "Yaesha",
+  "worldDrops": [
+    "Ring of the Forest Spirit",
+    "Heart of the Wolf",
+    "Celerity Stone",
+    "Wax Sealed Ring",
+    "Vestige of Power",
+    "Soul Link",
+    "Guardian's Ring",
+    "Sagestone",
+    "Spirit Stone",
+    "Stone of Balance",
+    "Brawler's Pride",
+    "Soul Shard",
+    "Scavenger's Bauble",
+    "Stalker's Brand",
+    "Vengeance Idol",
+    "Sinister Totem",
+    "Gul Signet",
+    "Kolket Eyelet",
+    "Matriarch's Ring",
+    "Sealed Resin Loop",
+    "Soul Feast",
+    "Beads of the Valorous",
+    "Fragrant Thorn",
+    "Reed of the Vaunnt",
+    "Resolute"
+  ],
+  "locations": {
+    "Infested Abyss": {
+      "baseItems": [
+        "Crystal Staff",
+        "Profane Soul Stone",
+        "Profane Hear",
+        "Soul Stone",
+        "Conjurer's Circle",
+        "Near-Sighted"
+      ],
+      "isWorldDropPresent": true,
+      "events": ["Collapsed Tomb", "Living Stone", "The Coffin"]
+    },
+    "The Withering Weald": {
+      "baseItems": [],
+      "isWorldDropPresent": true,
+      "events": ["Dappled Glade", "Koara Kuri Nest", "Root Nexus"]
+    },
+    "The Far Woods": {
+      "baseItems": [],
+      "isWorldDropPresent": true,
+      "events": ["Dappled Glade", "Koara Kuri Nest", "Root Nexus"]
+    },
+    "The Red Throne": {
+      "baseItems": [
+        "Burden of the Rebel",
+        "Red Doe Sigil",
+        "Seal of the Empress",
+        "Zohee's Ring",
+        "Royal Broadsword",
+        "Ford's Scattergun"
+      ],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "The Widow's Court": {
+      "baseItems": ["Matriarch's Insignia", "Ghost_Shell"],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "The Great Bole": {
+      "baseItems": ["Hollow Heart", "Twisted Lazurite"],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "The Forbidden Grove": {
+      "baseItems": [
+        "Death's Embrace",
+        "Restriction Cord",
+        "Rebellion Spear",
+        "Blood Jewel",
+        "Bolt Driver",
+        "Frivolous Band",
+        "Lodestone Ring",
+        "Rotward",
+        "Lifeless Heart",
+        "Scroll of Binding"
+      ],
+      "isWorldDropPresent": true,
+      "events": ["Dappled Glade", "Koara Kuri Nest", "Root Nexus"]
+    },
+    "The Lost Temple": {
+      "baseItems": [],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Faithless Thicket": {
+      "baseItems": [],
+      "isWorldDropPresent": true,
+      "events": ["Dappled Glade", "Koara Kuri Nest", "Root Nexus"]
+    },
+    "Ravager's Lair": {
+      "baseItems": [
+        "Ravager's Maw",
+        "Crimson Membrane",
+        "Ravager's Mark",
+        "Doe's Antler"
+      ],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Bird's Nest": {
+      "baseItems": [],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "The Dappled Glade": {
+      "baseItems": [],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Root Nexus (Field Location)": {
+      "baseItems": [],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "The Expanding Glade": {
+      "baseItems": ["Soul Sliver"],
+      "isWorldDropPresent": true,
+      "events": [
+        "Yaesha Tower Puzzle",
+        "Altar of the Sun",
+        "Root Raiders",
+        "Doe Sanctuary"
+      ]
+    },
+    "The Nameless Nest": {
+      "baseItems": ["Cordyceps Gland"],
+      "isWorldDropPresent": true,
+      "events": [
+        "Yaesha Tower Puzzle",
+        "Altar of the Sun",
+        "Root Raiders",
+        "Doe Sanctuary"
+      ]
+    },
+    "Forgotten Field": {
+      "baseItems": [
+        "Reinvigorate",
+        "Laemir Censer",
+        "Necklace of Supremacy",
+        "Rugged"
+      ],
+      "isWorldDropPresent": true,
+      "events": [
+        "Yaesha Tower Puzzle",
+        "Altar of the Sun",
+        "Root Raiders",
+        "Doe Sanctuary"
+      ]
+    },
+    "Imperial Gardens": {
+      "baseItems": [
+        "Crossbow",
+        "Edge of the Forest",
+        "Full Moon Circlet",
+        "Momentum"
+      ],
+      "isWorldDropPresent": true,
+      "events": [
+        "Yaesha Tower Puzzle",
+        "Altar of the Sun",
+        "Root Raiders",
+        "Doe Sanctuary"
+      ]
+    },
+    "The Twisted Chantry": {
+      "baseItems": ["Agnosia Driftwood"],
+      "isWorldDropPresent": true,
+      "events": ["Collapsed Tomb", "Living Stone", "The Coffin"]
+    },
+    "The Chimney": {
+      "baseItems": ["Heart Seed", "Downward Spiral"],
+      "isWorldDropPresent": true,
+      "events": ["Collapsed Tomb", "Living Stone", "The Coffin"]
+    },
+    "The Lament": {
+      "baseItems": [
+        "Overdrive",
+        "Red Widow Raiment",
+        "Red Widow Bracers",
+        "Red Widow Headdress",
+        "Red Widow Leggings",
+        "Ring of Diversion",
+        "Blood Tinged Ring",
+        "Lodestone Crown"
+      ],
+      "isWorldDropPresent": true,
+      "events": ["Collapsed Tomb", "Living Stone", "The Coffin"]
+    },
+    "Kaeula's Rest": {
+      "baseItems": ["Tear of Kaeula", "Twilight Dactylus"],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Endaira's End": {
+      "baseItems": [
+        "Endaira's Endless Loop",
+        "Krell Axe",
+        "Vampire Blade",
+        "Tempest Conduit",
+        "Pulsing Heart",
+        "Captain's Insignia"
+      ],
+      "isWorldDropPresent": true,
+      "events": [
+        "Hidden Chamber",
+        "Wind Hollow",
+        "Library",
+        "Phases of the Moon"
+      ]
+    },
+    "Cathedral of Omens": {
+      "baseItems": ["Faith Seed", "Sagittarius", "Ring of Omens"],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "The Ancient Canopy": {
+      "baseItems": [
+        "Old Flute",
+        "Pressure Point",
+        "Stoneshaper's Chisel",
+        "Trinity Crossbow",
+        "Regurgitated Spiny Sac",
+        "Burden of the Mesmer",
+        "Feathery Binding",
+        "Ravager's Bargain"
+      ],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Deserted Atelier": {
+      "baseItems": ["Forge Ember"],
+      "isWorldDropPresent": true,
+      "events": [
+        "Yaesha Tower Puzzle",
+        "Altar of the Sun",
+        "Root Raiders",
+        "Doe Sanctuary"
+      ]
+    },
+    "Earthen Coliseum": {
+      "baseItems": ["Pallid Lodestone"],
+      "isWorldDropPresent": true,
+      "events": [
+        "Hidden Chamber",
+        "Wind Hollow",
+        "Library",
+        "Phases of the Moon"
+      ]
+    },
+    "Goddess's Rest": {
+      "baseItems": [
+        "Bloodless Crown",
+        "Bloodless Heart",
+        "Bloodless King's Vow",
+        "Searing Wounds"
+      ],
+      "isWorldDropPresent": true,
+      "events": [
+        "Yaesha Tower Puzzle",
+        "Altar of the Sun",
+        "Root Raiders",
+        "Doe Sanctuary"
+      ]
+    },
+    "The Bloodless Throne": {
+      "baseItems": ["Eye of Lydusa", "Tear of Lydusa"],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Luminous Vale": {
+      "baseItems": [
+        "Rally Band",
+        "Thalos Eyelet",
+        "Burden of the Mason",
+        "Echo of the Forest",
+        "Worn Dog Tags",
+        "Far-Sighted"
+      ],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Proving Grounds": {
+      "baseItems": [
+        "Ceramic Flask",
+        "Dark Sea Armada Crest",
+        "Floodlit Diamond",
+        "Gladiator"
+      ],
+      "isWorldDropPresent": true,
+      "events": [
+        "Hidden Chamber",
+        "Wind Hollow",
+        "Library",
+        "Phases of the Moon"
+      ]
+    }
+  },
+  "events": {
+    "Yaesha Tower Puzzle": {
+      "items": ["Slayer's Crest", "Blooming Heart"]
+    },
+    "Altar of the Sun": {
+      "items": ["Talisman of the Sun"]
+    },
+    "Root Raiders": {
+      "items": ["Hardened Coil", "Bandit"]
+    },
+    "Doe Sanctuary": {
+      "items": ["Cervine Keepsake", "Thousand Cuts", "Token of Favor"]
+    },
+
+    "Living Stone": {
+      "items": ["Lithic Signet"]
+    },
+    "The Coffin": {
+      "items": ["Berserker's Crest", "Extender"]
+    },
+    "Collapsed Tomb": {
+      "items": ["Tomb Dweller's Ring", "Necklace of Flowing Life"]
+    },
+    "The Treasure Room": {
+      "items": ["Pan War Band", "Ring of Spirits"]
+    },
+
+    "Hidden Chamber": {
+      "items": ["Archer's Crest"]
+    },
+    "Wind Hollow": {
+      "items": ["Wind Hollow Circlet", "Band Band"]
+    },
+    "Library": {
+      "items": ["Burden of the Follower", "Bulletweaver"]
+    },
+    "Phases of the Moon": {
+      "items": ["Mark of the Destroyer", "Moon Stone"]
+    },
+
+    "Dappled Glade": {
+      "items": ["Barkskin", "Bloodstream", "Sorrow"]
+    },
+    "Koara Kuri Nest": {
+      "items": ["Kuri Kuri Charm"]
+    },
+    "Root Nexus": {
+      "items": ["Hallowed Egg"]
+    },
+    "Bloodmoon Altar": {
+      "items": [
+        "Blade of Gul",
+        "Knotted Helm",
+        "Knotted Cage",
+        "Knotted Greaves",
+        "Knotted Gloves",
+        "Faded Grimoire",
+        "Soul Anchor",
+        "Soul Guard"
+      ]
+    }
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "name": "Losomn",
+  "worldDrops": [
+    "Fae Shaman Ring",
+    "Fae Bruiser Ring",
+    "Fae Warrior Ring",
+    "Fae Hunter Ring",
+    "Alchemy Stone",
+    "Stone of Malevolence",
+    "Ring of the Robust",
+    "Booster Ring",
+    "Stream Coupler",
+    "Dread Font",
+    "Dried Clay Ring",
+    "Painless Obsidian",
+    "Ring of the Vain",
+    "Wood Ring",
+    "Offering Stone",
+    "Red Ring of Death",
+    "Shadow of Misery",
+    "Weightless Weight",
+    "Chains of Amplification",
+    "Indignant Fetish",
+    "Whispering Marble",
+    "Birthright of the Lost",
+    "Brewmaster's Cork"
+  ],
+  "locations": {
+    "Brocwithe Quarter": {
+      "baseItems": [],
+      "isWorldDropPresent": true,
+      "events": ["Oracle's Refuge", "Hewdas Clock", "Briella's Garden"]
+    },
+    "Ironborough": {
+      "baseItems": [],
+      "isWorldDropPresent": true,
+      "events": ["Oracle's Refuge", "Hewdas Clock", "Briella's Garden"]
+    },
+    "Beatific Palace": {
+      "baseItems": ["Cataloger's Jewel", "Jester's Bell", "Unsullied Heart"],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Nimue's Retreat": {
+      "baseItems": [
+        "Anamy's Echo",
+        "Hex Ward",
+        "Nimue's Ribbon",
+        "One True King Sigil",
+        "Tranquil Heart"
+      ],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Malefic Palace": {
+      "baseItems": ["Misfortune", "One-Eyed Joker Idol", "Shaed Bloom Crystal"],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Beatific Gallery": {
+      "baseItems": ["Faelin's Sigil", "Imposter's Heart"],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Malefic Gallery": {
+      "baseItems": ["Faerin's Sigil", "Melded Hilt"],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Morrow Parish": {
+      "baseItems": ["Shock Device", "Alumni Ring", "Double Barrel", "Striker"],
+      "isWorldDropPresent": true,
+      "events": ["Oracle's Refuge", "Hewdas Clock"]
+    },
+    "Forsaken Quarter": {
+      "baseItems": [],
+      "isWorldDropPresent": true,
+      "events": ["Oracle's Refuge", "Hewdas Clock", "Briella's Garden"]
+    },
+    "The Tormented Asylum": {
+      "baseItems": [
+        "Ring of Retribution",
+        "Nightweaver's Grudge",
+        "Dreamcatcher",
+        "Tormented Heart",
+        "Cursed Dream Silks",
+        "Nightweaver's Finger",
+        "Decrepit Rune"
+      ],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Forlorn Coast": {
+      "baseItems": [
+        "Abyssal Hook",
+        "Band of the Fanatic",
+        "Dandy Topper",
+        "Digested Hog Lure",
+        "Dreadful",
+        "Elevated Ring",
+        "Ragged Poppet",
+        "Zealot's Hat",
+        "Zealot's Overcoat",
+        "Zealot's Seaboots",
+        "Zealot's Wraps",
+        "Atonement Fold",
+        "Bitter Memento",
+        "Bridge Warden's Crest",
+        "Burden of the Sciolist",
+        "Ring of Infinite Damage",
+        "Index of the Scribe",
+        "Executor",
+        "Paper Heart",
+        "Dark Pact"
+      ],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Drowned Wen": {
+      "baseItems": [],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Mournful Promenade": {
+      "baseItems": ["Elevated Ring", "Maelstrom"],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Palace of the One True King": {
+      "baseItems": [],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Chamber of the Faithless": {
+      "baseItems": [
+        "Tormentor's Pommel",
+        "Agony Spike",
+        "Burden of the Departed",
+        "Broken Heart",
+        "Jewel of the Beholden",
+        "Cost of Betrayal",
+        "Gift of the Unbound"
+      ],
+      "isWorldDropPresent": false,
+      "events": ["Succession"]
+    },
+    "Council Chamber": {
+      "baseItems": [
+        "Fae Protector Signet",
+        "Ornate Blade",
+        "Assassin's Dagger"
+      ],
+      "isWorldDropPresent": true,
+      "events": [
+        "The Executioner Event",
+        "The Flames Event",
+        "The Statues Event",
+        "The Mirror Hall"
+      ]
+    },
+    "Gilded Chambers": {
+      "baseItems": [
+        "Bloody Steel Splinter",
+        "Forlorn Fragment",
+        "Crown of the Red Prince"
+      ],
+      "isWorldDropPresent": true,
+      "events": [
+        "The Executioner Event",
+        "The Flames Event",
+        "The Statues Event",
+        "The Mirror Hall",
+        "Succession"
+      ]
+    },
+    "Postulant's Parlor": {
+      "baseItems": [
+        "Game Master's Pride",
+        "Royal Hunting Bow",
+        "Fae Royal Headcover",
+        "Fae Royal Greaves",
+        "Fae Royal Bodyplate",
+        "Fae Royal Vambraces"
+      ],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Glistering Cloister": {
+      "baseItems": ["Wretched Skull"],
+      "isWorldDropPresent": true,
+      "events": [
+        "The Executioner Event",
+        "The Flames Event",
+        "The Statues Event",
+        "The Mirror Hall"
+      ]
+    },
+    "Walk of Remembrance": {
+      "baseItems": ["Gift of Euphoria"],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Council Tribunal": {
+      "baseItems": ["Assassin's Seal"],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Shattered Gallery": {
+      "baseItems": ["Tainted Ichor"],
+      "isWorldDropPresent": true,
+      "events": [
+        "The Executioner Event",
+        "The Flames Event",
+        "The Statues Event",
+        "The Mirror Hall"
+      ]
+    },
+    "The Great Hall": {
+      "baseItems": [
+        "Feastmaster's Signet",
+        "Neckbone Necklace",
+        "Glutton",
+        "Bone Chopper",
+        "White Glass Bead"
+      ],
+      "isWorldDropPresent": true,
+      "events": [
+        "The Executioner Event",
+        "The Flames Event",
+        "The Statues Event",
+        "The Mirror Hall"
+      ]
+    },
+    "Pathway of the Fallen": {
+      "baseItems": ["Gift of Melancholy", "Prophecy", "Cremated Soul Ash"],
+      "isWorldDropPresent": true,
+      "events": [
+        "The Executioner Event",
+        "The Flames Event",
+        "The Statues Event",
+        "The Mirror Hall"
+      ]
+    },
+    "Butcher's Quarter": {
+      "baseItems": ["Singed Ring", "Dran Memento", "Shadeskin"],
+      "isWorldDropPresent": true,
+      "events": ["Fiery Graveyard", "Rookery", "Oink", "Ethereal Manor"]
+    },
+    "Cotton's Kiln": {
+      "baseItems": ["Alkahest Powder"],
+      "isWorldDropPresent": true,
+      "events": ["Fiery Graveyard", "Rookery", "Oink", "Ethereal Manor"]
+    },
+    "Lemark District": {
+      "baseItems": [],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Sunken Haunt": {
+      "baseItems": ["Hex Wreath"],
+      "isWorldDropPresent": true,
+      "events": ["Fiery Graveyard", "Rookery", "Oink", "Ethereal Manor"]
+    },
+    "Derelict Lighthouse": {
+      "baseItems": ["Lighthouse Keeper's Ring", "Sparkfire Shotgun", "Sleeper"],
+      "isWorldDropPresent": true,
+      "events": ["Fiery Graveyard", "Rookery", "Oink", "Ethereal Manor"]
+    },
+    "Harvester's Reach": {
+      "baseItems": ["Lithely", "Ring of Grace", "Arcane Strike"],
+      "isWorldDropPresent": true,
+      "events": [
+        "Locked Safe",
+        "Flooding Sewer",
+        "Fae Hunting Party",
+        "Traitor's Pit",
+        "Monster in the Drain"
+      ]
+    },
+    "The Great Sewers": {
+      "baseItems": ["Bone Sap"],
+      "isWorldDropPresent": true,
+      "events": [
+        "Locked Safe",
+        "Flooding Sewer",
+        "Fae Hunting Party",
+        "Traitor's Pit",
+        "Monster in the Drain"
+      ]
+    },
+    "Tiller's Rest": {
+      "baseItems": ["Spirit Wisp Amulet", "Outcast Ring"],
+      "isWorldDropPresent": true,
+      "events": [
+        "Locked Safe",
+        "Flooding Sewer",
+        "Fae Hunting Party",
+        "Traitor's Pit",
+        "Monster in the Drain"
+      ]
+    },
+    "The Forgotten Commune": {
+      "baseItems": ["Guts", "Ritualist Scythe"],
+      "isWorldDropPresent": true,
+      "events": [
+        "Locked Safe",
+        "Flooding Sewer",
+        "Fae Hunting Party",
+        "Traitor's Pit",
+        "Monster in the Drain"
+      ]
+    }
+  },
+  "events": {
+    "The Executioner Event": {
+      "items": ["Steadfast", "Sapphire Dreamstone", "Ornate Flail"]
+    },
+    "The Flames Event": {
+      "items": ["Black Pawn Stamp", "White Pawn Stamp"]
+    },
+    "The Statues Event": {
+      "items": ["Silver Ribbon", "Golden Ribbon"]
+    },
+    "The Mirror Hall": {
+      "items": ["Shaed Stone"]
+    },
+
+    "Flooding Sewer": {
+      "items": ["Burden of the Divine", "Meridian"]
+    },
+    "Fae Hunting Party": {
+      "items": ["Stockpile Charger", "Ring of the Damned"]
+    },
+    "Locked Safe": {
+      "items": ["Rusted Heirloom"]
+    },
+    "Traitor's Pit": {
+      "items": ["Ring of the Castaway"]
+    },
+    "Monster in the Drain": {
+      "items": [
+        "Academic's Hat",
+        "Academic's Trousers",
+        "Academic's Overcoat",
+        "Academic's Gloves",
+        "Drakestone Pearl"
+      ]
+    },
+
+    "Oracle's Refuge": {
+      "items": ["Quilted Heart", "All-Seeing Eye", "Recovery"]
+    },
+    "Hewdas Clock": {
+      "items": ["Timekeeper's Jewel", "Broken Timepiece"]
+    },
+    "Briella's Garden": {
+      "items": ["Venerated Spearhead", "Sacred Hunt Feather"]
+    },
+
+    "Fiery Graveyard": {
+      "items": ["Burden of the Warlock"]
+    },
+    "Rookery": {
+      "items": ["Cleansing Stone", "Effigy Pendant"]
+    },
+    "Oink": {
+      "items": ["Shiny Hog Lure", "Twisting Wounds"]
+    },
+    "Ethereal Manor": {
+      "items": ["Death-Soaked Idol", "Crimson Dreamstone", "Occult Vessel"]
+    },
+
+    "Succession": {
+      "items": [
+        "Crimson Guard Shroud",
+        "Crimson Guard Plate",
+        "Crimson Guard Sabatons",
+        "Crimson Guard Gauntlets"
+      ]
+    }
+  }
+}
