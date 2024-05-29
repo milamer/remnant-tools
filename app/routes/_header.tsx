@@ -1,22 +1,13 @@
 import {
-  ClientActionFunctionArgs,
   Form,
   Link,
   Outlet,
-  redirect,
   useFetcher,
   useLoaderData,
   useSearchParams,
 } from '@remix-run/react';
 import { CompassIcon, DatabaseIcon, UploadIcon } from 'lucide-react';
-import { z } from 'zod';
 import { Button } from '~/lib/components/ui/button';
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from '~/lib/components/ui/dropdown-menu';
 import {
   Dialog,
   DialogContent,
@@ -24,11 +15,16 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
 } from '~/lib/components/ui/dialog';
-import { Label } from '~/lib/components/ui/label';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '~/lib/components/ui/dropdown-menu';
 import { Input } from '~/lib/components/ui/input';
-import { getCharactersInfo, updateCharacters } from '~/lib/lib/db';
+import { Label } from '~/lib/components/ui/label';
+import { getCharactersInfo } from '~/lib/db';
 
 export async function clientLoader() {
   const selectedCharacter = getCharactersInfo();

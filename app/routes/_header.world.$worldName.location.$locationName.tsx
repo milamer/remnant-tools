@@ -8,7 +8,7 @@ import { z } from 'zod';
 import { Button } from '~/lib/components/ui/button';
 import { ScrollArea } from '~/lib/components/ui/scroll-area';
 import { Separator } from '~/lib/components/ui/separator';
-import { getCharacter, getLocation, getWorld } from '~/lib/lib/db';
+import { getCharacter, getLocation, getWorld } from '~/lib/db';
 
 const statusToIcon = {
   Collected: <SquareCheckIcon className="h-6 w-6 text-green-400" />,

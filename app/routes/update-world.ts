@@ -1,8 +1,8 @@
 import { json } from '@remix-run/node';
 import { ClientActionFunctionArgs } from '@remix-run/react';
-import { clientData } from '~/lib/lib/data/items/items.server';
-import { World, getWorld } from '~/lib/lib/data/worlds.server';
-import { updateWorlds } from '~/lib/lib/db';
+import { collectibles } from '~/data/collectibles.server';
+import { World, getWorld } from '~/data/worlds.server';
+import { updateWorlds } from '~/lib/db';
 
 export async function action() {
   const [Losomn, Yaesha, NErud, Ward13] = await Promise.all([
@@ -12,7 +12,7 @@ export async function action() {
     getWorld(World.Ward13),
   ]);
   return json({
-    itemData: clientData,
+    itemData: collectibles,
     worlds: {
       Losomn,
       Yaesha,

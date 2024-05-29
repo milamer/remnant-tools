@@ -9,7 +9,7 @@ import { useMemo, useState } from 'react';
 import { z } from 'zod';
 import { Input } from '~/lib/components/ui/input';
 import { ScrollArea } from '~/lib/components/ui/scroll-area';
-import { getCharacter, getWorld } from '~/lib/lib/db';
+import { getCharacter, getWorld } from '~/lib/db';
 import { cn } from '~/lib/lib/utils';
 
 export function clientLoader({ params }: ClientLoaderFunctionArgs) {

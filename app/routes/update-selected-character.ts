@@ -1,6 +1,6 @@
 import { ClientActionFunctionArgs } from '@remix-run/react';
 import { z } from 'zod';
-import { updateSelectedCharacterIdx } from '~/lib/lib/db';
+import { updateSelectedCharacterIdx } from '~/lib/db';
 
 const actionSchema = z.object({
   characterIdx: z.coerce.number(),

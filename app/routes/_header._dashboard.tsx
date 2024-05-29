@@ -6,7 +6,7 @@ import {
   CardTitle,
 } from '~/lib/components/ui/card';
 import { Progress } from '~/lib/components/ui/progress';
-import { getCharacter, getWorlds } from '~/lib/lib/db';
+import { getCharacter, getWorlds } from '~/lib/db';
 import { cn } from '~/lib/lib/utils';
 
 export function clientLoader() {

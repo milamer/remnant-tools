@@ -1,6 +1,6 @@
 import { ClientActionFunctionArgs } from '@remix-run/react';
 import { z } from 'zod';
-import { updateCharacters } from '~/lib/lib/db';
+import { updateCharacters } from '~/lib/db';
 
 const NonEmptyFile = z.instanceof(File).refine(
   (file) => Boolean(file) && file.size > 0,
