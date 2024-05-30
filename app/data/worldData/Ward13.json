@@ -1,8 +1,12 @@
 {
+  "$schema": "./_schema.json",
   "name": "Ward 13",
   "locations": {
     "Whispers": {
-      "baseItems": [
+      "name": "Whispers",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Whispers", "/Whispers"],
+      "collectibles": [
         "Bruiser Helmet",
         "Bruiser Bodyplate",
         "Bruiser Boots",
@@ -45,12 +49,13 @@
         "Leto Mark 1 Gloves",
         "Leto Mark 1 Helmet",
         "Leto Mark 1 Leggings"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "Brabus": {
-      "baseItems": [
+      "name": "Brabus",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Brabus", "/Brabus"],
+      "collectibles": [
         "Huntmaster M1",
         "Repeater Pistol",
         "Steel Sword",
@@ -84,17 +89,19 @@
         "World's Edge",
         "Savior",
         "Steel Scythe"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "Dr. Norah": {
-      "baseItems": ["Medic Pin"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Dr. Norah",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Dr.%20Norah", "/Dr.%20Norah"],
+      "collectibles": ["Medic Pin"]
     },
     "Dwell": {
-      "baseItems": [
+      "name": "Dwell",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Dwell", "/Dwell"],
+      "collectibles": [
         "Battery",
         "Deadly Calm",
         "Dervish",
@@ -119,12 +126,13 @@
         "Fetid Wounds",
         "Tainted Blade",
         "Spellweaver"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "McCabe": {
-      "baseItems": [
+      "name": "McCabe",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/McCabe", "/McCabe"],
+      "collectibles": [
         "Healing Shot",
         "Concussive Shot",
         "Scrap Shot",
@@ -183,23 +191,25 @@
         "Thorn",
         "Mirage",
         "Anguish"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "Mudtooth": {
-      "baseItems": [
+      "name": "Mudtooth",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Mudtooth", "/Mudtooth"],
+      "collectibles": [
         "Old Whistle",
         "Gunslinger's Ring",
         "Gunslinger's Charm",
         "Mudtooth's Hat",
         "Worn Cylinder"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "Reggie": {
-      "baseItems": [
+      "name": "Reggie",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Reggie", "/Reggie"],
+      "collectibles": [
         "Fire Stone",
         "Grounding Stone",
         "Acid Stone",
@@ -219,14 +229,14 @@
         "Leto's Amulet",
         "Old Metal Tool",
         "Dull Steel Ring"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "Wallace": {
-      "baseItems": [
+      "name": "Wallace",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Wallace", "/Wallace"],
+      "collectibles": [
         "Orb of Undoing",
-
         "Caduceus Idol",
         "Cursed Effigy",
         "Drzyr Caliper",
@@ -240,12 +250,13 @@
         "Spirit Flute",
         "Serrated Root Blade",
         "Tome of The Bringer"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "Cass": {
-      "baseItems": [
+      "name": "Cass",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Cass", "/Cass"],
+      "collectibles": [
         "Abrasive Whetstone",
         "Broken Pocket Watch",
         "Decayed Margin",
@@ -266,12 +277,13 @@
         "Constrained Heart",
         "Diverting Heart",
         "Enlarged Heart"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "World": {
-      "baseItems": [
+      "name": "World",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/World", "/World"],
+      "collectibles": [
         "Chicago Typewriter",
         "MP60-R",
         "Leto Mark II Armor",
@@ -281,10 +293,8 @@
         "Tarnished Ring",
         "Dragon Heart",
         "Ripened Heart"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     }
   },
-  "events": {}
+  "injectables": {}
 }

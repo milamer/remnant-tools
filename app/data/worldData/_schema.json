@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "enum": [
+        "Ward 13",
+        "N'Erud",
+        "Yaesha",
+        "Losomn",
+        "The Labyrinth",
+        "Root Earth",
+        "Other"
+      ]
+    },
+    "locations": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "addedIn": {
+            "type": "string",
+            "enum": ["Remnant 2", "The Awakened King", "The Forgotten Kingdom"]
+          },
+          "wikiLinks": {
+            "type": "array",
+            "items": {
+              "type": ["string", "null"]
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "collectibles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "injectables": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "injectables": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": ["name", "injectables"]
+            }
+          }
+        },
+        "required": ["name", "addedIn", "wikiLinks", "collectibles"]
+      }
+    },
+    "injectables": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "addedIn": {
+            "type": "string",
+            "enum": ["Remnant 2", "The Awakened King", "The Forgotten Kingdom"]
+          },
+          "wikiLinks": {
+            "type": "array",
+            "items": {
+              "type": ["string", "null"]
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "collectibles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": ["name", "addedIn", "wikiLinks", "collectibles"]
+      }
+    }
+  },
+  "required": ["name", "locations", "injectables"]
+}

@@ -1,14 +1,12 @@
 {
+  "$schema": "./_schema.json",
   "name": "Root Earth",
   "locations": {
-    "World Drops": {
-      "baseItems": ["Reaping Stone", "Escalation Protocol"],
-      "events": [],
-      "isWorldDropPresent": false
-    },
-
     "Ashen Wasteland": {
-      "baseItems": [
+      "name": "Ashen Wasteland",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Ashen%20Wasteland", "/Ashen%20Wasteland"],
+      "collectibles": [
         "Hellfire",
         "Steel Katana",
         "Dendroid Chest",
@@ -23,11 +21,18 @@
         "Resonating Heart",
         "Handling"
       ],
-      "events": [],
-      "isWorldDropPresent": true
+      "injectables": [
+        {
+          "name": "World Drops",
+          "injectables": ["Root Earth: World Drops"]
+        }
+      ]
     },
     "Corrupted Harbor": {
-      "baseItems": [
+      "name": "Corrupted Harbor",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Corrupted%20Harbor", "/Corrupted%20Harbor"],
+      "collectibles": [
         "Decayed Claws",
         "Flyweight's Sting",
         "Flyweight's Sting",
@@ -39,14 +44,19 @@
         "Wooden Shiv",
         "Chakra"
       ],
-      "events": [],
-      "isWorldDropPresent": true
+      "injectables": [
+        {
+          "name": "World Drops",
+          "injectables": ["Root Earth: World Drops"]
+        }
+      ]
     },
     "Blackened Citadel": {
-      "baseItems": ["Forgotten Memory", "Broken Compass", "Scholar"],
-      "events": [],
-      "isWorldDropPresent": false
+      "name": "Blackened Citadel",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Blackened%20Citadel", "/Blackened%20Citadel"],
+      "collectibles": ["Forgotten Memory", "Broken Compass", "Scholar"]
     }
   },
-  "events": {}
+  "injectables": {}
 }

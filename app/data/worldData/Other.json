@@ -1,14 +1,18 @@
 {
+  "$schema": "./_schema.json",
   "name": "Other",
-
   "locations": {
     "Special": {
-      "baseItems": ["Participation Medal", "Revivalist"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Special",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Special", "/Special"],
+      "collectibles": ["Participation Medal", "Revivalist"]
     },
     "Aberration": {
-      "baseItems": [
+      "name": "Aberration",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Aberration", "/Aberration"],
+      "collectibles": [
         "Bottom Feeder",
         "Bottom Heavy",
         "Edgelord",
@@ -22,12 +26,13 @@
         "Spirit Healer",
         "Stormbringer",
         "Top Heavy"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "Deluxe/Ultimate Edition": {
-      "baseItems": [
+      "name": "Deluxe/Ultimate Edition",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Deluxe/Ultimate%20Edition", "/Deluxe/Ultimate%20Edition"],
+      "collectibles": [
         "Elder Headdress",
         "Radiant Visage",
         "Void Skull",
@@ -40,12 +45,13 @@
         "Elder Gloves",
         "Radiant Bracers",
         "Void Wraps"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "Default Equipment": {
-      "baseItems": [
+      "name": "Default Equipment",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Default%20Equipment", "/Default%20Equipment"],
+      "collectibles": [
         "Rusty Lever Action",
         "Rusty Repeater",
         "Survivor Gloves",
@@ -55,10 +61,8 @@
         "Expertise",
         "Spirit",
         "Vigor"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     }
   },
-  "events": {}
+  "injectables": {}
 }

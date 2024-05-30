@@ -1,56 +1,50 @@
 {
+  "$schema": "./_schema.json",
   "name": "Losomn",
-
   "locations": {
-    "World Drops": {
-      "baseItems": [
-        "Fae Shaman Ring",
-        "Fae Bruiser Ring",
-        "Fae Warrior Ring",
-        "Fae Hunter Ring",
-        "Alchemy Stone",
-        "Stone of Malevolence",
-        "Ring of the Robust",
-        "Booster Ring",
-        "Stream Coupler",
-        "Dread Font",
-        "Dried Clay Ring",
-        "Painless Obsidian",
-        "Ring of the Vain",
-        "Wood Ring",
-        "Offering Stone",
-        "Red Ring of Death",
-        "Shadow of Misery",
-        "Weightless Weight",
-        "Chains of Amplification",
-        "Indignant Fetish",
-        "Whispering Marble",
-        "Birthright of the Lost",
-        "Brewmaster's Cork",
-        "Magnifying Glass",
-        "Black Spinel",
-        "Leaking Gemstone"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
-    },
     "Brocwithe Quarter": {
-      "baseItems": [],
-      "isWorldDropPresent": true,
-      "events": ["Oracle's Refuge", "Hewdas Clock", "Briella's Garden"]
+      "name": "Brocwithe Quarter",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Brocwithe%20Quarter", "/Brocwithe%20Quarter"],
+      "collectibles": [],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Oracle's Refuge", "Hewdas Clock", "Briella's Garden"]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
+      ]
     },
     "Ironborough": {
-      "baseItems": [],
-      "isWorldDropPresent": true,
-      "events": ["Oracle's Refuge", "Hewdas Clock", "Briella's Garden"]
+      "name": "Ironborough",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Ironborough", "/Ironborough"],
+      "collectibles": [],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Oracle's Refuge", "Hewdas Clock", "Briella's Garden"]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
+      ]
     },
     "Beatific Palace": {
-      "baseItems": ["Cataloger's Jewel", "Jester's Bell", "Unsullied Heart"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Beatific Palace",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Beatific%20Palace", "/Beatific%20Palace"],
+      "collectibles": ["Cataloger's Jewel", "Jester's Bell", "Unsullied Heart"]
     },
     "Nimue's Retreat": {
-      "baseItems": [
+      "name": "Nimue's Retreat",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Nimue's%20Retreat", "/Nimue's%20Retreat"],
+      "collectibles": [
         "Anamy's Echo",
         "Hex Ward",
         "Nimue's Ribbon",
@@ -58,37 +52,72 @@
         "Tranquil Heart",
         "True Crimson Crown",
         "Rune Pistol"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "Malefic Palace": {
-      "baseItems": ["Misfortune", "One-Eyed Joker Idol", "Shaed Bloom Crystal"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Malefic Palace",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Malefic%20Palace", "/Malefic%20Palace"],
+      "collectibles": [
+        "Misfortune",
+        "One-Eyed Joker Idol",
+        "Shaed Bloom Crystal"
+      ]
     },
     "Beatific Gallery": {
-      "baseItems": ["Faelin's Sigil", "Imposter's Heart"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Beatific Gallery",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Beatific%20Gallery", "/Beatific%20Gallery"],
+      "collectibles": ["Faelin's Sigil", "Imposter's Heart"]
     },
     "Malefic Gallery": {
-      "baseItems": ["Faerin's Sigil", "Melded Hilt"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Malefic Gallery",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Malefic%20Gallery", "/Malefic%20Gallery"],
+      "collectibles": ["Faerin's Sigil", "Melded Hilt"]
     },
     "Morrow Parish": {
-      "baseItems": ["Shock Device", "Alumni Ring", "Double Barrel", "Striker"],
-      "isWorldDropPresent": true,
-      "events": ["Oracle's Refuge", "Hewdas Clock"]
+      "name": "Morrow Parish",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Morrow%20Parish", "/Morrow%20Parish"],
+      "collectibles": [
+        "Shock Device",
+        "Alumni Ring",
+        "Double Barrel",
+        "Striker"
+      ],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Oracle's Refuge", "Hewdas Clock"]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
+      ]
     },
     "Forsaken Quarter": {
-      "baseItems": [],
-      "isWorldDropPresent": true,
-      "events": ["Oracle's Refuge", "Hewdas Clock", "Briella's Garden"]
+      "name": "Forsaken Quarter",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Forsaken%20Quarter", "/Forsaken%20Quarter"],
+      "collectibles": [],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Oracle's Refuge", "Hewdas Clock", "Briella's Garden"]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
+      ]
     },
     "The Tormented Asylum": {
-      "baseItems": [
+      "name": "The Tormented Asylum",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Tormented%20Asylum", "/The%20Tormented%20Asylum"],
+      "collectibles": [
         "Ring of Retribution",
         "Nightweaver's Grudge",
         "Dreamcatcher",
@@ -96,12 +125,13 @@
         "Cursed Dream Silks",
         "Nightweaver's Finger",
         "Decrepit Rune"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "Forlorn Coast": {
-      "baseItems": [
+      "name": "Forlorn Coast",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Forlorn%20Coast", "/Forlorn%20Coast"],
+      "collectibles": [
         "Abyssal Hook",
         "Band of the Fanatic",
         "Dandy Topper",
@@ -122,27 +152,37 @@
         "Executor",
         "Paper Heart",
         "Dark Pact"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "Drowned Wen": {
-      "baseItems": [],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Drowned Wen",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Drowned%20Wen", "/Drowned%20Wen"],
+      "collectibles": []
     },
     "Mournful Promenade": {
-      "baseItems": ["Elevated Ring", "Maelstrom"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Mournful Promenade",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Mournful%20Promenade", "/Mournful%20Promenade"],
+      "collectibles": ["Elevated Ring", "Maelstrom"]
     },
     "Palace of the One True King": {
-      "baseItems": [],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Palace of the One True King",
+      "addedIn": "Remnant 2",
+      "wikiLinks": [
+        "/Palace%20of%20the%20One%20True%20King",
+        "/Palace%20of%20the%20One%20True%20King"
+      ],
+      "collectibles": []
     },
     "Chamber of the Faithless": {
-      "baseItems": [
+      "name": "Chamber of the Faithless",
+      "addedIn": "Remnant 2",
+      "wikiLinks": [
+        "/Chamber%20of%20the%20Faithless",
+        "/Chamber%20of%20the%20Faithless"
+      ],
+      "collectibles": [
         "Tormentor's Pommel",
         "Agony Spike",
         "Burden of the Departed",
@@ -151,242 +191,485 @@
         "Cost of Betrayal",
         "Gift of the Unbound"
       ],
-      "isWorldDropPresent": false,
-      "events": ["Succession"]
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Succession"]
+        }
+      ]
     },
     "Council Chamber": {
-      "baseItems": [
+      "name": "Council Chamber",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Council%20Chamber", "/Council%20Chamber"],
+      "collectibles": [
         "Fae Protector Signet",
         "Ornate Blade",
         "Assassin's Dagger"
       ],
-      "isWorldDropPresent": true,
-      "events": [
-        "The Executioner Event",
-        "The Flames Event",
-        "The Statues Event",
-        "The Mirror Hall"
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "The Executioner Event",
+            "The Flames Event",
+            "The Statues Event",
+            "The Mirror Hall"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
       ]
     },
     "Gilded Chambers": {
-      "baseItems": [
+      "name": "Gilded Chambers",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Gilded%20Chambers", "/Gilded%20Chambers"],
+      "collectibles": [
         "Bloody Steel Splinter",
         "Forlorn Fragment",
         "Crown of the Red Prince"
       ],
-      "isWorldDropPresent": true,
-      "events": [
-        "The Executioner Event",
-        "The Flames Event",
-        "The Statues Event",
-        "The Mirror Hall",
-        "Succession"
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "The Executioner Event",
+            "The Flames Event",
+            "The Statues Event",
+            "The Mirror Hall",
+            "Succession"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
       ]
     },
     "Postulant's Parlor": {
-      "baseItems": [
+      "name": "Postulant's Parlor",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Postulant's%20Parlor", "/Postulant's%20Parlor"],
+      "collectibles": [
         "Game Master's Pride",
         "Royal Hunting Bow",
         "Fae Royal Headcover",
         "Fae Royal Greaves",
         "Fae Royal Bodyplate",
         "Fae Royal Vambraces"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "Glistering Cloister": {
-      "baseItems": ["Wretched Skull"],
-      "isWorldDropPresent": true,
-      "events": [
-        "The Executioner Event",
-        "The Flames Event",
-        "The Statues Event",
-        "The Mirror Hall"
+      "name": "Glistering Cloister",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Glistering%20Cloister", "/Glistering%20Cloister"],
+      "collectibles": ["Wretched Skull"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "The Executioner Event",
+            "The Flames Event",
+            "The Statues Event",
+            "The Mirror Hall"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
       ]
     },
     "Walk of Remembrance": {
-      "baseItems": ["Gift of Euphoria"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Walk of Remembrance",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Walk%20of%20Remembrance", "/Walk%20of%20Remembrance"],
+      "collectibles": ["Gift of Euphoria"]
     },
     "Council Tribunal": {
-      "baseItems": ["Assassin's Seal"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Council Tribunal",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Council%20Tribunal", "/Council%20Tribunal"],
+      "collectibles": ["Assassin's Seal"]
     },
     "Shattered Gallery": {
-      "baseItems": ["Tainted Ichor"],
-      "isWorldDropPresent": true,
-      "events": [
-        "The Executioner Event",
-        "The Flames Event",
-        "The Statues Event",
-        "The Mirror Hall"
+      "name": "Shattered Gallery",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Shattered%20Gallery", "/Shattered%20Gallery"],
+      "collectibles": ["Tainted Ichor"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "The Executioner Event",
+            "The Flames Event",
+            "The Statues Event",
+            "The Mirror Hall"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
       ]
     },
     "The Great Hall": {
-      "baseItems": [
+      "name": "The Great Hall",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Great%20Hall", "/The%20Great%20Hall"],
+      "collectibles": [
         "Feastmaster's Signet",
         "Neckbone Necklace",
         "Glutton",
         "Bone Chopper",
         "White Glass Bead"
       ],
-      "isWorldDropPresent": true,
-      "events": [
-        "The Executioner Event",
-        "The Flames Event",
-        "The Statues Event",
-        "The Mirror Hall"
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "The Executioner Event",
+            "The Flames Event",
+            "The Statues Event",
+            "The Mirror Hall"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
       ]
     },
     "Pathway of the Fallen": {
-      "baseItems": ["Gift of Melancholy", "Prophecy", "Cremated Soul Ash"],
-      "isWorldDropPresent": true,
-      "events": [
-        "The Executioner Event",
-        "The Flames Event",
-        "The Statues Event",
-        "The Mirror Hall"
+      "name": "Pathway of the Fallen",
+      "addedIn": "Remnant 2",
+      "wikiLinks": [
+        "/Pathway%20of%20the%20Fallen",
+        "/Pathway%20of%20the%20Fallen"
+      ],
+      "collectibles": ["Gift of Melancholy", "Prophecy", "Cremated Soul Ash"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "The Executioner Event",
+            "The Flames Event",
+            "The Statues Event",
+            "The Mirror Hall"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
       ]
     },
     "Butcher's Quarter": {
-      "baseItems": ["Singed Ring", "Dran Memento", "Shadeskin"],
-      "isWorldDropPresent": true,
-      "events": ["Fiery Graveyard", "Rookery", "Oink", "Ethereal Manor"]
+      "name": "Butcher's Quarter",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Butcher's%20Quarter", "/Butcher's%20Quarter"],
+      "collectibles": ["Singed Ring", "Dran Memento", "Shadeskin"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Fiery Graveyard",
+            "Rookery",
+            "Oink",
+            "Ethereal Manor"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
+      ]
     },
     "Cotton's Kiln": {
-      "baseItems": ["Alkahest Powder"],
-      "isWorldDropPresent": true,
-      "events": ["Fiery Graveyard", "Rookery", "Oink", "Ethereal Manor"]
+      "name": "Cotton's Kiln",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Cotton's%20Kiln", "/Cotton's%20Kiln"],
+      "collectibles": ["Alkahest Powder"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Fiery Graveyard",
+            "Rookery",
+            "Oink",
+            "Ethereal Manor"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
+      ]
     },
     "Lemark District": {
-      "baseItems": [],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Lemark District",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Lemark%20District", "/Lemark%20District"],
+      "collectibles": []
     },
     "Sunken Haunt": {
-      "baseItems": ["Hex Wreath"],
-      "isWorldDropPresent": true,
-      "events": ["Fiery Graveyard", "Rookery", "Oink", "Ethereal Manor"]
+      "name": "Sunken Haunt",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Sunken%20Haunt", "/Sunken%20Haunt"],
+      "collectibles": ["Hex Wreath"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Fiery Graveyard",
+            "Rookery",
+            "Oink",
+            "Ethereal Manor"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
+      ]
     },
     "Derelict Lighthouse": {
-      "baseItems": ["Lighthouse Keeper's Ring", "Sparkfire Shotgun", "Sleeper"],
-      "isWorldDropPresent": true,
-      "events": ["Fiery Graveyard", "Rookery", "Oink", "Ethereal Manor"]
+      "name": "Derelict Lighthouse",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Derelict%20Lighthouse", "/Derelict%20Lighthouse"],
+      "collectibles": [
+        "Lighthouse Keeper's Ring",
+        "Sparkfire Shotgun",
+        "Sleeper"
+      ],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Fiery Graveyard",
+            "Rookery",
+            "Oink",
+            "Ethereal Manor"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
+      ]
     },
     "Harvester's Reach": {
-      "baseItems": ["Lithely", "Ring of Grace", "Arcane Strike"],
-      "isWorldDropPresent": true,
-      "events": [
-        "Locked Safe",
-        "Flooding Sewer",
-        "Fae Hunting Party",
-        "Traitor's Pit",
-        "Monster in the Drain"
+      "name": "Harvester's Reach",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Harvester's%20Reach", "/Harvester's%20Reach"],
+      "collectibles": ["Lithely", "Ring of Grace", "Arcane Strike"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Locked Safe",
+            "Flooding Sewer",
+            "Fae Hunting Party",
+            "Traitor's Pit",
+            "Monster in the Drain"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
       ]
     },
     "The Great Sewers": {
-      "baseItems": ["Bone Sap"],
-      "isWorldDropPresent": true,
-      "events": [
-        "Locked Safe",
-        "Flooding Sewer",
-        "Fae Hunting Party",
-        "Traitor's Pit",
-        "Monster in the Drain"
+      "name": "The Great Sewers",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Great%20Sewers", "/The%20Great%20Sewers"],
+      "collectibles": ["Bone Sap"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Locked Safe",
+            "Flooding Sewer",
+            "Fae Hunting Party",
+            "Traitor's Pit",
+            "Monster in the Drain"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
       ]
     },
     "Tiller's Rest": {
-      "baseItems": ["Spirit Wisp Amulet", "Outcast Ring"],
-      "isWorldDropPresent": true,
-      "events": [
-        "Locked Safe",
-        "Flooding Sewer",
-        "Fae Hunting Party",
-        "Traitor's Pit",
-        "Monster in the Drain"
+      "name": "Tiller's Rest",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Tiller's%20Rest", "/Tiller's%20Rest"],
+      "collectibles": ["Spirit Wisp Amulet", "Outcast Ring"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Locked Safe",
+            "Flooding Sewer",
+            "Fae Hunting Party",
+            "Traitor's Pit",
+            "Monster in the Drain"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
       ]
     },
     "The Forgotten Commune": {
-      "baseItems": ["Guts", "Ritualist Scythe"],
-      "isWorldDropPresent": true,
-      "events": [
-        "Locked Safe",
-        "Flooding Sewer",
-        "Fae Hunting Party",
-        "Traitor's Pit",
-        "Monster in the Drain"
+      "name": "The Forgotten Commune",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Forgotten%20Commune", "/The%20Forgotten%20Commune"],
+      "collectibles": ["Guts", "Ritualist Scythe"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Locked Safe",
+            "Flooding Sewer",
+            "Fae Hunting Party",
+            "Traitor's Pit",
+            "Monster in the Drain"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
       ]
     }
   },
-  "events": {
+  "injectables": {
+    "Oracle's Refuge": {
+      "name": "Oracle's Refuge",
+      "collectibles": ["Quilted Heart", "All-Seeing Eye", "Recovery"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Oracle's%20Refuge", "/Oracle's%20Refuge"]
+    },
+    "Hewdas Clock": {
+      "name": "Hewdas Clock",
+      "collectibles": ["Timekeeper's Jewel", "Broken Timepiece"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Hewdas%20Clock", "/Hewdas%20Clock"]
+    },
+    "Briella's Garden": {
+      "name": "Briella's Garden",
+      "collectibles": ["Venerated Spearhead", "Sacred Hunt Feather"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Briella's%20Garden", "/Briella's%20Garden"]
+    },
+    "Succession": {
+      "name": "Succession",
+      "collectibles": [
+        "Crimson Guard Shroud",
+        "Crimson Guard Plate",
+        "Crimson Guard Sabatons",
+        "Crimson Guard Gauntlets"
+      ],
+      "addedIn": "The Awakened King",
+      "wikiLinks": ["/Succession", "/Succession"]
+    },
     "The Executioner Event": {
-      "items": ["Steadfast", "Sapphire Dreamstone", "Ornate Flail"]
+      "name": "The Executioner Event",
+      "collectibles": ["Steadfast", "Sapphire Dreamstone", "Ornate Flail"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Executioner%20Event", "/The%20Executioner%20Event"]
     },
     "The Flames Event": {
-      "items": ["Black Pawn Stamp", "White Pawn Stamp"]
+      "name": "The Flames Event",
+      "collectibles": ["Black Pawn Stamp", "White Pawn Stamp"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Flames%20Event", "/The%20Flames%20Event"]
     },
     "The Statues Event": {
-      "items": ["Silver Ribbon", "Golden Ribbon"]
+      "name": "The Statues Event",
+      "collectibles": ["Silver Ribbon", "Golden Ribbon"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Statues%20Event", "/The%20Statues%20Event"]
     },
     "The Mirror Hall": {
-      "items": ["Shaed Stone"]
+      "name": "The Mirror Hall",
+      "collectibles": ["Shaed Stone"],
+      "addedIn": "The Awakened King",
+      "wikiLinks": ["/The%20Mirror%20Hall", "/The%20Mirror%20Hall"]
     },
-
-    "Flooding Sewer": {
-      "items": ["Burden of the Divine", "Meridian"]
+    "Fiery Graveyard": {
+      "name": "Fiery Graveyard",
+      "collectibles": ["Burden of the Warlock"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Fiery%20Graveyard", "/Fiery%20Graveyard"]
     },
-    "Fae Hunting Party": {
-      "items": ["Stockpile Charger", "Ring of the Damned"]
+    "Rookery": {
+      "name": "Rookery",
+      "collectibles": ["Cleansing Stone", "Effigy Pendant"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Rookery", "/Rookery"]
+    },
+    "Oink": {
+      "name": "Oink",
+      "collectibles": ["Shiny Hog Lure", "Twisting Wounds"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Oink", "/Oink"]
+    },
+    "Ethereal Manor": {
+      "name": "Ethereal Manor",
+      "collectibles": [
+        "Death-Soaked Idol",
+        "Crimson Dreamstone",
+        "Occult Vessel"
+      ],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Ethereal%20Manor", "/Ethereal%20Manor"]
     },
     "Locked Safe": {
-      "items": ["Rusted Heirloom"]
+      "name": "Locked Safe",
+      "collectibles": ["Rusted Heirloom"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Locked%20Safe", "/Locked%20Safe"]
+    },
+    "Flooding Sewer": {
+      "name": "Flooding Sewer",
+      "collectibles": ["Burden of the Divine", "Meridian"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Flooding%20Sewer", "/Flooding%20Sewer"]
+    },
+    "Fae Hunting Party": {
+      "name": "Fae Hunting Party",
+      "collectibles": ["Stockpile Charger", "Ring of the Damned"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Fae%20Hunting%20Party", "/Fae%20Hunting%20Party"]
     },
     "Traitor's Pit": {
-      "items": ["Ring of the Castaway"]
+      "name": "Traitor's Pit",
+      "collectibles": ["Ring of the Castaway"],
+      "addedIn": "The Awakened King",
+      "wikiLinks": ["/Traitor's%20Pit", "/Traitor's%20Pit"]
     },
     "Monster in the Drain": {
-      "items": [
+      "name": "Monster in the Drain",
+      "collectibles": [
         "Academic's Hat",
         "Academic's Trousers",
         "Academic's Overcoat",
         "Academic's Gloves",
         "Drakestone Pearl",
         "Mysterious Stone"
-      ]
-    },
-
-    "Oracle's Refuge": {
-      "items": ["Quilted Heart", "All-Seeing Eye", "Recovery"]
-    },
-    "Hewdas Clock": {
-      "items": ["Timekeeper's Jewel", "Broken Timepiece"]
-    },
-    "Briella's Garden": {
-      "items": ["Venerated Spearhead", "Sacred Hunt Feather"]
-    },
-
-    "Fiery Graveyard": {
-      "items": ["Burden of the Warlock"]
-    },
-    "Rookery": {
-      "items": ["Cleansing Stone", "Effigy Pendant"]
-    },
-    "Oink": {
-      "items": ["Shiny Hog Lure", "Twisting Wounds"]
-    },
-    "Ethereal Manor": {
-      "items": ["Death-Soaked Idol", "Crimson Dreamstone", "Occult Vessel"]
-    },
-
-    "Succession": {
-      "items": [
-        "Crimson Guard Shroud",
-        "Crimson Guard Plate",
-        "Crimson Guard Sabatons",
-        "Crimson Guard Gauntlets"
+      ],
+      "addedIn": "Remnant 2",
+      "wikiLinks": [
+        "/Monster%20in%20the%20Drain",
+        "/Monster%20in%20the%20Drain"
       ]
     }
   }

@@ -1,23 +1,34 @@
 {
+  "$schema": "./_schema.json",
   "name": "The Labyrinth",
   "locations": {
     "The Backrooms": {
-      "baseItems": ["Strange Box", "Bisected Ring", "Gunfire Security Lanyard"],
-      "events": [],
-      "isWorldDropPresent": false
+      "name": "The Backrooms",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Backrooms", "/The%20Backrooms"],
+      "collectibles": [
+        "Strange Box",
+        "Bisected Ring",
+        "Gunfire Security Lanyard"
+      ]
     },
     "Inner Sanctum": {
-      "baseItems": ["Soul Stone"],
-      "events": [],
-      "isWorldDropPresent": false
+      "name": "Inner Sanctum",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Inner%20Sanctum", "/Inner%20Sanctum"],
+      "collectibles": ["Soul Stone"]
     },
     "Colosseum of Ruin": {
-      "baseItems": ["Amplitude", "Conflux Prism"],
-      "events": [],
-      "isWorldDropPresent": false
+      "name": "Colosseum of Ruin",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Colosseum%20of%20Ruin", "/Colosseum%20of%20Ruin"],
+      "collectibles": ["Amplitude", "Conflux Prism"]
     },
     "Fractured Ingress": {
-      "baseItems": [
+      "name": "Fractured Ingress",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Fractured%20Ingress", "/Fractured%20Ingress"],
+      "collectibles": [
         "Polygun",
         "Cipher Rod",
         "Shard Banded Ring",
@@ -27,15 +38,14 @@
         "Reprocessed Heart",
         "Dense Silicon Ring",
         "Encrypted Ring"
-      ],
-      "events": [],
-      "isWorldDropPresent": false
+      ]
     },
     "Entangled Gauntlet": {
-      "baseItems": ["Runed Heart"],
-      "events": [],
-      "isWorldDropPresent": false
+      "name": "Entangled Gauntlet",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Entangled%20Gauntlet", "/Entangled%20Gauntlet"],
+      "collectibles": ["Runed Heart"]
     }
   },
-  "events": {}
+  "injectables": {}
 }

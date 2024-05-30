@@ -1,40 +1,12 @@
 {
+  "$schema": "./_schema.json",
   "name": "Yaesha",
-
   "locations": {
-    "World Drops": {
-      "baseItems": [
-        "Ring of the Forest Spirit",
-        "Heart of the Wolf",
-        "Celerity Stone",
-        "Wax Sealed Ring",
-        "Vestige of Power",
-        "Soul Link",
-        "Guardian's Ring",
-        "Sagestone",
-        "Spirit Stone",
-        "Stone of Balance",
-        "Brawler's Pride",
-        "Soul Shard",
-        "Scavenger's Bauble",
-        "Stalker's Brand",
-        "Vengeance Idol",
-        "Sinister Totem",
-        "Gul Signet",
-        "Kolket Eyelet",
-        "Matriarch's Ring",
-        "Sealed Resin Loop",
-        "Soul Feast",
-        "Beads of the Valorous",
-        "Fragrant Thorn",
-        "Reed of the Vaunnt",
-        "Resolute"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
-    },
     "Infested Abyss": {
-      "baseItems": [
+      "name": "Infested Abyss",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Infested%20Abyss", "/Infested%20Abyss"],
+      "collectibles": [
         "Crystal Staff",
         "Profane Soul Stone",
         "Profane Heart",
@@ -42,43 +14,79 @@
         "Conjurer's Circle",
         "Near-Sighted"
       ],
-      "isWorldDropPresent": true,
-      "events": ["Collapsed Tomb", "Living Stone", "The Coffin"]
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Collapsed Tomb", "Living Stone", "The Coffin"]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
+      ]
     },
     "The Withering Weald": {
-      "baseItems": [],
-      "isWorldDropPresent": true,
-      "events": ["Dappled Glade", "Koara Kuri Nest", "Root Nexus"]
+      "name": "The Withering Weald",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Withering%20Weald", "/The%20Withering%20Weald"],
+      "collectibles": [],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Dappled Glade", "Koara Kuri Nest", "Root Nexus"]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
+      ]
     },
     "The Far Woods": {
-      "baseItems": [],
-      "isWorldDropPresent": true,
-      "events": ["Dappled Glade", "Koara Kuri Nest", "Root Nexus"]
+      "name": "The Far Woods",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Far%20Woods", "/The%20Far%20Woods"],
+      "collectibles": [],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Dappled Glade", "Koara Kuri Nest", "Root Nexus"]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
+      ]
     },
     "The Red Throne": {
-      "baseItems": [
+      "name": "The Red Throne",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Red%20Throne", "/The%20Red%20Throne"],
+      "collectibles": [
         "Burden of the Rebel",
         "Red Doe Sigil",
         "Seal of the Empress",
         "Zohee's Ring",
         "Royal Broadsword",
         "Ford's Scattergun"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "The Widow's Court": {
-      "baseItems": ["Matriarch's Insignia", "Ghost Shell"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "The Widow's Court",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Widow's%20Court", "/The%20Widow's%20Court"],
+      "collectibles": ["Matriarch's Insignia", "Ghost Shell"]
     },
     "The Great Bole": {
-      "baseItems": ["Hollow Heart", "Twisted Lazurite"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "The Great Bole",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Great%20Bole", "/The%20Great%20Bole"],
+      "collectibles": ["Hollow Heart", "Twisted Lazurite"]
     },
     "The Forbidden Grove": {
-      "baseItems": [
+      "name": "The Forbidden Grove",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Forbidden%20Grove", "/The%20Forbidden%20Grove"],
+      "collectibles": [
         "Death's Embrace",
         "Restriction Cord",
         "Rebellion Spear",
@@ -90,106 +98,202 @@
         "Lifeless Heart",
         "Scroll of Binding"
       ],
-      "isWorldDropPresent": true,
-      "events": ["Dappled Glade", "Koara Kuri Nest", "Root Nexus"]
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Dappled Glade", "Koara Kuri Nest", "Root Nexus"]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
+      ]
     },
     "The Lost Temple": {
-      "baseItems": [],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "The Lost Temple",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Lost%20Temple", "/The%20Lost%20Temple"],
+      "collectibles": []
     },
     "Faithless Thicket": {
-      "baseItems": [],
-      "isWorldDropPresent": true,
-      "events": ["Dappled Glade", "Koara Kuri Nest", "Root Nexus"]
+      "name": "Faithless Thicket",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Faithless%20Thicket", "/Faithless%20Thicket"],
+      "collectibles": [],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Dappled Glade", "Koara Kuri Nest", "Root Nexus"]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
+      ]
     },
     "Ravager's Lair": {
-      "baseItems": [
+      "name": "Ravager's Lair",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Ravager's%20Lair", "/Ravager's%20Lair"],
+      "collectibles": [
         "Ravager's Maw",
         "Crimson Membrane",
         "Ravager's Mark",
         "Doe's Antler"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "Bird's Nest": {
-      "baseItems": [],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Bird's Nest",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Bird's%20Nest", "/Bird's%20Nest"],
+      "collectibles": []
     },
     "The Dappled Glade": {
-      "baseItems": [],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "The Dappled Glade",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Dappled%20Glade", "/The%20Dappled%20Glade"],
+      "collectibles": []
     },
     "Root Nexus (Field Location)": {
-      "baseItems": [],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Root Nexus (Field Location)",
+      "addedIn": "Remnant 2",
+      "wikiLinks": [
+        "/Root%20Nexus%20(Field%20Location)",
+        "/Root%20Nexus%20(Field%20Location)"
+      ],
+      "collectibles": []
     },
     "The Expanding Glade": {
-      "baseItems": ["Soul Sliver"],
-      "isWorldDropPresent": true,
-      "events": [
-        "Yaesha Tower Puzzle",
-        "Altar of the Sun",
-        "Root Raiders",
-        "Doe Sanctuary"
+      "name": "The Expanding Glade",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Expanding%20Glade", "/The%20Expanding%20Glade"],
+      "collectibles": ["Soul Sliver"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Yaesha Tower Puzzle",
+            "Altar of the Sun",
+            "Root Raiders",
+            "Doe Sanctuary"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
       ]
     },
     "The Nameless Nest": {
-      "baseItems": ["Cordyceps Gland"],
-      "isWorldDropPresent": true,
-      "events": [
-        "Yaesha Tower Puzzle",
-        "Altar of the Sun",
-        "Root Raiders",
-        "Doe Sanctuary"
+      "name": "The Nameless Nest",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Nameless%20Nest", "/The%20Nameless%20Nest"],
+      "collectibles": ["Cordyceps Gland"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Yaesha Tower Puzzle",
+            "Altar of the Sun",
+            "Root Raiders",
+            "Doe Sanctuary"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
       ]
     },
     "Forgotten Field": {
-      "baseItems": [
+      "name": "Forgotten Field",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Forgotten%20Field", "/Forgotten%20Field"],
+      "collectibles": [
         "Reinvigorate",
         "Laemir Censer",
         "Necklace of Supremacy",
         "Rugged"
       ],
-      "isWorldDropPresent": true,
-      "events": [
-        "Yaesha Tower Puzzle",
-        "Altar of the Sun",
-        "Root Raiders",
-        "Doe Sanctuary"
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Yaesha Tower Puzzle",
+            "Altar of the Sun",
+            "Root Raiders",
+            "Doe Sanctuary"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
       ]
     },
     "Imperial Gardens": {
-      "baseItems": [
+      "name": "Imperial Gardens",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Imperial%20Gardens", "/Imperial%20Gardens"],
+      "collectibles": [
         "Crossbow",
         "Edge of the Forest",
         "Full Moon Circlet",
         "Momentum"
       ],
-      "isWorldDropPresent": true,
-      "events": [
-        "Yaesha Tower Puzzle",
-        "Altar of the Sun",
-        "Root Raiders",
-        "Doe Sanctuary"
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Yaesha Tower Puzzle",
+            "Altar of the Sun",
+            "Root Raiders",
+            "Doe Sanctuary"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
       ]
     },
     "The Twisted Chantry": {
-      "baseItems": ["Agnosia Driftwood"],
-      "isWorldDropPresent": true,
-      "events": ["Collapsed Tomb", "Living Stone", "The Coffin"]
+      "name": "The Twisted Chantry",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Twisted%20Chantry", "/The%20Twisted%20Chantry"],
+      "collectibles": ["Agnosia Driftwood"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Collapsed Tomb", "Living Stone", "The Coffin"]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
+      ]
     },
     "The Chimney": {
-      "baseItems": ["Heart Seed", "Downward Spiral"],
-      "isWorldDropPresent": true,
-      "events": ["Collapsed Tomb", "Living Stone", "The Coffin"]
+      "name": "The Chimney",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Chimney", "/The%20Chimney"],
+      "collectibles": ["Heart Seed", "Downward Spiral"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Collapsed Tomb", "Living Stone", "The Coffin"]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
+      ]
     },
     "The Lament": {
-      "baseItems": [
+      "name": "The Lament",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Lament", "/The%20Lament"],
+      "collectibles": [
         "Overdrive",
         "Red Widow Raiment",
         "Red Widow Bracers",
@@ -199,16 +303,28 @@
         "Blood Tinged Ring",
         "Lodestone Crown"
       ],
-      "isWorldDropPresent": true,
-      "events": ["Collapsed Tomb", "Living Stone", "The Coffin"]
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Collapsed Tomb", "Living Stone", "The Coffin"]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
+      ]
     },
     "Kaeula's Rest": {
-      "baseItems": ["Tear of Kaeula", "Twilight Dactylus"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Kaeula's Rest",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Kaeula's%20Rest", "/Kaeula's%20Rest"],
+      "collectibles": ["Tear of Kaeula", "Twilight Dactylus"]
     },
     "Endaira's End": {
-      "baseItems": [
+      "name": "Endaira's End",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Endaira's%20End", "/Endaira's%20End"],
+      "collectibles": [
         "Endaira's Endless Loop",
         "Krell Axe",
         "Vampire Blade",
@@ -216,21 +332,33 @@
         "Pulsing Heart",
         "Captain's Insignia"
       ],
-      "isWorldDropPresent": true,
-      "events": [
-        "Hidden Chamber",
-        "Wind Hollow",
-        "Library",
-        "Phases of the Moon"
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Hidden Chamber",
+            "Wind Hollow",
+            "Library",
+            "Phases of the Moon"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
       ]
     },
     "Cathedral of Omens": {
-      "baseItems": ["Faith Seed", "Sagittarius", "Ring of Omens"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Cathedral of Omens",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Cathedral%20of%20Omens", "/Cathedral%20of%20Omens"],
+      "collectibles": ["Faith Seed", "Sagittarius", "Ring of Omens"]
     },
     "The Ancient Canopy": {
-      "baseItems": [
+      "name": "The Ancient Canopy",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Ancient%20Canopy", "/The%20Ancient%20Canopy"],
+      "collectibles": [
         "Old Flute",
         "Pressure Point",
         "Stoneshaper's Chisel",
@@ -243,64 +371,100 @@
         "Disciple Mantle",
         "Disciple Greaves",
         "Disciple Vambraces"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "Deserted Atelier": {
-      "baseItems": ["Forge Ember"],
-      "isWorldDropPresent": true,
-      "events": [
-        "Yaesha Tower Puzzle",
-        "Altar of the Sun",
-        "Root Raiders",
-        "Doe Sanctuary"
+      "name": "Deserted Atelier",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Deserted%20Atelier", "/Deserted%20Atelier"],
+      "collectibles": ["Forge Ember"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Yaesha Tower Puzzle",
+            "Altar of the Sun",
+            "Root Raiders",
+            "Doe Sanctuary"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
       ]
     },
     "Earthen Coliseum": {
-      "baseItems": ["Pallid Lodestone"],
-      "isWorldDropPresent": true,
-      "events": [
-        "Hidden Chamber",
-        "Wind Hollow",
-        "Library",
-        "Phases of the Moon"
+      "name": "Earthen Coliseum",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Earthen%20Coliseum", "/Earthen%20Coliseum"],
+      "collectibles": ["Pallid Lodestone"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Hidden Chamber",
+            "Wind Hollow",
+            "Library",
+            "Phases of the Moon"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
       ]
     },
     "Goddess's Rest": {
-      "baseItems": [
+      "name": "Goddess's Rest",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Goddess's%20Rest", "/Goddess's%20Rest"],
+      "collectibles": [
         "Bloodless Crown",
         "Bloodless Heart",
         "Bloodless King's Vow",
         "Searing Wounds"
       ],
-      "isWorldDropPresent": true,
-      "events": [
-        "Yaesha Tower Puzzle",
-        "Altar of the Sun",
-        "Root Raiders",
-        "Doe Sanctuary"
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Yaesha Tower Puzzle",
+            "Altar of the Sun",
+            "Root Raiders",
+            "Doe Sanctuary"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
       ]
     },
     "The Bloodless Throne": {
-      "baseItems": ["Eye of Lydusa", "Tear of Lydusa"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "The Bloodless Throne",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Bloodless%20Throne", "/The%20Bloodless%20Throne"],
+      "collectibles": ["Eye of Lydusa", "Tear of Lydusa"]
     },
     "Luminous Vale": {
-      "baseItems": [
+      "name": "Luminous Vale",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Luminous%20Vale", "/Luminous%20Vale"],
+      "collectibles": [
         "Rally Band",
         "Thalos Eyelet",
         "Burden of the Mason",
         "Echo of the Forest",
         "Worn Dog Tags",
         "Far-Sighted"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "Proving Grounds": {
-      "baseItems": [
+      "name": "Proving Grounds",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Proving%20Grounds", "/Proving%20Grounds"],
+      "collectibles": [
         "Ceramic Flask",
         "Dark Sea Armada Crest",
         "Floodlit Diamond",
@@ -310,75 +474,107 @@
         "Battle Gloves",
         "Battle Slacks"
       ],
-      "isWorldDropPresent": true,
-      "events": [
-        "Hidden Chamber",
-        "Wind Hollow",
-        "Library",
-        "Phases of the Moon"
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Hidden Chamber",
+            "Wind Hollow",
+            "Library",
+            "Phases of the Moon"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
       ]
     }
   },
-  "events": {
-    "Yaesha Tower Puzzle": {
-      "items": ["Slayer's Crest", "Blooming Heart"]
+  "injectables": {
+    "Collapsed Tomb": {
+      "name": "Collapsed Tomb",
+      "collectibles": ["Tomb Dweller's Ring", "Necklace of Flowing Life"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Collapsed%20Tomb", "/Collapsed%20Tomb"]
     },
-    "Altar of the Sun": {
-      "items": ["Talisman of the Sun"]
-    },
-    "Root Raiders": {
-      "items": ["Hardened Coil", "Bandit"]
-    },
-    "Doe Sanctuary": {
-      "items": ["Cervine Keepsake", "Thousand Cuts", "Token of Favor"]
-    },
-
     "Living Stone": {
-      "items": ["Lithic Signet"]
+      "name": "Living Stone",
+      "collectibles": ["Lithic Signet"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Living%20Stone", "/Living%20Stone"]
     },
     "The Coffin": {
-      "items": ["Berserker's Crest", "Extender"]
+      "name": "The Coffin",
+      "collectibles": ["Berserker's Crest", "Extender"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Coffin", "/The%20Coffin"]
     },
-    "Collapsed Tomb": {
-      "items": ["Tomb Dweller's Ring", "Necklace of Flowing Life"]
-    },
-    "The Treasure Room": {
-      "items": ["Pan War Band", "Ring of Spirits"]
-    },
-
-    "Hidden Chamber": {
-      "items": ["Archer's Crest"]
-    },
-    "Wind Hollow": {
-      "items": ["Wind Hollow Circlet", "Band Band"]
-    },
-    "Library": {
-      "items": ["Burden of the Follower", "Bulletweaver"]
-    },
-    "Phases of the Moon": {
-      "items": ["Mark of the Destroyer", "Moon Stone"]
-    },
-
     "Dappled Glade": {
-      "items": ["Barkskin", "Bloodstream", "Sorrow"]
+      "name": "Dappled Glade",
+      "collectibles": ["Barkskin", "Bloodstream", "Sorrow"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Dappled%20Glade", "/Dappled%20Glade"]
     },
     "Koara Kuri Nest": {
-      "items": ["Kuri Kuri Charm"]
+      "name": "Koara Kuri Nest",
+      "collectibles": ["Kuri Kuri Charm"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Koara%20Kuri%20Nest", "/Koara%20Kuri%20Nest"]
     },
     "Root Nexus": {
-      "items": ["Hallowed Egg", "Blood Bond"]
+      "name": "Root Nexus",
+      "collectibles": ["Hallowed Egg", "Blood Bond"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Root%20Nexus", "/Root%20Nexus"]
     },
-    "Bloodmoon Altar": {
-      "items": [
-        "Blade of Gul",
-        "Knotted Helm",
-        "Knotted Cage",
-        "Knotted Greaves",
-        "Knotted Gloves",
-        "Faded Grimoire",
-        "Soul Anchor",
-        "Soul Guard"
-      ]
+    "Yaesha Tower Puzzle": {
+      "name": "Yaesha Tower Puzzle",
+      "collectibles": ["Slayer's Crest", "Blooming Heart"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Yaesha%20Tower%20Puzzle", "/Yaesha%20Tower%20Puzzle"]
+    },
+    "Altar of the Sun": {
+      "name": "Altar of the Sun",
+      "collectibles": ["Talisman of the Sun"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Altar%20of%20the%20Sun", "/Altar%20of%20the%20Sun"]
+    },
+    "Root Raiders": {
+      "name": "Root Raiders",
+      "collectibles": ["Hardened Coil", "Bandit"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Root%20Raiders", "/Root%20Raiders"]
+    },
+    "Doe Sanctuary": {
+      "name": "Doe Sanctuary",
+      "collectibles": ["Cervine Keepsake", "Thousand Cuts", "Token of Favor"],
+      "addedIn": "The Forgotten Kingdom",
+      "wikiLinks": ["/Doe%20Sanctuary", "/Doe%20Sanctuary"]
+    },
+    "Hidden Chamber": {
+      "name": "Hidden Chamber",
+      "collectibles": ["Archer's Crest"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Hidden%20Chamber", "/Hidden%20Chamber"]
+    },
+    "Wind Hollow": {
+      "name": "Wind Hollow",
+      "collectibles": ["Wind Hollow Circlet", "Band Band"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Wind%20Hollow", "/Wind%20Hollow"]
+    },
+    "Library": {
+      "name": "Library",
+      "collectibles": ["Burden of the Follower", "Bulletweaver"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Library", "/Library"]
+    },
+    "Phases of the Moon": {
+      "name": "Phases of the Moon",
+      "collectibles": ["Mark of the Destroyer", "Moon Stone"],
+      "addedIn": "The Forgotten Kingdom",
+      "wikiLinks": ["/Phases%20of%20the%20Moon", "/Phases%20of%20the%20Moon"]
     }
   }
 }

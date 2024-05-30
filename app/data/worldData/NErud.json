@@ -1,62 +1,82 @@
 {
+  "$schema": "./_schema.json",
   "name": "N'Erud",
-
   "locations": {
-    "World Drops": {
-      "baseItems": [
-        "Stone of Expanse",
-        "Feedback Loop",
-        "Defensive Action Loop",
-        "Vacuum Seal",
-        "Targeting Jewel",
-        "Point Focus Ring",
-        "Ring of Restocking",
-        "Conservation Seal",
-        "Deep Pocket Ring",
-        "Reserve Boosting Gem",
-        "A'Taerii Booster",
-        "Power Complex",
-        "Emergency Switch",
-        "Kinetic Shield Exchanger",
-        "Inert Overcharger",
-        "Legacy Protocol",
-        "Zero Divide"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
-    },
     "Phantom Wasteland": {
-      "baseItems": ["Embrace of Sha'Hala"],
-      "isWorldDropPresent": true,
-      "events": ["Ascension Spire"]
+      "name": "Phantom Wasteland",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Phantom%20Wasteland", "/Phantom%20Wasteland"],
+      "collectibles": ["Embrace of Sha'Hala"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Ascension Spire"]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
+      ]
     },
     "Timeless Horizon": {
-      "baseItems": ["Blasting Cap Ring", "Detonation Trigger", "Ionic Crystal"],
-      "isWorldDropPresent": true,
-      "events": ["Titan's Reach", "Extraction Hub", "Engineer"]
+      "name": "Timeless Horizon",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Timeless%20Horizon", "/Timeless%20Horizon"],
+      "collectibles": [
+        "Blasting Cap Ring",
+        "Detonation Trigger",
+        "Ionic Crystal"
+      ],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Titan's Reach", "Extraction Hub", "Engineer"]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
+      ]
     },
     "Seeker's Rest": {
-      "baseItems": [],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Seeker's Rest",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Seeker's%20Rest", "/Seeker's%20Rest"],
+      "collectibles": []
     },
     "Alepsis-Taura": {
-      "baseItems": ["Void Heart"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Alepsis-Taura",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Alepsis-Taura", "/Alepsis-Taura"],
+      "collectibles": ["Void Heart"]
     },
     "Sentinel's Keep": {
-      "baseItems": ["Eidolon Shard", "Power Saver", "Void Cinder"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Sentinel's Keep",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Sentinel's%20Keep", "/Sentinel's%20Keep"],
+      "collectibles": ["Eidolon Shard", "Power Saver", "Void Cinder"]
     },
     "Abyssal Rift": {
-      "baseItems": [],
-      "isWorldDropPresent": true,
-      "events": ["Ascension Spire"]
+      "name": "Abyssal Rift",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Abyssal%20Rift", "/Abyssal%20Rift"],
+      "collectibles": [],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Ascension Spire"]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
+      ]
     },
     "The Eon Vault": {
-      "baseItems": [
+      "name": "The Eon Vault",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Eon%20Vault", "/The%20Eon%20Vault"],
+      "collectibles": [
         "Blasting Cap Ring",
         "Detonation Trigger",
         "Difference Engine",
@@ -64,75 +84,182 @@
         "Star Shot",
         "Stasis Core"
       ],
-      "isWorldDropPresent": true,
-      "events": ["Titan's Reach", "Extraction Hub", "Engineer"]
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Titan's Reach", "Extraction Hub", "Engineer"]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
+      ]
     },
     "Forgotten Prison": {
-      "baseItems": [
+      "name": "Forgotten Prison",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Forgotten%20Prison", "/Forgotten%20Prison"],
+      "collectibles": [
         "Spiced Bile",
         "Acidic Jawbone",
         "Navigator's Pendant",
         "Shining Essence Echo"
-      ],
-      "isWorldDropPresent": false,
-      "events": []
+      ]
     },
     "Ascension Spire": {
-      "baseItems": [],
-      "isWorldDropPresent": false,
-      "events": ["Ascension Spire"]
+      "name": "Ascension Spire",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Ascension%20Spire", "/Ascension%20Spire"],
+      "collectibles": [],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": ["Ascension Spire"]
+        }
+      ]
     },
     "Astropath's Respíte": {
-      "baseItems": ["Rusted Navigator's Pendant", "Seeker Residue"],
-      "isWorldDropPresent": true,
-      "events": ["Gravity Drive", "Hidden Elevator", "Stargazer's Tomb"]
+      "name": "Astropath's Respíte",
+      "addedIn": "Remnant 2",
+      "wikiLinks": [
+        "/Astropath's%20Resp%C3%ADte",
+        "/Astropath's%20Resp%C3%ADte"
+      ],
+      "collectibles": ["Rusted Navigator's Pendant", "Seeker Residue"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Gravity Drive",
+            "Hidden Elevator",
+            "Stargazer's Tomb"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
+      ]
     },
     "Spectrum Nexus": {
-      "baseItems": ["Sentry's Old Iris"],
-      "isWorldDropPresent": true,
-      "events": ["Gravity Drive", "Hidden Elevator", "Stargazer's Tomb"]
+      "name": "Spectrum Nexus",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Spectrum%20Nexus", "/Spectrum%20Nexus"],
+      "collectibles": ["Sentry's Old Iris"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Gravity Drive",
+            "Hidden Elevator",
+            "Stargazer's Tomb"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
+      ]
     },
     "Terminus Station": {
-      "baseItems": ["Atom Smasher", "Footwork", "Hyperconductor"],
-      "isWorldDropPresent": true,
-      "events": ["Gravity Drive", "Hidden Elevator", "Stargazer's Tomb"]
+      "name": "Terminus Station",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Terminus%20Station", "/Terminus%20Station"],
+      "collectibles": ["Atom Smasher", "Footwork", "Hyperconductor"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Gravity Drive",
+            "Hidden Elevator",
+            "Stargazer's Tomb"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
+      ]
     },
     "Tower of the Unseen": {
-      "baseItems": [
+      "name": "Tower of the Unseen",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Tower%20of%20the%20Unseen", "/Tower%20of%20the%20Unseen"],
+      "collectibles": [
         "Samoflange",
         "Refunder",
         "Stone of Continuance",
         "Shielded Heart"
       ],
-      "isWorldDropPresent": true,
-      "events": ["Gravity Drive", "Hidden Elevator", "Stargazer's Tomb"]
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Gravity Drive",
+            "Hidden Elevator",
+            "Stargazer's Tomb"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
+      ]
     },
     "The Putrid Domain": {
-      "baseItems": ["Mutated Growth"],
-      "isWorldDropPresent": true,
-      "events": [
-        "Aerary Glyph Door",
-        "Broken Cable",
-        "The Flooded Room",
-        "Crashed Train",
-        "Robot Hangar",
-        "Stasis Pod Chamber"
+      "name": "The Putrid Domain",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Putrid%20Domain", "/The%20Putrid%20Domain"],
+      "collectibles": ["Mutated Growth"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Aerary Glyph Door",
+            "Broken Cable",
+            "The Flooded Room",
+            "Crashed Train",
+            "Robot Hangar",
+            "Stasis Pod Chamber"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
       ]
     },
     "Vault of the Formless": {
-      "baseItems": ["Metal Driver", "Rupture Cannon", "Fitness"],
-      "isWorldDropPresent": true,
-      "events": [
-        "Aerary Glyph Door",
-        "Broken Cable",
-        "The Flooded Room",
-        "Crashed Train",
-        "Robot Hangar",
-        "Stasis Pod Chamber"
+      "name": "Vault of the Formless",
+      "addedIn": "Remnant 2",
+      "wikiLinks": [
+        "/Vault%20of%20the%20Formless",
+        "/Vault%20of%20the%20Formless"
+      ],
+      "collectibles": ["Metal Driver", "Rupture Cannon", "Fitness"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Aerary Glyph Door",
+            "Broken Cable",
+            "The Flooded Room",
+            "Crashed Train",
+            "Robot Hangar",
+            "Stasis Pod Chamber"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
       ]
     },
     "Void Vessel Facility": {
-      "baseItems": [
+      "name": "Void Vessel Facility",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Void%20Vessel%20Facility", "/Void%20Vessel%20Facility"],
+      "collectibles": [
         "Tightly Wound Coil",
         "Transference",
         "Space Worker Mask",
@@ -140,68 +267,84 @@
         "Space Worker Legs",
         "Space Worker Gloves"
       ],
-      "isWorldDropPresent": true,
-      "events": [
-        "Aerary Glyph Door",
-        "Broken Cable",
-        "The Flooded Room",
-        "Crashed Train",
-        "Robot Hangar",
-        "Stasis Pod Chamber"
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Aerary Glyph Door",
+            "Broken Cable",
+            "The Flooded Room",
+            "Crashed Train",
+            "Robot Hangar",
+            "Stasis Pod Chamber"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
       ]
     },
     "Dormant N'erudian Facility": {
-      "baseItems": ["Siphoner", "Leech", "Toxic Release Valve", "Failsafe"],
-      "isWorldDropPresent": false,
-      "events": []
+      "name": "Dormant N'erudian Facility",
+      "addedIn": "Remnant 2",
+      "wikiLinks": [
+        "/Dormant%20N'erudian%20Facility",
+        "/Dormant%20N'erudian%20Facility"
+      ],
+      "collectibles": ["Siphoner", "Leech", "Toxic Release Valve", "Failsafe"]
     },
     "The Dark Conduit": {
-      "baseItems": ["Crystal Heart"],
-      "isWorldDropPresent": true,
-      "events": [
-        "Aerary Glyph Door",
-        "Broken Cable",
-        "The Flooded Room",
-        "Crashed Train",
-        "Robot Hangar",
-        "Stasis Pod Chamber"
+      "name": "The Dark Conduit",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Dark%20Conduit", "/The%20Dark%20Conduit"],
+      "collectibles": ["Crystal Heart"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Aerary Glyph Door",
+            "Broken Cable",
+            "The Flooded Room",
+            "Crashed Train",
+            "Robot Hangar",
+            "Stasis Pod Chamber"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
       ]
     },
     "The Hatchery": {
-      "baseItems": ["Cracked Shell"],
-      "isWorldDropPresent": true,
-      "events": [
-        "Aerary Glyph Door",
-        "Broken Cable",
-        "The Flooded Room",
-        "Crashed Train",
-        "Robot Hangar",
-        "Stasis Pod Chamber"
+      "name": "The Hatchery",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Hatchery", "/The%20Hatchery"],
+      "collectibles": ["Cracked Shell"],
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Aerary Glyph Door",
+            "Broken Cable",
+            "The Flooded Room",
+            "Crashed Train",
+            "Robot Hangar",
+            "Stasis Pod Chamber"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
       ]
     }
   },
-  "events": {
-    "Crashed Train": {
-      "items": ["Ring of Deflection", "Focusing Shard"]
-    },
-    "Robot Hangar": {
-      "items": ["Transpose", "Excess Coil"]
-    },
-    "The Flooded Room": {
-      "items": ["Subterfuge Link", "Insulation Driver", "Generating Band"]
-    },
-    "Broken Cable": {
-      "items": ["Rerouting Cable", "Blackout Ring"]
-    },
-    "Aerary Glyph Door": {
-      "items": ["Disengage", "Ring of Crisis"]
-    },
-    "Stasis Pod Chamber": {
-      "items": ["Momentum Driver", "Atom Splitter"]
-    },
-
+  "injectables": {
     "Ascension Spire": {
-      "items": [
+      "name": "Ascension Spire",
+      "collectibles": [
         "Pulse Rifle",
         "Escalation Circuit",
         "Core Booster",
@@ -218,34 +361,91 @@
         "Siphon Heart",
         "Closed Loop",
         "Ring Of Ordnance"
-      ]
+      ],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Ascension%20Spire", "/Ascension%20Spire"]
     },
-
     "Titan's Reach": {
-      "items": ["Hardcore Metal Band", "Plasma Cutter"]
+      "name": "Titan's Reach",
+      "collectibles": ["Hardcore Metal Band", "Plasma Cutter"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Titan's%20Reach", "/Titan's%20Reach"]
     },
     "Extraction Hub": {
-      "items": ["Navigator's Helm"]
+      "name": "Extraction Hub",
+      "collectibles": ["Navigator's Helm"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Extraction%20Hub", "/Extraction%20Hub"]
     },
     "Engineer": {
-      "isUnique": false,
-      "items": [
+      "name": "Engineer",
+      "collectibles": [
         "Alien Device",
         "Technician Helmet",
         "Technician Bodyplate",
         "Technician Greaves",
         "Technician Gloves"
-      ]
+      ],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Engineer", "/Engineer"]
     },
-
     "Gravity Drive": {
-      "items": ["Constant Variable Ring", "Timewave"]
+      "name": "Gravity Drive",
+      "collectibles": ["Constant Variable Ring", "Timewave"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Gravity%20Drive", "/Gravity%20Drive"]
     },
     "Hidden Elevator": {
-      "items": ["Low Yield Recovery Ring", "Propulsion Loop"]
+      "name": "Hidden Elevator",
+      "collectibles": ["Low Yield Recovery Ring", "Propulsion Loop"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Hidden%20Elevator", "/Hidden%20Elevator"]
     },
     "Stargazer's Tomb": {
-      "items": ["Burden of the Stargazer"]
+      "name": "Stargazer's Tomb",
+      "collectibles": ["Burden of the Stargazer"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Stargazer's%20Tomb", "/Stargazer's%20Tomb"]
+    },
+    "Aerary Glyph Door": {
+      "name": "Aerary Glyph Door",
+      "collectibles": ["Disengage", "Ring of Crisis"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Aerary%20Glyph%20Door", "/Aerary%20Glyph%20Door"]
+    },
+    "Broken Cable": {
+      "name": "Broken Cable",
+      "collectibles": ["Rerouting Cable", "Blackout Ring"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Broken%20Cable", "/Broken%20Cable"]
+    },
+    "The Flooded Room": {
+      "name": "The Flooded Room",
+      "collectibles": [
+        "Subterfuge Link",
+        "Insulation Driver",
+        "Generating Band"
+      ],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Flooded%20Room", "/The%20Flooded%20Room"]
+    },
+    "Crashed Train": {
+      "name": "Crashed Train",
+      "collectibles": ["Ring of Deflection", "Focusing Shard"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Crashed%20Train", "/Crashed%20Train"]
+    },
+    "Robot Hangar": {
+      "name": "Robot Hangar",
+      "collectibles": ["Transpose", "Excess Coil"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Robot%20Hangar", "/Robot%20Hangar"]
+    },
+    "Stasis Pod Chamber": {
+      "name": "Stasis Pod Chamber",
+      "collectibles": ["Momentum Driver", "Atom Splitter"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Stasis%20Pod%20Chamber", "/Stasis%20Pod%20Chamber"]
     }
   }
 }
