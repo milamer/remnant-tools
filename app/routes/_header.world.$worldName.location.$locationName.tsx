@@ -29,22 +29,22 @@ export function clientLoader({ params }: ClientLoaderFunctionArgs) {
   if (!world || !location)
     throw new Error(`Location ${locationName} not found in world ${worldName}`);
   const character = getCharacter();
-  return { locationName, events: world.events, location, character };
+  return { locationName, injectables: world.injectables, location, character };
 }
 
 export default function World() {
-  const { locationName, events, location, character } =
+  const { locationName, injectables, location, character } =
     useLoaderData<typeof clientLoader>();
 
   return (
     <div className="flex h-full w-full flex-col gap-4">
       <ScrollArea className="w-full flex-grow">
         <div className="flex h-full flex-col gap-2 p-4 pt-0">
-          {location.baseItems.length === 0 ? null : (
+          {location.collectibles.length === 0 ? null : (
             <>
               <div className="font-semibold">Base Collectibles</div>
               <ul className="grid gap-3">
-                {location.baseItems.map((collectible) => {
+                {location.collectibles.map((collectible) => {
                   const status =
                     character?.collectibles[collectible] ?? 'Uncollected';
                   const icon = statusToIcon[status];
@@ -61,44 +61,47 @@ export default function World() {
                   );
                 })}
               </ul>
-              {location.events.length === 0 ? null : (
+              {(location.injectables?.length ?? 0) === 0 ? null : (
                 <Separator className="my-2" />
               )}
             </>
           )}
-          {location.events.length === 0 ? null : (
-            <>
-              <div className="font-semibold">Bonus Collectibles</div>
-              <ul className="grid gap-3">
-                {location.events.map((eventname) => {
-                  const event = events[eventname];
-                  return (
-                    <li key={eventname}>
-                      <span>{eventname}</span>
-                      <ul className="grid pl-4">
-                        {(event?.items ?? []).map((item) => {
-                          const status =
-                            character?.collectibles[item] ?? 'Uncollected';
-                          const icon = statusToIcon[status];
-                          return (
-                            <li
-                              key={item}
-                              className="flex items-center justify-between"
-                            >
-                              <span className="text-muted-foreground">
-                                {item}
-                              </span>
-                              {icon}
-                            </li>
-                          );
-                        })}
-                      </ul>
-                    </li>
-                  );
-                })}
-              </ul>
-            </>
-          )}
+          {(location?.injectables ?? []).map((injectible) => {
+            return (
+              <>
+                <div className="font-semibold">{injectible.name}</div>
+                <ul className="grid gap-3">
+                  {injectible.injectables.map((injectibleName) => {
+                    const event = injectables[injectibleName];
+                    return (
+                      <li key={injectibleName}>
+                        <span>{injectibleName}</span>
+                        <ul className="grid pl-4">
+                          {(event?.collectibles ?? []).map((collectible) => {
+                            const status =
+                              character?.collectibles[collectible] ??
+                              'Uncollected';
+                            const icon = statusToIcon[status];
+                            return (
+                              <li
+                                key={collectible}
+                                className="flex items-center justify-between"
+                              >
+                                <span className="text-muted-foreground">
+                                  {collectible}
+                                </span>
+                                {icon}
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </>
+            );
+          })}
         </div>
       </ScrollArea>
       <div className="px-4">

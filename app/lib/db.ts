@@ -1,145 +1,11 @@
 import { z } from 'zod';
-import { processRemnantSave } from '~/saveFileParser';
-
-const itemToLinkedItems: Record<string, string[]> = {
-  // N'Erud
-  Aphelion: ['Void Cinder'],
-  Nebula: ['Spiced Bile', 'Nano Swarm'],
-  'Gas Giant': ['Acidic Jawbone', 'Dying Breath'],
-  'Spectral Blade': ['Eidolon Shard'],
-  'Void Idol': ['Shining Essence Echo'],
-  Bore: ['Mutated Growth'],
-  'Energy Wall': ['Ionic Crystal'],
-  Helix: ['Seeker Residue'],
-  Overflow: ['Escalation Circuit'],
-  'Prismatic Driver': ["Sentry's Old Iris"],
-  'Space Crabs': ['Cracked Shell'],
-  'Stasis Beam': ['Stasis Core'],
-  // Losomn
-  'Crescent Moon': ["Anamy's Echo", 'Moonlight Barrage'],
-  Deceit: ["Imposter's Heart", 'Ouroboros'],
-  Nightfall: ['Cursed Dream Silks', 'Dreadwalker'],
-  Monarch: ['Agony Spike', 'Chain Of Command'],
-  'Rune Pistol': ['Decrepit Rune'],
-  Anguish: ['Occult Vessel', 'Loathe The Weak'],
-  'Huntress Spear': ['Venerated Spearhead', 'Javelin'],
-  Godsplitter: ['Melded Hilt', 'Fracture'],
-  Nightshade: ["Nightweaver's Finger", 'Beyond The Veil'],
-  Wrathbringer: ["Tormentor's Pommel", 'Awakening'],
-  'Blood Draw': ['Bloody Steel Splinter'],
-  'Corrosive Rounds': ['Tainted Ichor'],
-  Familiar: ['Sacred Hunt Feather'],
-  Firestorm: ['Forlorn Fragment'],
-  'Time Lapse': ['Broken Timepiece'],
-  'Voltaic Rondure': ['Bone Sap'],
-  Witchfire: ['Alkahest Powder'],
-  'Creeping Mist': ['Hex Wreath'],
-  'Knight Guard': ['Cremated Soul Ash'],
-  'Ring Of Spears': ['Wretched Skull'],
-  // Yaesha
-  Merciless: ['Crimson Membrane', 'Bloodline'],
-  'Twisted Arbalest': ['Twisted Lazurite', "Guardian's Call"],
-  Monolith: ['Eye of Lydusa'],
-  Thorn: ['Regurgitated Spiny Sac', 'Deadwood'],
-  'Feral Judgement': ["Ravager's Maw", 'Death Sentence'],
-  'Red Doe Staff': ["Doe's Antler", 'Lifeline'],
-  Stonebreaker: ['Hollow Heart', 'Faultline'],
-  Mirage: ['Blossoming Core', 'Cyclone'],
-  'Astral Burst': ['Faith Seed'],
-  Fargazer: ['Agnosia Driftwood'],
-  Rootlash: ['Twilight Dactylus'],
-  'Rotted Arrow': ['Soul Sliver'],
-  'Song of Eafir': ['Scroll of Binding'],
-  Soulbinder: ['Heart Seed'],
-  Tremor: ['Cordyceps Gland'],
-  'Abrasive Rounds': ['Pallid Lodestone'],
-  'Flying Bomb Trap': ['Ceramic Flask'],
-  Heatwave: ['Forge Ember'],
-  // forgotten
-  Enigma: ['Cipher Rod', 'Chaos Driver'],
-  'Skewer 2.0': ['Dread Core'],
-  'Alpha-Omega': ['Forgotten Memory', 'Beta Ray'],
-  Defrag: ['Necrocyte Strand'],
-  'Siphon Heart': ['Shining Essence Echo'],
-  'Healing Shot': ['Root Ganglia'],
-  'Concussive Shot': ['Root Ganglia'],
-  'Hot Shot': ['Root Ganglia'],
-  'Scrap Shot': ['Root Ganglia'],
-  'Cube Gun': ['Conflux Prism', 'Cube Shield'],
-  Polygun: ['77 79 68'],
-  'Atom Smasher': ['Accelerator'],
-  Repulsor: ['Banish'],
-  'Star Shot': ['Big Bang'],
-  WrathSbringer: ['Awakening'],
-  Smolder: ['Blaze'],
-  'Corrupted Merciless': ['Bloodshot'],
-  "Assassin's Dagger": ['Bloodthirst'],
-  'Corrupted Cube Gun': ['Cube Room'],
-  'Corrupted Meridian': ['Deadpoint'],
-  'Corrupted Rune Pistol': ['Death Brand'],
-  Dreamcatcher: ['Dreamwave'],
-  "Hero's Sword": ['Energy Wave'],
-  Sorrow: ['Eulogy'],
-  Hellfire: ['Explosive Shot'],
-  'Abyssal Hook': ['Fathomless Deep'],
-  'Atom Splitter': ['Fission Strike'],
-  'Corrupted Savior': ['Fusion Cannon'],
-  Starkiller: ['Gravity Core'],
-  'Corrupted Arbalest': ["Guardian's Fury"],
-  'Plasma Cutter': ['Heat Sink'],
-  "World's Edge": ['Horizon Strike'],
-  'Krell Axe': ['Krell Edge'],
-  'Corrupted Aphelion': ['Micronova'],
-  'Corrupted Nebula': ['Nano Phase'],
-  'Crystal Staff': ['Power Stone'],
-  'Ritualist Scythe': ['Reaver'],
-  // Wrathbringer: ['Awakening'],
-  // Wrathbringer: ['Awakening'],
-  // Wrathbringer: ['Awakening'],
-  // Wrathbringer: ['Awakening'],
-
-  Alchemist: ["Philosopher's Stone", 'Mysterious Stone'],
-  Archon: ['Hexahedron', 'Strange Box'],
-  Challenger: ['Old Metal Tool', 'Steel Enswell'],
-  Engineer: ['Drzyr Caliper', 'Alien Device'],
-  Explorer: ['Golden Compass', 'Broken Compass'],
-  Gunslinger: ['Iron Cylinder', 'Worn Cylinder'],
-  Handler: ['Silent Whistle', 'Old Whistle'],
-  Hunter: ['Rusty Medal', 'Sniper War Medal'],
-  Invader: ['Serrated Root Blade', 'Wooden Shiv'],
-  Invoker: ['Spirit Flute', 'Old Flute'],
-  Medic: ['Caduceus Idol', 'Medic Pin'],
-  Ritualist: ['Cursed Effigy', 'Ragged Poppet'],
-  Summoner: ['Tome of The Bringer', 'Faded Grimoire'],
-};
-
-const itemToUncraftedItems: Record<string, string[]> = {};
-for (const [item, linkedItems] of Object.entries(itemToLinkedItems)) {
-  linkedItems.forEach((linkedItem) => {
-    const uncraftedItems = itemToUncraftedItems[linkedItem] ?? [];
-    uncraftedItems.push(item);
-  });
-}
-
-const worldSchema = z.object({
-  name: z.enum([
-    'Yaesha',
-    "N'Erud",
-    'Losomn',
-    'Ward 13',
-    'The Labyrinth',
-    'Root Earth',
-  ]),
-  events: z.record(z.object({ items: z.array(z.string()) })),
-  locations: z.record(
-    z.object({
-      baseItems: z.array(z.string()),
-      isWorldDropPresent: z.boolean(),
-      events: z.array(z.string()),
-    }),
-  ),
-});
-export type World = z.infer<typeof worldSchema>;
+import {
+  Collectible,
+  World,
+  collectibleSchema,
+  worldSchema,
+} from '~/data/types';
+import { decompressSave, extractCharacters } from '~/saveFileParser';
 
 const CollectedStatusSchema = z.enum(['Collected', 'Uncollected', 'Uncrafted']);
 export type CollectedStatus = z.infer<typeof CollectedStatusSchema>;
@@ -171,7 +37,7 @@ type Character = z.infer<typeof CharacterSchema>;
 const dbSchema = z.object({
   characters: z.array(CharacterSchema),
   worlds: z.record(worldSchema),
-  itemData: z.array(z.object({ name: z.string(), saveFileSlug: z.string() })),
+  collectibles: z.record(z.string(), collectibleSchema),
   selectedCharacterIdx: z.number(),
 });
 type DB = z.infer<typeof dbSchema>;
@@ -189,7 +55,7 @@ function getDB() {
     db = {
       characters: [],
       worlds: {},
-      itemData: [],
+      collectibles: {},
       selectedCharacterIdx: 0,
     };
     localStorage.setItem('@remnant-save', JSON.stringify(db));
@@ -228,30 +94,31 @@ function updateCharacterWithWorlds(character: Character): Character {
 
     for (const [locationName, location] of Object.entries(world.locations)) {
       const characterLocation: CharacterLocation = {
-        baseProgress: [0, location.baseItems.length],
+        baseProgress: [0, location.collectibles.length],
         bonusProgress: [
           0,
-          location.events.reduce(
-            (sum, event) => sum + (world.events[event]?.items.length ?? 0),
-            0,
-          ),
+          // location.events.reduce(
+          //   (sum, event) => sum + (world.events[event]?.items.length ?? 0),
+          //   0,
+          // ),
+          0,
         ],
       };
-      for (const collectible of location.baseItems) {
+      for (const collectible of location.collectibles) {
         characterWorld.collectibleProgress[1]++;
         if (character.collectibles[collectible] === 'Collected') {
           characterWorld.collectibleProgress[0]++;
           characterLocation.baseProgress[0]++;
         }
       }
-      for (const event of location.events) {
-        const eventItems = world.events[event]?.items ?? [];
-        for (const eventItem of eventItems) {
-          if (character.collectibles[eventItem] === 'Collected') {
-            characterLocation.bonusProgress[0]++;
-          }
-        }
-      }
+      // for (const event of location.events) {
+      //   const eventItems = world.events[event]?.items ?? [];
+      //   for (const eventItem of eventItems) {
+      //     if (character.collectibles[eventItem] === 'Collected') {
+      //       characterLocation.bonusProgress[0]++;
+      //     }
+      //   }
+      // }
 
       if (
         characterLocation.baseProgress[0] ===
@@ -265,15 +132,15 @@ function updateCharacterWithWorlds(character: Character): Character {
       characterWorld.locations[locationName] = characterLocation;
     }
 
-    for (const event of Object.values(world.events)) {
-      const eventItems = event.items;
-      for (const eventItem of eventItems) {
-        characterWorld.collectibleProgress[1]++;
-        if (character.collectibles[eventItem] === 'Collected') {
-          characterWorld.collectibleProgress[0]++;
-        }
-      }
-    }
+    // for (const event of Object.values(world.events)) {
+    //   const eventItems = event.items;
+    //   for (const eventItem of eventItems) {
+    //     characterWorld.collectibleProgress[1]++;
+    //     if (character.collectibles[eventItem] === 'Collected') {
+    //       characterWorld.collectibleProgress[0]++;
+    //     }
+    //   }
+    // }
 
     characterWorld.totalProgress = Math.round(
       (characterWorld.collectibleProgress[0] * 100) /
@@ -293,13 +160,20 @@ export function updateSelectedCharacterIdx(characterIdx: number) {
 }
 
 export async function updateCharacters(file: File) {
-  const inMemoryDB = getDB();
   const buffer = await file.arrayBuffer();
-  const characters = await processRemnantSave(
-    new Uint8Array(buffer),
-    inMemoryDB.itemData,
-  );
+  const rawSaveFile = await decompressSave(new Uint8Array(buffer));
+  setTimeout(() => {
+    localStorage.setItem('@remnant-save-raw', rawSaveFile);
+  });
+  await what(rawSaveFile);
+}
 
+async function what(raw: string) {
+  const inMemoryDB = getDB();
+  const characters = extractCharacters(
+    raw,
+    Object.values(inMemoryDB.collectibles),
+  );
   const charactersProgress: Array<Character> = [];
   for (const character of characters) {
     const characterProgress: Character = {
@@ -307,18 +181,14 @@ export async function updateCharacters(file: File) {
       collectibles: {},
       worlds: {},
     };
-    for (const collectible of character.inventory) {
-      characterProgress.collectibles[collectible] = 'Collected';
-      const linkedItems = itemToLinkedItems[collectible];
-      linkedItems?.forEach((linkedItem) => {
-        characterProgress.collectibles[linkedItem] = 'Collected';
-      });
-      const uncraftedItems = itemToUncraftedItems[collectible] ?? [];
-      uncraftedItems.forEach((item) => {
-        if (characterProgress.collectibles[item] !== 'Collected') {
-          characterProgress.collectibles[item] = 'Uncollected';
-        }
-      });
+    for (const collectibleName of character.inventory) {
+      const collectible = inMemoryDB.collectibles[collectibleName];
+
+      characterProgress.collectibles[collectibleName] = 'Collected';
+
+      for (const linkedCollectible of collectible?.linkedCollectibles ?? []) {
+        characterProgress.collectibles[linkedCollectible] = 'Collected';
+      }
     }
     updateCharacterWithWorlds(characterProgress);
     charactersProgress.push(characterProgress);
@@ -352,13 +222,18 @@ export function loadFromLocalStorage() {
   return null;
 }
 
-export function updateWorlds(
+export async function updateWorlds(
   worlds: Record<string, World>,
-  itemData: Array<{ name: string; saveFileSlug: string }>,
+  collectibles: Record<string, Collectible>,
 ) {
   const inMemoryDB = getDB();
   inMemoryDB.worlds = worlds;
-  inMemoryDB.itemData = itemData;
+  inMemoryDB.collectibles = collectibles;
+
+  const raw = localStorage.getItem('@remnant-save-raw');
+  if (raw) {
+    await what(raw);
+  }
 
   const characters = inMemoryDB.characters;
   if (characters) {

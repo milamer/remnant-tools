@@ -6,7 +6,7 @@ const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
 export function getCollectibles() {
   const { collectibles } = JSON.parse(
-    fs.readFileSync(path.join(__dirname, 'collectibles.json'), 'utf-8'),
+    fs.readFileSync(path.join(__dirname, 'collectibles', 'all.json'), 'utf-8'),
   ) as { collectibles: Array<Collectible> };
   return collectibles;
 }

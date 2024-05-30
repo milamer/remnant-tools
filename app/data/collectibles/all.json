@@ -1,5 +1,5 @@
 {
-  "$schema": "./collectibleSchema.json",
+  "$schema": "./_schema.json",
   "collectibles": [
     {
       "name": "Abrasive Whetstone",
@@ -2950,15 +2950,6 @@
       "type": "Mutator",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Battery", "/Battery"],
-      "description": "",
-      "imageUrl": ""
-    },
-    {
-      "name": "Bottom Feeder",
-      "saveFileFlag": "MetaGem_BottomFeeder_C",
-      "type": "Mutator",
-      "addedIn": "Remnant 2",
-      "wikiLinks": ["/Bottom%20Heavy", "/Bottom%20Heavy"],
       "description": "",
       "imageUrl": ""
     },
