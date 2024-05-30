@@ -446,6 +446,30 @@
       "collectibles": ["Momentum Driver", "Atom Splitter"],
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Stasis%20Pod%20Chamber", "/Stasis%20Pod%20Chamber"]
+    },
+    "N'Erud: World Drops": {
+      "name": "N'Erud: World Drops",
+      "collectibles": [
+        "Stone of Expanse",
+        "Feedback Loop",
+        "Defensive Action Loop",
+        "Vacuum Seal",
+        "Targeting Jewel",
+        "Point Focus Ring",
+        "Ring of Restocking",
+        "Conservation Seal",
+        "Deep Pocket Ring",
+        "Reserve Boosting Gem",
+        "A'Taerii Booster",
+        "Power Complex",
+        "Emergency Switch",
+        "Kinetic Shield Exchanger",
+        "Inert Overcharger",
+        "Legacy Protocol",
+        "Zero Divide"
+      ],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/N'Erud:%20World%20Drops", "/N'Erud:%20World%20Drops"]
     }
   }
 }

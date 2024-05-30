@@ -575,6 +575,38 @@
       "collectibles": ["Mark of the Destroyer", "Moon Stone"],
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Phases%20of%20the%20Moon", "/Phases%20of%20the%20Moon"]
+    },
+    "Yaesha: World Drops": {
+      "name": "Yaesha: World Drops",
+      "collectibles": [
+        "Ring of the Forest Spirit",
+        "Heart of the Wolf",
+        "Celerity Stone",
+        "Wax Sealed Ring",
+        "Vestige of Power",
+        "Soul Link",
+        "Guardian's Ring",
+        "Sagestone",
+        "Spirit Stone",
+        "Stone of Balance",
+        "Brawler's Pride",
+        "Soul Shard",
+        "Scavenger's Bauble",
+        "Stalker's Brand",
+        "Vengeance Idol",
+        "Sinister Totem",
+        "Gul Signet",
+        "Kolket Eyelet",
+        "Matriarch's Ring",
+        "Sealed Resin Loop",
+        "Soul Feast",
+        "Beads of the Valorous",
+        "Fragrant Thorn",
+        "Reed of the Vaunnt",
+        "Resolute"
+      ],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Yaesha%3A%20World%20Drops", "/Yaesha%3A%20World%20Drops"]
     }
   }
 }

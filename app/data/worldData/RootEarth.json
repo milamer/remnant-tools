@@ -58,5 +58,15 @@
       "collectibles": ["Forgotten Memory", "Broken Compass", "Scholar"]
     }
   },
-  "injectables": {}
+  "injectables": {
+    "Root Earth: World Drops": {
+      "name": "Root Earth: World Drops",
+      "collectibles": ["Reaping Stone", "Escalation Protocol"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": [
+        "/Root%20Earth%3A%20World%20Drops",
+        "/Root%20Earth%3A%20World%20Drops"
+      ]
+    }
+  }
 }

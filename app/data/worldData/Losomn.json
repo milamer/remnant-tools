@@ -671,6 +671,39 @@
         "/Monster%20in%20the%20Drain",
         "/Monster%20in%20the%20Drain"
       ]
+    },
+    "Losomn: World Drops": {
+      "name": "Losomn: World Drops",
+      "collectibles": [
+        "Fae Shaman Ring",
+        "Fae Bruiser Ring",
+        "Fae Warrior Ring",
+        "Fae Hunter Ring",
+        "Alchemy Stone",
+        "Stone of Malevolence",
+        "Ring of the Robust",
+        "Booster Ring",
+        "Stream Coupler",
+        "Dread Font",
+        "Dried Clay Ring",
+        "Painless Obsidian",
+        "Ring of the Vain",
+        "Wood Ring",
+        "Offering Stone",
+        "Red Ring of Death",
+        "Shadow of Misery",
+        "Weightless Weight",
+        "Chains of Amplification",
+        "Indignant Fetish",
+        "Whispering Marble",
+        "Birthright of the Lost",
+        "Brewmaster's Cork",
+        "Magnifying Glass",
+        "Black Spinel",
+        "Leaking Gemstone"
+      ],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Losomn:%20World%20Drops", "/Losomn:%20World%20Drops"]
     }
   }
 }
