@@ -41,7 +41,7 @@ export async function processRemnantSave(
   return characters;
 }
 
-async function decompressSave(rawData: Uint8Array): Promise<string> {
+export async function decompressSave(rawData: Uint8Array): Promise<string> {
   const dataView = new DataView(rawData.buffer);
   // const crc32 = dataView.getUint32(0, true);
   const totalSize = dataView.getUint32(4, true);

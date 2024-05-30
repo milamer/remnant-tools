@@ -5,20 +5,16 @@ import { World, getWorld } from '~/data/worlds.server';
 import { updateWorlds } from '~/lib/db';
 
 export async function action() {
-  const [Losomn, Yaesha, NErud, Ward13] = await Promise.all([
-    getWorld(World.Losomn),
-    getWorld(World.Yaesha),
-    getWorld(World.NErud),
-    getWorld(World.Ward13),
-  ]);
+  const worlds = await Promise.all(Object.values(World).map(getWorld));
+  for (const world of worlds) {
+    world.name = Object.values(World).find((w) => w === world.name)!;
+  }
+  const worldNameToWorld = Object.fromEntries(
+    worlds.map((world) => [world.name, world]),
+  );
   return json({
     itemData: collectibles,
-    worlds: {
-      Losomn,
-      Yaesha,
-      [World.NErud]: NErud,
-      [World.Ward13]: Ward13,
-    },
+    worlds: worldNameToWorld,
   });
 }
 

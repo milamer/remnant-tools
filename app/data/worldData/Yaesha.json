@@ -1,38 +1,43 @@
 {
   "name": "Yaesha",
-  "worldDrops": [
-    "Ring of the Forest Spirit",
-    "Heart of the Wolf",
-    "Celerity Stone",
-    "Wax Sealed Ring",
-    "Vestige of Power",
-    "Soul Link",
-    "Guardian's Ring",
-    "Sagestone",
-    "Spirit Stone",
-    "Stone of Balance",
-    "Brawler's Pride",
-    "Soul Shard",
-    "Scavenger's Bauble",
-    "Stalker's Brand",
-    "Vengeance Idol",
-    "Sinister Totem",
-    "Gul Signet",
-    "Kolket Eyelet",
-    "Matriarch's Ring",
-    "Sealed Resin Loop",
-    "Soul Feast",
-    "Beads of the Valorous",
-    "Fragrant Thorn",
-    "Reed of the Vaunnt",
-    "Resolute"
-  ],
+
   "locations": {
+    "World Drops": {
+      "baseItems": [
+        "Ring of the Forest Spirit",
+        "Heart of the Wolf",
+        "Celerity Stone",
+        "Wax Sealed Ring",
+        "Vestige of Power",
+        "Soul Link",
+        "Guardian's Ring",
+        "Sagestone",
+        "Spirit Stone",
+        "Stone of Balance",
+        "Brawler's Pride",
+        "Soul Shard",
+        "Scavenger's Bauble",
+        "Stalker's Brand",
+        "Vengeance Idol",
+        "Sinister Totem",
+        "Gul Signet",
+        "Kolket Eyelet",
+        "Matriarch's Ring",
+        "Sealed Resin Loop",
+        "Soul Feast",
+        "Beads of the Valorous",
+        "Fragrant Thorn",
+        "Reed of the Vaunnt",
+        "Resolute"
+      ],
+      "isWorldDropPresent": false,
+      "events": []
+    },
     "Infested Abyss": {
       "baseItems": [
         "Crystal Staff",
         "Profane Soul Stone",
-        "Profane Hear",
+        "Profane Heart",
         "Soul Stone",
         "Conjurer's Circle",
         "Near-Sighted"
@@ -63,7 +68,7 @@
       "events": []
     },
     "The Widow's Court": {
-      "baseItems": ["Matriarch's Insignia", "Ghost_Shell"],
+      "baseItems": ["Matriarch's Insignia", "Ghost Shell"],
       "isWorldDropPresent": false,
       "events": []
     },
@@ -233,7 +238,11 @@
         "Regurgitated Spiny Sac",
         "Burden of the Mesmer",
         "Feathery Binding",
-        "Ravager's Bargain"
+        "Ravager's Bargain",
+        "Disciple Headpiece",
+        "Disciple Mantle",
+        "Disciple Greaves",
+        "Disciple Vambraces"
       ],
       "isWorldDropPresent": false,
       "events": []
@@ -295,7 +304,11 @@
         "Ceramic Flask",
         "Dark Sea Armada Crest",
         "Floodlit Diamond",
-        "Gladiator"
+        "Gladiator",
+        "Battle Helmet",
+        "Battle Shirt",
+        "Battle Gloves",
+        "Battle Slacks"
       ],
       "isWorldDropPresent": true,
       "events": [
@@ -353,7 +366,7 @@
       "items": ["Kuri Kuri Charm"]
     },
     "Root Nexus": {
-      "items": ["Hallowed Egg"]
+      "items": ["Hallowed Egg", "Blood Bond"]
     },
     "Bloodmoon Altar": {
       "items": [

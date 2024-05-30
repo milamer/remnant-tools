@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Collectibles",
+  "type": "object",
+  "properties": {
+    "collectibles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Unique name of the collectible"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "Weapon",
+              "Armor",
+              "Mod",
+              "Material",
+              "Ring",
+              "Amulet",
+              "Archetype",
+              "Mutator",
+              "Relic",
+              "Relic Fragment",
+              "Trait",
+              "Engram",
+              "Consumable"
+            ],
+            "description": "Type of the collectible"
+          },
+          "addedIn": {
+            "type": "string",
+            "enum": ["Remnant 2", "The Awakened King", "The Forgotten Kingdom"],
+            "description": "Version or DLC in which the collectible was added"
+          },
+          "craftInto": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Array of collectible names that this item can be crafted into"
+          },
+          "linkedCollectibles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Array of collectible names that are considered collected if this item is collected"
+          },
+          "saveFileFlag": {
+            "type": "string",
+            "description": "Flag used for save file"
+          },
+          "wikiLinks": {
+            "type": "array",
+            "items": {
+              "type": ["string", "null"]
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "[fextralife, remnant.wiki] links"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the collectible"
+          },
+          "imageUrl": {
+            "type": "string",
+            "description": "URL of the collectible image"
+          }
+        },
+        "required": [
+          "name",
+          "type",
+          "addedIn",
+          "saveFileFlag",
+          "wikiLinks",
+          "description",
+          "imageUrl"
+        ]
+      }
+    }
+  }
+}

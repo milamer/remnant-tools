@@ -1,0 +1,41 @@
+{
+  "name": "The Labyrinth",
+  "locations": {
+    "The Backrooms": {
+      "baseItems": ["Strange Box", "Bisected Ring", "Gunfire Security Lanyard"],
+      "events": [],
+      "isWorldDropPresent": false
+    },
+    "Inner Sanctum": {
+      "baseItems": ["Soul Stone"],
+      "events": [],
+      "isWorldDropPresent": false
+    },
+    "Colosseum of Ruin": {
+      "baseItems": ["Amplitude", "Conflux Prism"],
+      "events": [],
+      "isWorldDropPresent": false
+    },
+    "Fractured Ingress": {
+      "baseItems": [
+        "Polygun",
+        "Cipher Rod",
+        "Shard Banded Ring",
+        "Energized Neck Coil",
+        "Vengeful Strike",
+        "Labyrinth Staff",
+        "Reprocessed Heart",
+        "Dense Silicon Ring",
+        "Encrypted Ring"
+      ],
+      "events": [],
+      "isWorldDropPresent": false
+    },
+    "Entangled Gauntlet": {
+      "baseItems": ["Runed Heart"],
+      "events": [],
+      "isWorldDropPresent": false
+    }
+  },
+  "events": {}
+}

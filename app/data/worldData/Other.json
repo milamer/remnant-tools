@@ -1,0 +1,64 @@
+{
+  "name": "Other",
+
+  "locations": {
+    "Special": {
+      "baseItems": ["Participation Medal", "Revivalist"],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Aberration": {
+      "baseItems": [
+        "Bottom Feeder",
+        "Bottom Heavy",
+        "Edgelord",
+        "Ingenuity",
+        "Kill Switch",
+        "Latency",
+        "Opportunist",
+        "Sequenced Shot",
+        "Shocker",
+        "Spirit Feeder",
+        "Spirit Healer",
+        "Stormbringer",
+        "Top Heavy"
+      ],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Deluxe/Ultimate Edition": {
+      "baseItems": [
+        "Elder Headdress",
+        "Radiant Visage",
+        "Void Skull",
+        "Elder Raiment",
+        "Radiant Protector",
+        "Void Carapace",
+        "Elder Leggings",
+        "Radiant Greaves",
+        "Void Greaves",
+        "Elder Gloves",
+        "Radiant Bracers",
+        "Void Wraps"
+      ],
+      "isWorldDropPresent": false,
+      "events": []
+    },
+    "Default Equipment": {
+      "baseItems": [
+        "Rusty Lever Action",
+        "Rusty Repeater",
+        "Survivor Gloves",
+        "Survivor Leggings",
+        "Survivor Overcoat",
+        "Endurance",
+        "Expertise",
+        "Spirit",
+        "Vigor"
+      ],
+      "isWorldDropPresent": false,
+      "events": []
+    }
+  },
+  "events": {}
+}

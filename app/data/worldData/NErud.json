@@ -1,24 +1,30 @@
 {
   "name": "N'Erud",
-  "worldDrops": [
-    "Stone of Expanse",
-    "Feedback Loop",
-    "Defensive Action Loop",
-    "Vacuum Seal",
-    "Targeting Jewel",
-    "Point Focus Ring",
-    "Ring of Restocking",
-    "Conservation Seal",
-    "Deep Pocket Ring",
-    "Reserve Boosting Gem",
-    "A'Taerii Booster",
-    "Power Complex",
-    "Emergency Switch",
-    "Kinetic Shield Exchanger",
-    "Inert Overcharger",
-    "Legacy Protocol"
-  ],
+
   "locations": {
+    "World Drops": {
+      "baseItems": [
+        "Stone of Expanse",
+        "Feedback Loop",
+        "Defensive Action Loop",
+        "Vacuum Seal",
+        "Targeting Jewel",
+        "Point Focus Ring",
+        "Ring of Restocking",
+        "Conservation Seal",
+        "Deep Pocket Ring",
+        "Reserve Boosting Gem",
+        "A'Taerii Booster",
+        "Power Complex",
+        "Emergency Switch",
+        "Kinetic Shield Exchanger",
+        "Inert Overcharger",
+        "Legacy Protocol",
+        "Zero Divide"
+      ],
+      "isWorldDropPresent": false,
+      "events": []
+    },
     "Phantom Wasteland": {
       "baseItems": ["Embrace of Sha'Hala"],
       "isWorldDropPresent": true,
@@ -74,7 +80,7 @@
     "Ascension Spire": {
       "baseItems": [],
       "isWorldDropPresent": false,
-      "events": []
+      "events": ["Ascension Spire"]
     },
     "Astropath's Respíte": {
       "baseItems": ["Rusted Navigator's Pendant", "Seeker Residue"],
@@ -207,7 +213,11 @@
         "Microcompressor",
         "Meteorite Shard Ring",
         "Burden of the Mariner",
-        "Suppression Ward"
+        "Suppression Ward",
+        "Void Idol",
+        "Siphon Heart",
+        "Closed Loop",
+        "Ring Of Ordnance"
       ]
     },
 

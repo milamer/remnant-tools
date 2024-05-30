@@ -6,7 +6,12 @@ import {
   useLoaderData,
   useSearchParams,
 } from '@remix-run/react';
-import { CompassIcon, DatabaseIcon, UploadIcon } from 'lucide-react';
+import {
+  CompassIcon,
+  DatabaseIcon,
+  LoaderCircleIcon,
+  UploadIcon,
+} from 'lucide-react';
 import { Button } from '~/lib/components/ui/button';
 import {
   Dialog,
@@ -41,15 +46,22 @@ function UpdateDatabaseButton() {
   const fetcher = useFetcher();
   return (
     <fetcher.Form method="post" action="/update-world">
-      <Button
-        type="submit"
-        className="rounded-full"
-        size="icon"
-        variant="ghost"
-      >
-        <DatabaseIcon className="h-5 w-5" />
-        <span className="sr-only">Update Database</span>
-      </Button>
+      {fetcher.state === 'idle' ? (
+        <Button
+          type="submit"
+          className="rounded-full"
+          size="icon"
+          variant="ghost"
+        >
+          <DatabaseIcon className="h-5 w-5" />
+          <span className="sr-only">Update Database</span>
+        </Button>
+      ) : (
+        <div className="rounded-full">
+          <LoaderCircleIcon className="h-5 w-5 animate-spin" />
+          <span className="sr-only">Update Database</span>
+        </div>
+      )}
     </fetcher.Form>
   );
 }

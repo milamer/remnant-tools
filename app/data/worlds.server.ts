@@ -5,7 +5,6 @@ const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
 export type WorldData = {
   name: World;
-  worldDrops: Array<string>;
   locations: {
     [locationName: string]: {
       baseItems: Array<string>;
@@ -29,13 +28,16 @@ export function getWorldFilename(world: World) {
 }
 
 export enum World {
-  Yaesha = 'Yaesha',
+  Ward13 = 'Ward 13',
+
   NErud = "N'Erud",
+  Yaesha = 'Yaesha',
   Losomn = 'Losomn',
 
-  Ward13 = 'Ward 13',
-  Labyrinth = 'Labyrinth',
+  Labyrinth = 'The Labyrinth',
   RootEarth = 'Root Earth',
+
+  Other = 'Other',
 }
 
 export async function getWorld(world: World) {

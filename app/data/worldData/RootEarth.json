@@ -1,0 +1,52 @@
+{
+  "name": "Root Earth",
+  "locations": {
+    "World Drops": {
+      "baseItems": ["Reaping Stone", "Escalation Protocol"],
+      "events": [],
+      "isWorldDropPresent": false
+    },
+
+    "Ashen Wasteland": {
+      "baseItems": [
+        "Hellfire",
+        "Steel Katana",
+        "Dendroid Chest",
+        "Dendroid Mask",
+        "Dendroid Grips",
+        "Dendroid Leggings",
+        "Dying Ember",
+        "Haymaker's Ring",
+        "Zania's Malice",
+        "Ankh of Power",
+        "Necrocyte Strand",
+        "Resonating Heart",
+        "Handling"
+      ],
+      "events": [],
+      "isWorldDropPresent": true
+    },
+    "Corrupted Harbor": {
+      "baseItems": [
+        "Decayed Claws",
+        "Flyweight's Sting",
+        "Flyweight's Sting",
+        "Kinetic Cycle Stone",
+        "Probability Cord",
+        "Dread Core",
+        "Decayed Heart",
+        "Supercharger",
+        "Wooden Shiv",
+        "Chakra"
+      ],
+      "events": [],
+      "isWorldDropPresent": true
+    },
+    "Blackened Citadel": {
+      "baseItems": ["Forgotten Memory", "Broken Compass", "Scholar"],
+      "events": [],
+      "isWorldDropPresent": false
+    }
+  },
+  "events": {}
+}

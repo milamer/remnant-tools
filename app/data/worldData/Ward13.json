@@ -1,6 +1,5 @@
 {
   "name": "Ward 13",
-  "worldDrops": [],
   "locations": {
     "Whispers": {
       "baseItems": [
@@ -23,9 +22,9 @@
         "High Noon Armguards",
         "Anastasija's Inspiration",
         "Bandit's Mask",
-        "Bandit's Jacket",
-        "Bandit's Trousers",
-        "Bandit's Gloves",
+        "Bandit Jacket",
+        "Bandit Trousers",
+        "Bandit Gloves",
         "Cultist Hat",
         "Cultist Duster",
         "Cultist Britches",
@@ -41,7 +40,11 @@
         "Realmwalker Beret",
         "Realmwalker Tunic",
         "Realmwalker Pantaloons",
-        "Realmwalker Gloves"
+        "Realmwalker Gloves",
+        "Leto Mark 1 Armor",
+        "Leto Mark 1 Gloves",
+        "Leto Mark 1 Helmet",
+        "Leto Mark 1 Leggings"
       ],
       "isWorldDropPresent": false,
       "events": []
@@ -98,9 +101,8 @@
         "Feedback",
         "Harmonizer",
         "Resentment",
-        "Shield Breaker",
+        "Shielded Strike",
         "Slayer",
-        "Weapon Lord",
         "Battle Mage",
         "Corrupted Arbalest",
         "Corrupted Savior",
@@ -144,7 +146,7 @@
         "Merciless",
         "Stonebreaker",
         "Spectral Blade",
-        "Tal'Ratha Hammer",
+        "Gas Giant",
         "Cube Gun",
         "Voltaic Rondure",
         "Firestorm",
@@ -155,13 +157,11 @@
         "Bore",
         "Prismatic Driver",
         "Fargazer",
-        "Rootlash",
         "Rotted Arrow",
         "Corrosive Rounds",
         "Witchfire",
         "Blood Draw",
         "Familiar",
-        "Root Blades",
         "Twisted Arbalest",
         "Feral Judgement",
         "Red Doe Staff",
@@ -172,7 +172,17 @@
         "Alpha-Omega",
         "Creeping Mist",
         "Ring Of Spears",
-        "Wrathbringer"
+        "Wrathbringer",
+        "Abrasive Rounds",
+        "Flying Bomb Trap",
+        "Twisted Arbalest",
+        "Heatwave",
+        "Knight Guard",
+        "Monarch",
+        "Monolith",
+        "Thorn",
+        "Mirage",
+        "Anguish"
       ],
       "isWorldDropPresent": false,
       "events": []
@@ -182,7 +192,8 @@
         "Old Whistle",
         "Gunslinger's Ring",
         "Gunslinger's Charm",
-        "Mudtooth's Hat"
+        "Mudtooth's Hat",
+        "Worn Cylinder"
       ],
       "isWorldDropPresent": false,
       "events": []
@@ -199,7 +210,7 @@
         "Provisioner Ring",
         "Band of Accord",
         "Black Cat Band",
-        "Bright Steel Ring",
+        "Dull Steel Ring",
         "Devoured Loop",
         "Butcher's Fetish",
         "Onyx Pendulum",
@@ -215,15 +226,20 @@
     "Wallace": {
       "baseItems": [
         "Orb of Undoing",
+
+        "Caduceus Idol",
+        "Cursed Effigy",
+        "Drzyr Caliper",
+        "Golden Compass",
+        "Hexahedron",
+        "Iron Cylinder",
         "Philosopher's Stone",
         "Steel Enswell",
-        "Golden Compass",
-        "Iron Cylinder",
         "Sniper War Medal",
         "Silent Whistle",
-        "Caduceus Idol",
-        "Tome of The Bringer",
-        "Cursed Effigy"
+        "Spirit Flute",
+        "Serrated Root Blade",
+        "Tome of The Bringer"
       ],
       "isWorldDropPresent": false,
       "events": []

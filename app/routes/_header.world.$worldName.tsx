@@ -25,8 +25,9 @@ export default function World() {
 
   const [input, setInput] = useState('');
   const filteredLocations = useMemo(() => {
-    if (!input) return Object.entries(world.locations);
-    return Object.entries(world.locations).filter(([locationName]) =>
+    const locations = Object.entries(world.locations);
+    if (!input) return locations;
+    return locations.filter(([locationName]) =>
       locationName.toLowerCase().includes(input.toLowerCase()),
     );
   }, [input, world.locations]);
@@ -37,29 +38,14 @@ export default function World() {
       </h1>
       <div className="flex h-[calc(100%-theme('spacing.10'))] gap-4 border border-accent py-4">
         <ScrollArea className="h-full w-full">
-          <div className="sticky top-0 px-4 pb-4 pt-2">
-            <Input value={input} onChange={(e) => setInput(e.target.value)} />
+          <div className="sticky top-0 bg-card px-4 pb-4 pt-2">
+            <Input
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              className="bg-accent"
+            />
           </div>
           <div className="flex h-full flex-col gap-2 p-4 pt-0">
-            <NavLink
-              to={`location/${encodeURIComponent('World Drops')}`}
-              className={({ isActive }) =>
-                cn(
-                  `flex flex-col items-start gap-2 rounded-lg border p-3 text-left text-sm
-                  transition-all hover:bg-primary-foreground`,
-                  isActive && 'bg-primary-foreground',
-                )
-              }
-            >
-              <div className="flex w-full flex-col gap-1">
-                <div className="flex items-center">
-                  <div className="flex items-center gap-2">
-                    <div className="font-semibold">World Drops:</div>
-                    <span>{world.worldDrops.length}</span>
-                  </div>
-                </div>
-              </div>
-            </NavLink>
             {filteredLocations.map(([locationName, location]) => {
               const locationProgress =
                 character?.worlds[world.name]?.locations[locationName];

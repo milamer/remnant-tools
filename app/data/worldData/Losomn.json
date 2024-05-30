@@ -1,31 +1,39 @@
 {
   "name": "Losomn",
-  "worldDrops": [
-    "Fae Shaman Ring",
-    "Fae Bruiser Ring",
-    "Fae Warrior Ring",
-    "Fae Hunter Ring",
-    "Alchemy Stone",
-    "Stone of Malevolence",
-    "Ring of the Robust",
-    "Booster Ring",
-    "Stream Coupler",
-    "Dread Font",
-    "Dried Clay Ring",
-    "Painless Obsidian",
-    "Ring of the Vain",
-    "Wood Ring",
-    "Offering Stone",
-    "Red Ring of Death",
-    "Shadow of Misery",
-    "Weightless Weight",
-    "Chains of Amplification",
-    "Indignant Fetish",
-    "Whispering Marble",
-    "Birthright of the Lost",
-    "Brewmaster's Cork"
-  ],
+
   "locations": {
+    "World Drops": {
+      "baseItems": [
+        "Fae Shaman Ring",
+        "Fae Bruiser Ring",
+        "Fae Warrior Ring",
+        "Fae Hunter Ring",
+        "Alchemy Stone",
+        "Stone of Malevolence",
+        "Ring of the Robust",
+        "Booster Ring",
+        "Stream Coupler",
+        "Dread Font",
+        "Dried Clay Ring",
+        "Painless Obsidian",
+        "Ring of the Vain",
+        "Wood Ring",
+        "Offering Stone",
+        "Red Ring of Death",
+        "Shadow of Misery",
+        "Weightless Weight",
+        "Chains of Amplification",
+        "Indignant Fetish",
+        "Whispering Marble",
+        "Birthright of the Lost",
+        "Brewmaster's Cork",
+        "Magnifying Glass",
+        "Black Spinel",
+        "Leaking Gemstone"
+      ],
+      "isWorldDropPresent": false,
+      "events": []
+    },
     "Brocwithe Quarter": {
       "baseItems": [],
       "isWorldDropPresent": true,
@@ -47,7 +55,9 @@
         "Hex Ward",
         "Nimue's Ribbon",
         "One True King Sigil",
-        "Tranquil Heart"
+        "Tranquil Heart",
+        "True Crimson Crown",
+        "Rune Pistol"
       ],
       "isWorldDropPresent": false,
       "events": []
@@ -343,7 +353,8 @@
         "Academic's Trousers",
         "Academic's Overcoat",
         "Academic's Gloves",
-        "Drakestone Pearl"
+        "Drakestone Pearl",
+        "Mysterious Stone"
       ]
     },
 
