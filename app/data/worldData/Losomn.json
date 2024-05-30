@@ -29,6 +29,10 @@
           "injectables": ["Oracle's Refuge", "Hewdas Clock", "Briella's Garden"]
         },
         {
+          "name": "Manticora",
+          "injectables": ["Monster in the Drain"]
+        },
+        {
           "name": "World Drops",
           "injectables": ["Losomn: World Drops"]
         }
@@ -473,9 +477,12 @@
             "Locked Safe",
             "Flooding Sewer",
             "Fae Hunting Party",
-            "Traitor's Pit",
-            "Monster in the Drain"
+            "Traitor's Pit"
           ]
+        },
+        {
+          "name": "Manticora",
+          "injectables": ["Monster in the Drain"]
         },
         {
           "name": "World Drops",
@@ -495,9 +502,12 @@
             "Locked Safe",
             "Flooding Sewer",
             "Fae Hunting Party",
-            "Traitor's Pit",
-            "Monster in the Drain"
+            "Traitor's Pit"
           ]
+        },
+        {
+          "name": "Manticora",
+          "injectables": ["Monster in the Drain"]
         },
         {
           "name": "World Drops",
@@ -517,9 +527,12 @@
             "Locked Safe",
             "Flooding Sewer",
             "Fae Hunting Party",
-            "Traitor's Pit",
-            "Monster in the Drain"
+            "Traitor's Pit"
           ]
+        },
+        {
+          "name": "Manticora",
+          "injectables": ["Monster in the Drain"]
         },
         {
           "name": "World Drops",
@@ -539,9 +552,12 @@
             "Locked Safe",
             "Flooding Sewer",
             "Fae Hunting Party",
-            "Traitor's Pit",
-            "Monster in the Drain"
+            "Traitor's Pit"
           ]
+        },
+        {
+          "name": "Manticora",
+          "injectables": ["Monster in the Drain"]
         },
         {
           "name": "World Drops",

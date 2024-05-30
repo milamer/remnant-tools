@@ -1,0 +1,32 @@
+version: '3.8'
+
+x-healthcheck-defaults: &healthcheck-defaults
+  interval: 30s
+  timeout: 5s
+  retries: 10
+
+x-logging-defaults: &logging-defaults
+  driver: 'json-file'
+  options:
+    max-size: '10m'
+    max-file: '5'
+
+networks:
+  caddy:
+    external: true
+
+services:
+  web:
+    build:
+      context: ../
+      dockerfile: Dockerfile
+    restart: always
+    networks:
+      - caddy
+    expose:
+      - 3000
+    healthcheck:
+      test: 'node -e "fetch(''http://127.0.0.1:3000'',{method:''HEAD''}).then(res=>process.exit(res.ok?0:1)).catch(()=>process.exit(1));"'
+      <<: *healthcheck-defaults
+    logging:
+      <<: *logging-defaults

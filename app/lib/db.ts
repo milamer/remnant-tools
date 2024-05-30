@@ -11,7 +11,7 @@ const CollectedStatusSchema = z.enum(['Collected', 'Uncollected', 'Uncrafted']);
 export type CollectedStatus = z.infer<typeof CollectedStatusSchema>;
 
 const CharacterLocationSchema = z.object({
-  bonusProgress: z.tuple([z.number(), z.number()]),
+  bonusProgress: z.record(z.string(), z.tuple([z.number(), z.number()])),
   baseProgress: z.tuple([z.number(), z.number()]),
 });
 type CharacterLocation = z.infer<typeof CharacterLocationSchema>;
@@ -93,16 +93,29 @@ function updateCharacterWithWorlds(character: Character): Character {
     };
 
     for (const [locationName, location] of Object.entries(world.locations)) {
+      const locationProgress: Record<string, [number, number]> = {};
+
+      for (const injectableGroup of location.injectables ?? []) {
+        let totalCollectibles = 0;
+        let collectedCollectibles = 0;
+        for (const injectable of injectableGroup.injectables) {
+          for (const collectible of world.injectables[injectable]
+            ?.collectibles ?? []) {
+            totalCollectibles++;
+            if (character.collectibles[collectible] === 'Collected') {
+              collectedCollectibles++;
+            }
+          }
+        }
+        locationProgress[injectableGroup.name] = [
+          collectedCollectibles,
+          totalCollectibles,
+        ];
+      }
+
       const characterLocation: CharacterLocation = {
         baseProgress: [0, location.collectibles.length],
-        bonusProgress: [
-          0,
-          // location.events.reduce(
-          //   (sum, event) => sum + (world.events[event]?.items.length ?? 0),
-          //   0,
-          // ),
-          0,
-        ],
+        bonusProgress: locationProgress,
       };
       for (const collectible of location.collectibles) {
         characterWorld.collectibleProgress[1]++;
@@ -111,14 +124,6 @@ function updateCharacterWithWorlds(character: Character): Character {
           characterLocation.baseProgress[0]++;
         }
       }
-      // for (const event of location.events) {
-      //   const eventItems = world.events[event]?.items ?? [];
-      //   for (const eventItem of eventItems) {
-      //     if (character.collectibles[eventItem] === 'Collected') {
-      //       characterLocation.bonusProgress[0]++;
-      //     }
-      //   }
-      // }
 
       if (
         characterLocation.baseProgress[0] ===
@@ -132,15 +137,15 @@ function updateCharacterWithWorlds(character: Character): Character {
       characterWorld.locations[locationName] = characterLocation;
     }
 
-    // for (const event of Object.values(world.events)) {
-    //   const eventItems = event.items;
-    //   for (const eventItem of eventItems) {
-    //     characterWorld.collectibleProgress[1]++;
-    //     if (character.collectibles[eventItem] === 'Collected') {
-    //       characterWorld.collectibleProgress[0]++;
-    //     }
-    //   }
-    // }
+    for (const injectable of Object.values(world.injectables)) {
+      const injectableCollectible = injectable.collectibles;
+      for (const eventItem of injectableCollectible) {
+        characterWorld.collectibleProgress[1]++;
+        if (character.collectibles[eventItem] === 'Collected') {
+          characterWorld.collectibleProgress[0]++;
+        }
+      }
+    }
 
     characterWorld.totalProgress = Math.round(
       (characterWorld.collectibleProgress[0] * 100) /
@@ -219,6 +224,8 @@ export function loadFromLocalStorage() {
   if (db.success) {
     return db.data;
   }
+  console.error('Failed to parse local storage data');
+  console.error(db.error);
   return null;
 }
 

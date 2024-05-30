@@ -69,11 +69,16 @@ export default function World() {
                           Base:{' '}
                           {locationProgress?.baseProgress.join('/') ?? 'N/A'}
                         </span>
-                        <span>
-                          Bonus:{' '}
-                          {locationProgress?.bonusProgress.join('/') ?? 'N/A'}
-                        </span>
-                        {!location.isWorldDropPresent ? (
+                        {Object.entries(
+                          locationProgress?.bonusProgress ?? {},
+                        ).map(([key, value]) => (
+                          <span>
+                            {key}: {value.join('/')}
+                          </span>
+                        ))}
+                        {!location.injectables?.some(
+                          (injectable) => injectable.name === 'World Drops',
+                        ) ? (
                           <div className="h-6 w-6" />
                         ) : (
                           <SparklesIcon className="h-6 w-6" />
