@@ -1,12 +1,13 @@
-import fs from 'fs';
-import path from 'path';
-import { Collectible } from './types';
+import { z } from 'zod';
+import data from './collectibles/all.json';
+import { collectibleSchema } from './types';
 
-const __dirname = path.dirname(new URL(import.meta.url).pathname);
+const collectiblesFileSchema = z.object({
+  collectibles: z.array(collectibleSchema),
+});
+
+const { collectibles } = collectiblesFileSchema.parse(data);
 
 export function getCollectibles() {
-  const { collectibles } = JSON.parse(
-    fs.readFileSync(path.join(__dirname, 'collectibles', 'all.json'), 'utf-8'),
-  ) as { collectibles: Array<Collectible> };
   return collectibles;
 }

@@ -12,17 +12,17 @@ x-logging-defaults: &logging-defaults
     max-file: '5'
 
 networks:
-  caddy:
+  outside:
     external: true
 
 services:
   web:
     build:
       context: ../
-      dockerfile: Dockerfile
+      dockerfile: ./deploy/Dockerfile
     restart: always
     networks:
-      - caddy
+      - outside
     expose:
       - 3000
     healthcheck:

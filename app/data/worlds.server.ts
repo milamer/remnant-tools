@@ -1,22 +1,48 @@
-import fs from 'fs';
-import path from 'path';
-import { World, WorldName } from './types';
+import { z } from 'zod';
+import { World, WorldName, worldSchema } from './types';
+const data = import.meta.glob('./worldData/*.json');
 
-const __dirname = path.dirname(new URL(import.meta.url).pathname);
+function worldNameToFileName(worldName: WorldName): string {
+  return worldName.replaceAll(/[^a-zA-Z0-9]/g, '');
+}
 
-export function getWorldFilename(world: WorldName) {
-  return path.join(
-    __dirname,
-    'worldData',
-    `${world.replaceAll(/[^a-zA-Z0-9]/g, '')}.json`,
+function fileNameToWorldName(fileName: string): WorldName | null {
+  return (
+    Object.values(WorldName).find(
+      (worldName) => fileName === worldNameToFileName(worldName),
+    ) ?? null
   );
 }
 
-export async function getWorld(world: WorldName) {
-  const filename = getWorldFilename(world);
-  const isWorldFilePresent = fs.existsSync(filename);
-  if (!isWorldFilePresent) {
-    throw new Error(`World file not found: ${filename}`);
+const moduleSchema = z.object({
+  default: worldSchema,
+});
+
+async function loadJsonData() {
+  const jsonData = {} as Record<WorldName, World>;
+
+  for (const [path, loadModule] of Object.entries(data)) {
+    const jsonModule = await loadModule();
+    const key = path.replace('./worldData/', '').replace('.json', '');
+
+    const worldName = fileNameToWorldName(key);
+    if (!worldName) continue;
+
+    const worldData = moduleSchema.safeParse(jsonModule);
+
+    if (!worldData.success) {
+      console.error(`Invalid data for world ${worldName} at path ${path}`);
+      continue;
+    }
+
+    jsonData[worldName] = worldData.data.default;
   }
-  return JSON.parse(fs.readFileSync(filename, 'utf-8')) as World;
+
+  return jsonData;
+}
+
+const worldData = loadJsonData();
+
+export async function getWorld(world: WorldName) {
+  return (await worldData)[world];
 }
