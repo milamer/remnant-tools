@@ -8,19 +8,21 @@ import {
   CardTitle,
 } from '~/lib/components/ui/card';
 import { getCharacter, getWorlds } from '~/lib/db';
+import worldstoneUrl from '~/assets/worldstone.png';
 import nightweaverUrl from '~/assets/nighweaver.png';
 import queenUrl from '~/assets/queen.png';
 import keeperUrl from '~/assets/keeper.png';
 import kingUrl from '~/assets/king.png';
+import lydusaUrl from '~/assets/lydusa.png';
 
 const worldToImage: Record<string, string> = {
-  'Ward 13': keeperUrl,
+  'Ward 13': worldstoneUrl,
   Labyrinth: keeperUrl,
   'Root Earth': keeperUrl,
 
   'Eternal Empress': queenUrl,
   Ravager: keeperUrl,
-  'Forgotten Kingdom': keeperUrl,
+  'Forgotten Kingdom': lydusaUrl,
 
   'Imposter King': keeperUrl,
   Nightweaver: nightweaverUrl,
