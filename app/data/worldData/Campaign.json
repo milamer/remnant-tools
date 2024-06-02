@@ -1,7 +1,86 @@
 {
   "$schema": "./_schema.json",
-  "name": "Ward 13",
+  "name": "Campaign",
+  "mainColor": "hsl(0, 68%, 42%)",
+  "storylines": [
+    {
+      "name": "Ward 13",
+      "mainColor": "hsl(0, 68%, 22%)",
+      "locations": [
+        "Whispers",
+        "Brabus",
+        "Dr. Norah",
+        "Dwell",
+        "McCabe",
+        "Mudtooth",
+        "Reggie",
+        "Wallace",
+        "Cass",
+        "Ward 13"
+      ]
+    },
+    {
+      "name": "Labyrinth",
+      "mainColor": "hsl(275, 66%, 22%)",
+      "locations": [
+        "The Backrooms",
+        "Inner Sanctum",
+        "Colosseum of Ruin",
+        "Fractured Ingress",
+        "Entangled Gauntlet"
+      ]
+    },
+    {
+      "name": "Root Earth",
+      "mainColor": "#221122",
+      "locations": ["Ashen Wasteland", "Corrupted Harbor", "Blackened Citadel"]
+    }
+  ],
   "locations": {
+    "The Backrooms": {
+      "name": "The Backrooms",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Backrooms", "/The%20Backrooms"],
+      "collectibles": [
+        "Strange Box",
+        "Bisected Ring",
+        "Gunfire Security Lanyard"
+      ]
+    },
+    "Inner Sanctum": {
+      "name": "Inner Sanctum",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Inner%20Sanctum", "/Inner%20Sanctum"],
+      "collectibles": ["Soul Stone"]
+    },
+    "Colosseum of Ruin": {
+      "name": "Colosseum of Ruin",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Colosseum%20of%20Ruin", "/Colosseum%20of%20Ruin"],
+      "collectibles": ["Amplitude", "Conflux Prism"]
+    },
+    "Fractured Ingress": {
+      "name": "Fractured Ingress",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Fractured%20Ingress", "/Fractured%20Ingress"],
+      "collectibles": [
+        "Polygun",
+        "Cipher Rod",
+        "Shard Banded Ring",
+        "Energized Neck Coil",
+        "Vengeful Strike",
+        "Labyrinth Staff",
+        "Reprocessed Heart",
+        "Dense Silicon Ring",
+        "Encrypted Ring"
+      ]
+    },
+    "Entangled Gauntlet": {
+      "name": "Entangled Gauntlet",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Entangled%20Gauntlet", "/Entangled%20Gauntlet"],
+      "collectibles": ["Runed Heart"]
+    },
     "Whispers": {
       "name": "Whispers",
       "addedIn": "Remnant 2",
@@ -122,6 +201,7 @@
         "Corrupted Meridian",
         "Corrupted Rune Pistol",
         "Shielded Strike",
+        "Trinity Memento",
         "Weaponlord",
         "Fetid Wounds",
         "Tainted Blade",
@@ -279,10 +359,10 @@
         "Enlarged Heart"
       ]
     },
-    "World": {
-      "name": "World",
+    "Ward 13": {
+      "name": "Ward 13",
       "addedIn": "Remnant 2",
-      "wikiLinks": ["/World", "/World"],
+      "wikiLinks": ["/Ward 13", "/Ward 13"],
       "collectibles": [
         "Chicago Typewriter",
         "MP60-R",
@@ -294,7 +374,72 @@
         "Dragon Heart",
         "Ripened Heart"
       ]
+    },
+    "Ashen Wasteland": {
+      "name": "Ashen Wasteland",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Ashen%20Wasteland", "/Ashen%20Wasteland"],
+      "collectibles": [
+        "Hellfire",
+        "Steel Katana",
+        "Dendroid Chest",
+        "Dendroid Mask",
+        "Dendroid Grips",
+        "Dendroid Leggings",
+        "Dying Ember",
+        "Haymaker's Ring",
+        "Zania's Malice",
+        "Ankh of Power",
+        "Necrocyte Strand",
+        "Resonating Heart",
+        "Handling"
+      ],
+      "injectables": [
+        {
+          "name": "World Drops",
+          "injectables": ["Root Earth: World Drops"]
+        }
+      ]
+    },
+    "Corrupted Harbor": {
+      "name": "Corrupted Harbor",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Corrupted%20Harbor", "/Corrupted%20Harbor"],
+      "collectibles": [
+        "Decayed Claws",
+        "Flyweight's Sting",
+        "Flyweight's Sting",
+        "Kinetic Cycle Stone",
+        "Probability Cord",
+        "Dread Core",
+        "Decayed Heart",
+        "Supercharger",
+        "Wooden Shiv",
+        "Chakra"
+      ],
+      "injectables": [
+        {
+          "name": "World Drops",
+          "injectables": ["Root Earth: World Drops"]
+        }
+      ]
+    },
+    "Blackened Citadel": {
+      "name": "Blackened Citadel",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Blackened%20Citadel", "/Blackened%20Citadel"],
+      "collectibles": ["Forgotten Memory", "Broken Compass", "Scholar"]
     }
   },
-  "injectables": {}
+  "injectables": {
+    "Root Earth: World Drops": {
+      "name": "Root Earth: World Drops",
+      "collectibles": ["Reaping Stone", "Escalation Protocol"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": [
+        "/Root%20Earth%3A%20World%20Drops",
+        "/Root%20Earth%3A%20World%20Drops"
+      ]
+    }
+  }
 }

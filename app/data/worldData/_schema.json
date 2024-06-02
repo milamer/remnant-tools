@@ -4,15 +4,31 @@
   "properties": {
     "name": {
       "type": "string",
-      "enum": [
-        "Ward 13",
-        "N'Erud",
-        "Yaesha",
-        "Losomn",
-        "The Labyrinth",
-        "Root Earth",
-        "Other"
-      ]
+      "enum": ["Campaign", "N'Erud", "Yaesha", "Losomn", "Other"]
+    },
+    "mainColor": {
+      "type": "string"
+    },
+    "storylines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "mainColor": {
+            "type": "string"
+          },
+          "locations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": ["name", "mainColor", "locations"]
+      }
     },
     "locations": {
       "type": "object",

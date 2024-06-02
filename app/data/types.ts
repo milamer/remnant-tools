@@ -19,8 +19,6 @@ export enum CollectibleType {
   // Skill, Perk, Consumable, QuestItem
 }
 
-type WikiLinks = [string | null, string | null];
-
 const wikiLinksSchema = z.tuple([z.string().nullable(), z.string().nullable()]);
 
 export enum GameDLC {
@@ -69,22 +67,27 @@ export const locationSchema = z.object({
 export type Location = z.infer<typeof locationSchema>;
 
 export enum WorldName {
-  Ward13 = 'Ward 13',
+  Campaign = 'Campaign',
 
   NErud = "N'Erud",
   Yaesha = 'Yaesha',
   Losomn = 'Losomn',
-
-  Labyrinth = 'The Labyrinth',
-  RootEarth = 'Root Earth',
 
   Other = 'Other',
 }
 
 export const worldSchema = z.object({
   name: z.nativeEnum(WorldName),
+  mainColor: z.string(),
   locations: z.record(locationSchema),
   injectables: z.record(injectableSchema),
+  storylines: z.array(
+    z.object({
+      name: z.string(),
+      mainColor: z.string(),
+      locations: z.array(z.string()),
+    }),
+  ),
 });
 export type World = z.infer<typeof worldSchema>;
 

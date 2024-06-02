@@ -1,6 +1,100 @@
 {
   "$schema": "./_schema.json",
   "name": "Losomn",
+  "mainColor": "#666611",
+  "storylines": [
+    {
+      "name": "Imposter King",
+      "mainColor": "hsl(240, 50%, 30%)",
+      "locations": [
+        "Beatific Gallery",
+        "Malefic Gallery",
+        "Beatific Palace",
+        "Malefic Palace",
+        "Brocwithe Quarter",
+        "Ironborough",
+        "Nimue's Retreat",
+
+        "Council Chamber",
+        "Gilded Chambers",
+        "Postulant's Parlor",
+        "Glistering Cloister",
+        "Walk of Remembrance",
+        "Council Tribunal",
+        "Shattered Gallery",
+        "The Great Hall",
+        "Pathway of the Fallen",
+        "Butcher's Quarter",
+        "Cotton's Kiln",
+        "Lemark District",
+        "Sunken Haunt",
+        "Derelict Lighthouse",
+        "Harvester's Reach",
+        "The Great Sewers",
+        "Tiller's Rest",
+        "The Forgotten Commune"
+      ]
+    },
+    {
+      "name": "Nightweaver",
+      "mainColor": "hsl(270, 40%, 20%)",
+      "locations": [
+        "Morrow Parish",
+        "Forsaken Quarter",
+        "Tormented Asylum",
+        "Nimue's Retreat",
+
+        "Council Chamber",
+        "Gilded Chambers",
+        "Postulant's Parlor",
+        "Glistering Cloister",
+        "Walk of Remembrance",
+        "Council Tribunal",
+        "Shattered Gallery",
+        "The Great Hall",
+        "Pathway of the Fallen",
+        "Butcher's Quarter",
+        "Cotton's Kiln",
+        "Lemark District",
+        "Sunken Haunt",
+        "Derelict Lighthouse",
+        "Harvester's Reach",
+        "The Great Sewers",
+        "Tiller's Rest",
+        "The Forgotten Commune"
+      ]
+    },
+    {
+      "name": "The One True King",
+      "mainColor": "hsl(300, 50%, 20%)",
+      "locations": [
+        "Forlorn Coast",
+        "Palace of the One True King",
+        "Chamber of the Faithless",
+        "Drowned Wen",
+        "Mournful Promenade",
+
+        "Council Chamber",
+        "Gilded Chambers",
+        "Postulant's Parlor",
+        "Glistering Cloister",
+        "Walk of Remembrance",
+        "Council Tribunal",
+        "Shattered Gallery",
+        "The Great Hall",
+        "Pathway of the Fallen",
+        "Butcher's Quarter",
+        "Cotton's Kiln",
+        "Lemark District",
+        "Sunken Haunt",
+        "Derelict Lighthouse",
+        "Harvester's Reach",
+        "The Great Sewers",
+        "Tiller's Rest",
+        "The Forgotten Commune"
+      ]
+    }
+  ],
   "locations": {
     "Brocwithe Quarter": {
       "name": "Brocwithe Quarter",
@@ -30,7 +124,7 @@
         },
         {
           "name": "Manticora",
-          "injectables": ["Monster in the Drain"]
+          "injectables": ["Monster in the Drain: Streets"]
         },
         {
           "name": "World Drops",
@@ -117,10 +211,10 @@
         }
       ]
     },
-    "The Tormented Asylum": {
-      "name": "The Tormented Asylum",
+    "Tormented Asylum": {
+      "name": "Tormented Asylum",
       "addedIn": "Remnant 2",
-      "wikiLinks": ["/The%20Tormented%20Asylum", "/The%20Tormented%20Asylum"],
+      "wikiLinks": ["/Tormented%20Asylum", "/Tormented%20Asylum"],
       "collectibles": [
         "Ring of Retribution",
         "Nightweaver's Grudge",
@@ -148,7 +242,6 @@
         "Zealot's Seaboots",
         "Zealot's Wraps",
         "Atonement Fold",
-        "Bitter Memento",
         "Bridge Warden's Crest",
         "Burden of the Sciolist",
         "Ring of Infinite Damage",
@@ -217,7 +310,7 @@
           "injectables": [
             "The Executioner Event",
             "The Flames Event",
-            "The Statues Event",
+            "The Statues Event: Golden",
             "The Mirror Hall"
           ]
         },
@@ -242,7 +335,7 @@
           "injectables": [
             "The Executioner Event",
             "The Flames Event",
-            "The Statues Event",
+            "The Statues Event: Golden",
             "The Mirror Hall",
             "Succession"
           ]
@@ -277,7 +370,7 @@
           "injectables": [
             "The Executioner Event",
             "The Flames Event",
-            "The Statues Event",
+            "The Statues Event: Golden",
             "The Mirror Hall"
           ]
         },
@@ -310,7 +403,7 @@
           "injectables": [
             "The Executioner Event",
             "The Flames Event",
-            "The Statues Event",
+            "The Statues Event: Shaed",
             "The Mirror Hall"
           ]
         },
@@ -337,7 +430,7 @@
           "injectables": [
             "The Executioner Event",
             "The Flames Event",
-            "The Statues Event",
+            "The Statues Event: Shaed",
             "The Mirror Hall"
           ]
         },
@@ -354,14 +447,19 @@
         "/Pathway%20of%20the%20Fallen",
         "/Pathway%20of%20the%20Fallen"
       ],
-      "collectibles": ["Gift of Melancholy", "Prophecy", "Cremated Soul Ash"],
+      "collectibles": [
+        "Gift of Melancholy",
+        "Prophecy",
+        "Cremated Soul Ash",
+        "Bitter Memento"
+      ],
       "injectables": [
         {
           "name": "Events",
           "injectables": [
             "The Executioner Event",
             "The Flames Event",
-            "The Statues Event",
+            "The Statues Event: Shaed",
             "The Mirror Hall"
           ]
         },
@@ -482,7 +580,7 @@
         },
         {
           "name": "Manticora",
-          "injectables": ["Monster in the Drain"]
+          "injectables": ["Monster in the Drain: Sewers"]
         },
         {
           "name": "World Drops",
@@ -507,7 +605,7 @@
         },
         {
           "name": "Manticora",
-          "injectables": ["Monster in the Drain"]
+          "injectables": ["Monster in the Drain: Sewers"]
         },
         {
           "name": "World Drops",
@@ -532,7 +630,7 @@
         },
         {
           "name": "Manticora",
-          "injectables": ["Monster in the Drain"]
+          "injectables": ["Monster in the Drain: Sewers"]
         },
         {
           "name": "World Drops",
@@ -557,7 +655,7 @@
         },
         {
           "name": "Manticora",
-          "injectables": ["Monster in the Drain"]
+          "injectables": ["Monster in the Drain: Sewers"]
         },
         {
           "name": "World Drops",
@@ -608,9 +706,15 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Flames%20Event", "/The%20Flames%20Event"]
     },
-    "The Statues Event": {
-      "name": "The Statues Event",
-      "collectibles": ["Silver Ribbon", "Golden Ribbon"],
+    "The Statues Event: Golden": {
+      "name": "The Statues Event: Golden",
+      "collectibles": ["Golden Ribbon"],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/The%20Statues%20Event", "/The%20Statues%20Event"]
+    },
+    "The Statues Event: Shaed": {
+      "name": "The Statues Even: Shaed",
+      "collectibles": ["Silver Ribbon"],
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Statues%20Event", "/The%20Statues%20Event"]
     },
@@ -629,6 +733,7 @@
     "Rookery": {
       "name": "Rookery",
       "collectibles": ["Cleansing Stone", "Effigy Pendant"],
+      "quest": ["Wooden Box -> Effigy Pendant"],
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Rookery", "/Rookery"]
     },
@@ -672,16 +777,24 @@
       "addedIn": "The Awakened King",
       "wikiLinks": ["/Traitor's%20Pit", "/Traitor's%20Pit"]
     },
-    "Monster in the Drain": {
-      "name": "Monster in the Drain",
+    "Monster in the Drain: Sewer": {
+      "name": "Monster in the Drain: Sewer",
       "collectibles": [
         "Academic's Hat",
         "Academic's Trousers",
         "Academic's Overcoat",
         "Academic's Gloves",
-        "Drakestone Pearl",
-        "Mysterious Stone"
+        "Drakestone Pearl"
       ],
+      "addedIn": "Remnant 2",
+      "wikiLinks": [
+        "/Monster%20in%20the%20Drain",
+        "/Monster%20in%20the%20Drain"
+      ]
+    },
+    "Monster in the Drain: Streets": {
+      "name": "Monster in the Drain: Streets",
+      "collectibles": ["Mysterious Stone"],
       "addedIn": "Remnant 2",
       "wikiLinks": [
         "/Monster%20in%20the%20Drain",

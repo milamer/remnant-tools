@@ -133,7 +133,7 @@ export default function Header() {
   return (
     <>
       <header
-        className="fixed flex h-16 w-full items-center justify-between border-b bg-gray-900 px-4
+        className="fixed flex h-16 w-full items-center justify-between border-b bg-card px-4
           text-gray-50 md:px-6"
       >
         <nav className="flex items-center gap-6">
@@ -141,8 +141,8 @@ export default function Header() {
             className="flex items-center gap-2 text-lg font-semibold"
             to="/"
           >
-            <CompassIcon className="h-6 w-6" />
-            <span>Remnant2 Progress Tracker</span>
+            <CompassIcon className="h-6 w-6 text-primary" />
+            <span>Remnant2 Tracker</span>
           </Link>
           <Link className="font-medium" to="/database">
             Database
@@ -196,7 +196,10 @@ export default function Header() {
         </div>
       </header>
       <div className="h-16" />
-      <main className="h-[calc(100vh-theme('spacing.16'))] overflow-y-auto p-4 md:p-10">
+      <main
+        className="mx-auto h-[calc(100vh-theme('spacing.16'))] max-w-screen-2xl overflow-y-auto p-4
+          md:p-10"
+      >
         <Outlet />
         <UploadSaveDialogContent />
       </main>

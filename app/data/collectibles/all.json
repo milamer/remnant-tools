@@ -68,7 +68,12 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Butcher's%20Fetish", "/Butcher's%20Fetish"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [
+        {
+          "name": "Veteran Clear"
+        }
+      ]
     },
     {
       "name": "Cervine Keepsake",
@@ -77,7 +82,12 @@
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Cervine%20Keepsake", "/Cervine%20Keepsake"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [
+        {
+          "name": "Red Doe Sigil"
+        }
+      ]
     },
     {
       "name": "Chains of Amplification",
@@ -107,7 +117,19 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Core%20Booster", "/Core%20Booster"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [
+        [
+          {
+            "name": "Memory Core II"
+          }
+        ],
+        [
+          {
+            "name": "Decorum Cipher"
+          }
+        ]
+      ]
     },
     {
       "name": "Cost of Betrayal",
@@ -125,7 +147,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Daredevil's%20Charm", "/Daredevil's%20Charm"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Hardcore Clear"]]
     },
     {
       "name": "Death's Embrace",
@@ -188,7 +211,10 @@
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Echo%20of%20the%20Forest", "/Echo%20of%20the%20Forest"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [
+        ["Trinity Memento", "Trinity Memento", "Trinity Memento"]
+      ]
     },
     {
       "name": "Effigy Pendant",
@@ -197,7 +223,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Effigy%20Pendant", "/Effigy%20Pendant"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Wooden Box"]]
     },
     {
       "name": "Effluvium Enhancer",
@@ -260,7 +287,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Full%20Moon%20Circlet", "/Full%20Moon%20Circlet"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Blood Moon"]]
     },
     {
       "name": "Gift of Euphoria",
@@ -269,7 +297,8 @@
       "addedIn": "The Awakened King",
       "wikiLinks": ["/Gift%20of%20Euphoria", "/Gift%20of%20Euphoria"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Memoriam Medallion Key"]]
     },
     {
       "name": "Gift of Melancholy",
@@ -278,7 +307,8 @@
       "addedIn": "The Awakened King",
       "wikiLinks": ["/Gift%20of%20Melancholy", "/Gift%20of%20Melancholy"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Memoriam Medallion Key"]]
     },
     {
       "name": "Gift of the Unbound",
@@ -287,7 +317,8 @@
       "addedIn": "The Awakened King",
       "wikiLinks": ["/Gift%20of%20the%20Unbound", "/Gift%20of%20the%20Unbound"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Nimue's Blood-Marred Vow"]]
     },
     {
       "name": "Golden Ribbon",
@@ -296,7 +327,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Golden%20Ribbon", "/Golden%20Ribbon"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Plain Ribbon"]]
     },
     {
       "name": "Gunfire Security Lanyard",
@@ -308,7 +340,8 @@
         "/Gunfire%20Security%20Lanyard"
       ],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["TODO:"]]
     },
     {
       "name": "Gunslinger's Charm",
@@ -317,7 +350,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Gunslinger's%20Charm", "/Gunslinger's%20Charm"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Mudtooth's Stories #2"]]
     },
     {
       "name": "Hallowed Egg",
@@ -344,7 +378,8 @@
       "addedIn": "The Awakened King",
       "wikiLinks": ["/Index%20of%20the%20Scribe", "/Index%20of%20the%20Scribe"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Misplaced Memoir"]]
     },
     {
       "name": "Indignant Fetish",
@@ -428,7 +463,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Leto's%20Amulet", "/Leto's%20Amulet"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["100 Flops"]]
     },
     {
       "name": "Magnifying Glass",
@@ -464,7 +500,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Navigator's%20Pendant", "/Navigator's%20Pendant"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": ["Rusted Navigator's Pendant"]
     },
     {
       "name": "Neckbone Necklace",
@@ -512,7 +549,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Nightweaver's%20Grudge", "/Nightweaver's%20Grudge"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Kolket's Razor"]]
     },
     {
       "name": "Nimue's Ribbon",
@@ -521,7 +559,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Nimue's%20Ribbon", "/Nimue's%20Ribbon"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Gold Ribbon", "Silver Ribbon"]]
     },
     {
       "name": "One-Eyed Joker Idol",
@@ -539,7 +578,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/One%20True%20King%20Sigil", "/One%20True%20King%20Sigil"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Faelin's Sigil", "Faerin's Sigil"]]
     },
     {
       "name": "Onyx Pendulum",
@@ -548,7 +588,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Onyx%20Pendulum", "/Onyx%20Pendulum"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Nightmare Clear"]]
     },
     {
       "name": "Participation Medal",
@@ -593,7 +634,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Red%20Doe%20Sigil", "/Red%20Doe%20Sigil"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Queen's Call", "Ornate Lockbox"]]
     },
     {
       "name": "Reed of the Vaunnt",
@@ -623,7 +665,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Samoflange", "/Samoflange"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Stellar-Powered Cell", "Stellar-Powered Cell"]]
     },
     {
       "name": "Scavenger's Bauble",
@@ -3909,7 +3952,7 @@
     },
     {
       "name": "Profane Heart",
-      "saveFileFlag": "Relic_Consumable_profaneHeart_C",
+      "saveFileFlag": "Relic_Consumable_ProfaneHeart_C",
       "type": "Relic",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Profane%20Heart", "/Profane%20Heart"],
@@ -5023,7 +5066,7 @@
     },
     {
       "name": "Lighthouse Keeper's Ring",
-      "saveFileFlag": "Ring_LighthouseKeepersRing_C",
+      "saveFileFlag": "Ring_LightHouseKeepersRing_C",
       "type": "Ring",
       "addedIn": "The Awakened King",
       "wikiLinks": [

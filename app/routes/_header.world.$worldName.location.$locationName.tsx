@@ -53,9 +53,12 @@ export default function World() {
                       key={collectible}
                       className="flex items-center justify-between"
                     >
-                      <span className="text-muted-foreground">
+                      <Link
+                        to={`https://remnant2.wiki.fextralife.com/${collectible}`}
+                        className="text-muted-foreground"
+                      >
                         {collectible}
-                      </span>
+                      </Link>
                       {icon}
                     </li>
                   );
@@ -75,7 +78,11 @@ export default function World() {
                     const event = injectables[injectibleName];
                     return (
                       <li key={injectibleName}>
-                        <span>{injectibleName}</span>
+                        <Link
+                          to={`https://remnant2.wiki.fextralife.com/${injectibleName}`}
+                        >
+                          {injectibleName}
+                        </Link>
                         <ul className="grid pl-4">
                           {(event?.collectibles ?? []).map((collectible) => {
                             const status =
@@ -87,9 +94,12 @@ export default function World() {
                                 key={collectible}
                                 className="flex items-center justify-between"
                               >
-                                <span className="text-muted-foreground">
+                                <Link
+                                  to={`https://remnant2.wiki.fextralife.com/${collectible}`}
+                                  className="text-muted-foreground hover:text-white"
+                                >
                                   {collectible}
-                                </span>
+                                </Link>
                                 {icon}
                               </li>
                             );

@@ -13,17 +13,22 @@ export type CollectedStatus = z.infer<typeof CollectedStatusSchema>;
 const CharacterLocationSchema = z.object({
   bonusProgress: z.record(z.string(), z.tuple([z.number(), z.number()])),
   baseProgress: z.tuple([z.number(), z.number()]),
+  state: z.enum(['FullyCompleted', 'Completed', 'Uncompleted']),
 });
 type CharacterLocation = z.infer<typeof CharacterLocationSchema>;
 
-const CharacterWorldSchema = z.object({
+const progressSchema = z.object({
   locationProgress: z.tuple([z.number(), z.number()]),
   bossProgress: z.tuple([z.number(), z.number()]),
   collectibleProgress: z.tuple([z.number(), z.number()]),
   questProgress: z.tuple([z.number(), z.number()]),
   totalProgress: z.number(),
+});
+type Progress = z.infer<typeof progressSchema>;
 
+const CharacterWorldSchema = progressSchema.extend({
   locations: z.record(CharacterLocationSchema),
+  storylines: z.record(progressSchema),
 });
 type CharacterWorld = z.infer<typeof CharacterWorldSchema>;
 
@@ -77,6 +82,58 @@ export function getCharactersInfo() {
   };
 }
 
+function calculateCollectiblesProgress(
+  collectibles: Array<string>,
+  character: Character,
+) {
+  const progress = [0, collectibles.length] as [number, number];
+  for (const collectible of collectibles) {
+    if (character.collectibles[collectible] === 'Collected') {
+      progress[0]++;
+    }
+  }
+  return progress;
+}
+
+function calculateProgress(
+  worldProgress: CharacterWorld['locations'],
+  injectablesProgress: Record<string, [number, number]>,
+  locations: Array<string>,
+  injectables: Array<string>,
+): Progress {
+  const progress: Progress = {
+    locationProgress: [0, locations.length],
+    collectibleProgress: [0, 0],
+
+    bossProgress: [0, 0],
+    questProgress: [0, 0],
+    totalProgress: 0,
+  };
+
+  for (const locationName of locations) {
+    const locationProgress = worldProgress[locationName];
+    if (!locationProgress) continue;
+    if (locationProgress.state !== 'Uncompleted') {
+      progress.locationProgress[0]++;
+    }
+    progress.collectibleProgress[0] += locationProgress.baseProgress[0];
+    progress.collectibleProgress[1] += locationProgress.baseProgress[1];
+  }
+
+  for (const injectableName of injectables) {
+    const injectableProgress = injectablesProgress[injectableName];
+    if (!injectableProgress) continue;
+    progress.collectibleProgress[0] += injectableProgress[0];
+    progress.collectibleProgress[1] += injectableProgress[1];
+  }
+
+  progress.totalProgress = Math.round(
+    (progress.collectibleProgress[0] * 100) / progress.collectibleProgress[1],
+  );
+
+  return progress;
+}
+
 function updateCharacterWithWorlds(character: Character): Character {
   const worlds = getWorlds();
 
@@ -85,74 +142,91 @@ function updateCharacterWithWorlds(character: Character): Character {
       locationProgress: [0, Object.keys(world.locations).length],
       collectibleProgress: [0, 0],
       locations: {},
+      storylines: {},
       totalProgress: 0,
 
       // TODO: calculate these stats
       questProgress: [0, 0],
       bossProgress: [0, 0],
     };
+    character.worlds[worldName] = characterWorld;
+
+    const injectibleToProgress: Record<string, [number, number]> = {};
+    for (const injectible of Object.values(world.injectables)) {
+      injectibleToProgress[injectible.name] = calculateCollectiblesProgress(
+        injectible.collectibles,
+        character,
+      );
+    }
 
     for (const [locationName, location] of Object.entries(world.locations)) {
-      const locationProgress: Record<string, [number, number]> = {};
+      const baseProgress = calculateCollectiblesProgress(
+        location.collectibles,
+        character,
+      );
+      const bonusProgress = Object.fromEntries(
+        (location.injectables ?? []).map((injectibleGroup) => {
+          const bonusProgress = injectibleGroup.injectables.reduce(
+            (acc, injectable) => {
+              const progress = injectibleToProgress[injectable];
+              if (!progress) return acc;
+              acc[0] += progress[0];
+              acc[1] += progress[1];
+              return acc;
+            },
+            [0, 0] as [number, number],
+          );
+          return [injectibleGroup.name, bonusProgress];
+        }),
+      );
+      const isBonusCompleted = Object.values(bonusProgress).every(
+        ([collected, total]) => collected === total,
+      );
+      const isBaseCompleted = baseProgress[0] === baseProgress[1];
 
-      for (const injectableGroup of location.injectables ?? []) {
-        let totalCollectibles = 0;
-        let collectedCollectibles = 0;
-        for (const injectable of injectableGroup.injectables) {
-          for (const collectible of world.injectables[injectable]
-            ?.collectibles ?? []) {
-            totalCollectibles++;
-            if (character.collectibles[collectible] === 'Collected') {
-              collectedCollectibles++;
-            }
-          }
-        }
-        locationProgress[injectableGroup.name] = [
-          collectedCollectibles,
-          totalCollectibles,
-        ];
-      }
-
-      const characterLocation: CharacterLocation = {
-        baseProgress: [0, location.collectibles.length],
-        bonusProgress: locationProgress,
+      const state =
+        isBaseCompleted && isBonusCompleted
+          ? 'FullyCompleted'
+          : isBaseCompleted
+            ? 'Completed'
+            : 'Uncompleted';
+      characterWorld.locations[locationName] = {
+        baseProgress,
+        bonusProgress,
+        state,
       };
-      for (const collectible of location.collectibles) {
-        characterWorld.collectibleProgress[1]++;
-        if (character.collectibles[collectible] === 'Collected') {
-          characterWorld.collectibleProgress[0]++;
-          characterLocation.baseProgress[0]++;
-        }
-      }
-
-      if (
-        characterLocation.baseProgress[0] ===
-          characterLocation.baseProgress[1] &&
-        characterLocation.bonusProgress[0] ===
-          characterLocation.bonusProgress[1]
-      ) {
-        characterWorld.locationProgress[0]++;
-      }
-
-      characterWorld.locations[locationName] = characterLocation;
     }
 
-    for (const injectable of Object.values(world.injectables)) {
-      const injectableCollectible = injectable.collectibles;
-      for (const eventItem of injectableCollectible) {
-        characterWorld.collectibleProgress[1]++;
-        if (character.collectibles[eventItem] === 'Collected') {
-          characterWorld.collectibleProgress[0]++;
-        }
-      }
-    }
-
-    characterWorld.totalProgress = Math.round(
-      (characterWorld.collectibleProgress[0] * 100) /
-        characterWorld.collectibleProgress[1],
+    const totalProgress = calculateProgress(
+      characterWorld.locations,
+      injectibleToProgress,
+      Object.keys(world.locations),
+      Object.keys(world.injectables),
     );
+    characterWorld.totalProgress = totalProgress.totalProgress;
+    characterWorld.collectibleProgress = totalProgress.collectibleProgress;
+    characterWorld.locationProgress = totalProgress.locationProgress;
+    characterWorld.bossProgress = totalProgress.bossProgress;
+    characterWorld.questProgress = totalProgress.questProgress;
 
-    character.worlds[worldName] = characterWorld;
+    for (const storyline of world.storylines) {
+      const injectables = new Set(
+        storyline.locations.flatMap(
+          (location) =>
+            world.locations[location]?.injectables?.map(
+              (injectable) => injectable.name,
+            ) ?? [],
+        ),
+      );
+
+      const progress = calculateProgress(
+        characterWorld.locations,
+        injectibleToProgress,
+        storyline.locations,
+        Array.from(injectables),
+      );
+      characterWorld.storylines[storyline.name] = progress;
+    }
   }
 
   return character;
@@ -170,10 +244,10 @@ export async function updateCharacters(file: File) {
   setTimeout(() => {
     localStorage.setItem('@remnant-save-raw', rawSaveFile);
   });
-  await what(rawSaveFile);
+  await setCharacterProgressWithRawSav(rawSaveFile);
 }
 
-async function what(raw: string) {
+async function setCharacterProgressWithRawSav(raw: string) {
   const inMemoryDB = getDB();
   const characters = extractCharacters(
     raw,
@@ -239,7 +313,7 @@ export async function updateWorlds(
 
   const raw = localStorage.getItem('@remnant-save-raw');
   if (raw) {
-    await what(raw);
+    await setCharacterProgressWithRawSav(raw);
   }
 
   const characters = inMemoryDB.characters;
@@ -263,4 +337,9 @@ export function getWorld(worldName: string) {
 export function getLocation(worldName: string, locationName: string) {
   const world = getWorld(worldName);
   return world?.locations[locationName];
+}
+
+export function getCollectibles() {
+  const inMemoryDB = getDB();
+  return inMemoryDB.collectibles;
 }

@@ -1,6 +1,53 @@
 {
   "$schema": "./_schema.json",
   "name": "N'Erud",
+  "mainColor": "hsl(200, 50%, 30%)",
+  "storylines": [
+    {
+      "name": "Sha'hala",
+      "mainColor": "hsl(220, 60%, 40%)",
+      "locations": [
+        "Phantom Wasteland",
+        "Timeless Horizon",
+        "Seeker's Rest",
+        "Alepsis-Taura",
+        "Sentinel's Keep",
+
+        "Ascension Spire",
+        "Astropath's Respíte",
+        "Spectrum Nexus",
+        "Terminus Station",
+        "Tower of the Unseen",
+        "The Putrid Domain",
+        "Vault of the Formless",
+        "Void Vessel Facility",
+        "Dormant N'erudian Facility",
+        "The Dark Conduit",
+        "The Hatchery"
+      ]
+    },
+    {
+      "name": "Tal'ratha",
+      "mainColor": "hsl(200, 50%, 30%)",
+      "locations": [
+        "Forgotten Prison",
+        "Abyssal Rift",
+        "The Eon Vault",
+
+        "Ascension Spire",
+        "Astropath's Respíte",
+        "Spectrum Nexus",
+        "Terminus Station",
+        "Tower of the Unseen",
+        "The Putrid Domain",
+        "Vault of the Formless",
+        "Void Vessel Facility",
+        "Dormant N'erudian Facility",
+        "The Dark Conduit",
+        "The Hatchery"
+      ]
+    }
+  ],
   "locations": {
     "Phantom Wasteland": {
       "name": "Phantom Wasteland",
@@ -359,7 +406,6 @@
         "Suppression Ward",
         "Void Idol",
         "Siphon Heart",
-        "Closed Loop",
         "Ring Of Ordnance"
       ],
       "addedIn": "Remnant 2",
@@ -452,6 +498,7 @@
       "collectibles": [
         "Stone of Expanse",
         "Feedback Loop",
+        "Closed Loop",
         "Defensive Action Loop",
         "Vacuum Seal",
         "Targeting Jewel",

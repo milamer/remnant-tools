@@ -1,6 +1,19 @@
 {
   "$schema": "./_schema.json",
   "name": "Other",
+  "mainColor": "#333333",
+  "storylines": [
+    {
+      "name": "In Game",
+      "mainColor": "",
+      "locations": ["Special", "Aberration"]
+    },
+    {
+      "name": "W/E",
+      "mainColor": "",
+      "locations": ["Deluxe/Ultimate Edition", "Default Equipment"]
+    }
+  ],
   "locations": {
     "Special": {
       "name": "Special",

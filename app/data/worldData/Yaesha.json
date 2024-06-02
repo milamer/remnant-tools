@@ -1,6 +1,93 @@
 {
   "$schema": "./_schema.json",
   "name": "Yaesha",
+  "mainColor": "hsl(120, 60%, 40%)",
+  "storylines": [
+    {
+      "name": "Eternal Empress",
+      "mainColor": "hsl(40, 80%, 40%)",
+      "locations": [
+        "The Withering Weald",
+        "The Far Woods",
+        "The Red Throne",
+        "The Widow's Court",
+        "The Great Bole",
+
+        "Infested Abyss",
+        "Bird's Nest",
+        "The Dappled Glade",
+        "Root Nexus (Field Location)",
+        "The Expanding Glade",
+        "The Nameless Nest",
+        "Forgotten Field",
+        "Imperial Gardens",
+        "The Twisted Chantry",
+        "The Chimney",
+        "The Lament",
+        "Kaeula's Rest",
+        "Endaira's End",
+        "Cathedral of Omens",
+        "Deserted Atelier",
+        "Earthen Coliseum",
+        "Goddess's Rest",
+        "Proving Grounds"
+      ]
+    },
+    {
+      "name": "Ravager",
+      "mainColor": "hsl(0, 70%, 30%)",
+      "locations": [
+        "The Forbidden Grove",
+        "The Lost Temple",
+        "Faithless Thicket",
+        "Ravager's Lair",
+
+        "Infested Abyss",
+        "Bird's Nest",
+        "The Dappled Glade",
+        "Root Nexus (Field Location)",
+        "The Expanding Glade",
+        "The Nameless Nest",
+        "Forgotten Field",
+        "Imperial Gardens",
+        "The Twisted Chantry",
+        "The Chimney",
+        "The Lament",
+        "Kaeula's Rest",
+        "Endaira's End",
+        "Cathedral of Omens",
+        "Deserted Atelier",
+        "Earthen Coliseum",
+        "Goddess's Rest",
+        "Proving Grounds"
+      ]
+    },
+    {
+      "name": "Forgotten Kingdom",
+      "mainColor": "hsl(120, 40%, 20%)",
+      "locations": [
+        "Ancient Canopy",
+        "Luminous Vale",
+        "The Bloodless Throne",
+
+        "Infested Abyss",
+        "The Expanding Glade",
+        "The Nameless Nest",
+        "Forgotten Field",
+        "Imperial Gardens",
+        "The Twisted Chantry",
+        "The Chimney",
+        "The Lament",
+        "Kaeula's Rest",
+        "Endaira's End",
+        "Cathedral of Omens",
+        "Deserted Atelier",
+        "Earthen Coliseum",
+        "Goddess's Rest",
+        "Proving Grounds"
+      ]
+    }
+  ],
   "locations": {
     "Infested Abyss": {
       "name": "Infested Abyss",
@@ -17,7 +104,12 @@
       "injectables": [
         {
           "name": "Events",
-          "injectables": ["Collapsed Tomb", "Living Stone", "The Coffin"]
+          "injectables": [
+            "Collapsed Tomb",
+            "Living Stone",
+            "The Coffin",
+            "Pillar Hall"
+          ]
         },
         {
           "name": "World Drops",
@@ -74,7 +166,13 @@
       "name": "The Widow's Court",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Widow's%20Court", "/The%20Widow's%20Court"],
-      "collectibles": ["Matriarch's Insignia", "Ghost Shell"]
+      "collectibles": ["Matriarch's Insignia", "Ghost Shell"],
+      "Quest items": [
+        "Tarnished Key",
+        "Ornate Key",
+        "Ornate Lockbox",
+        "Rotten Thaen Fruit"
+      ]
     },
     "The Great Bole": {
       "name": "The Great Bole",
@@ -265,7 +363,12 @@
       "injectables": [
         {
           "name": "Events",
-          "injectables": ["Collapsed Tomb", "Living Stone", "The Coffin"]
+          "injectables": [
+            "Collapsed Tomb",
+            "Living Stone",
+            "The Coffin",
+            "Pillar Hall"
+          ]
         },
         {
           "name": "World Drops",
@@ -281,7 +384,12 @@
       "injectables": [
         {
           "name": "Events",
-          "injectables": ["Collapsed Tomb", "Living Stone", "The Coffin"]
+          "injectables": [
+            "Collapsed Tomb",
+            "Living Stone",
+            "The Coffin",
+            "Pillar Hall"
+          ]
         },
         {
           "name": "World Drops",
@@ -306,7 +414,12 @@
       "injectables": [
         {
           "name": "Events",
-          "injectables": ["Collapsed Tomb", "Living Stone", "The Coffin"]
+          "injectables": [
+            "Collapsed Tomb",
+            "Living Stone",
+            "The Coffin",
+            "Pillar Hall"
+          ]
         },
         {
           "name": "World Drops",
@@ -318,7 +431,13 @@
       "name": "Kaeula's Rest",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Kaeula's%20Rest", "/Kaeula's%20Rest"],
-      "collectibles": ["Tear of Kaeula", "Twilight Dactylus"]
+      "collectibles": ["Tear of Kaeula", "Twilight Dactylus"],
+      "injectables": [
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
+      ]
     },
     "Endaira's End": {
       "name": "Endaira's End",
@@ -354,10 +473,10 @@
       "wikiLinks": ["/Cathedral%20of%20Omens", "/Cathedral%20of%20Omens"],
       "collectibles": ["Faith Seed", "Sagittarius", "Ring of Omens"]
     },
-    "The Ancient Canopy": {
-      "name": "The Ancient Canopy",
+    "Ancient Canopy": {
+      "name": "Ancient Canopy",
       "addedIn": "Remnant 2",
-      "wikiLinks": ["/The%20Ancient%20Canopy", "/The%20Ancient%20Canopy"],
+      "wikiLinks": ["/The%20Ancient%20Canopy", "/Ancient%20Canopy"],
       "collectibles": [
         "Old Flute",
         "Pressure Point",
@@ -575,6 +694,12 @@
       "collectibles": ["Mark of the Destroyer", "Moon Stone"],
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Phases%20of%20the%20Moon", "/Phases%20of%20the%20Moon"]
+    },
+    "Pillar Hall": {
+      "name": "Pillar Hall",
+      "collectibles": ["Pan War Band", "Ring of Spirits"],
+      "addedIn": "The Forgotten Kingdom",
+      "wikiLinks": ["/Pillar%20Hall", "/Pillar%20Hall"]
     },
     "Yaesha: World Drops": {
       "name": "Yaesha: World Drops",

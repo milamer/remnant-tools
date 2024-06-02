@@ -4,7 +4,7 @@ import {
   Outlet,
   useLoaderData,
 } from '@remix-run/react';
-import { SparklesIcon } from 'lucide-react';
+import { SearchIcon, SparklesIcon } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { z } from 'zod';
 import { Input } from '~/lib/components/ui/input';
@@ -36,13 +36,17 @@ export default function World() {
       <h1 className="mx-auto h-10 text-center text-3xl font-semibold">
         {world.name}
       </h1>
-      <div className="flex h-[calc(100%-theme('spacing.10'))] gap-4 border border-accent py-4">
+      <div
+        className="flex h-[calc(100%-theme('spacing.10'))] gap-4 rounded-sm border border-accent
+          bg-card py-4"
+      >
         <ScrollArea className="h-full w-full">
           <div className="sticky top-0 bg-card px-4 pb-4 pt-2">
+            <SearchIcon className="absolute left-6 top-4 h-5 w-5" />
             <Input
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              className="bg-accent"
+              className="bg-accent pl-8"
             />
           </div>
           <div className="flex h-full flex-col gap-2 p-4 pt-0">
