@@ -213,8 +213,8 @@ function updateCharacterWithWorlds(character: Character): Character {
       const injectables = new Set(
         storyline.locations.flatMap(
           (location) =>
-            world.locations[location]?.injectables?.map(
-              (injectable) => injectable.name,
+            world.locations[location]?.injectables?.flatMap(
+              (injectable) => injectable.injectables,
             ) ?? [],
         ),
       );

@@ -729,7 +729,8 @@
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Soul%20Stone", "/Soul%20Stone"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "linkedCollectibles": ["Profane Soul Stone"]
     },
     {
       "name": "Spirit Wisp Amulet",
@@ -3088,7 +3089,7 @@
     },
     {
       "name": "Far-Sighted",
-      "saveFileFlag": "MetaGem_Farsighted.MetaGem_Farsighted_C",
+      "saveFileFlag": "MetaGem_FarSighted_C",
       "type": "Mutator",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Far-Sighted", "/Far-Sighted"],
@@ -7242,6 +7243,16 @@
       "description": "",
       "imageUrl": "",
       "craftInto": ["Fargazer"]
+    },
+    {
+      "name": "Blossoming Core ",
+      "saveFileFlag": "Material_BlossomingCore_C",
+      "type": "Material",
+      "addedIn": "The Forgotten Kingdom",
+      "wikiLinks": ["Blossoming%20Core", "Blossoming%20Core"],
+      "description": "",
+      "imageUrl": "",
+      "craftInto": ["Mirage"]
     },
     {
       "name": "Alkahest Powder",
