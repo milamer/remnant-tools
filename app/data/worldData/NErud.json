@@ -54,9 +54,15 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Phantom%20Wasteland", "/Phantom%20Wasteland"],
       "collectibles": ["Embrace of Sha'Hala"],
+      "biome": "Wasteland",
+      "type": "Overworld",
       "injectables": [
         {
-          "name": "Events",
+          "name": "Dark Conduit",
+          "injectables": ["Supply Ship"]
+        },
+        {
+          "name": "Ascension Spire",
           "injectables": ["Ascension Spire"]
         },
         {
@@ -69,15 +75,21 @@
       "name": "Timeless Horizon",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Timeless%20Horizon", "/Timeless%20Horizon"],
-      "collectibles": [
-        "Blasting Cap Ring",
-        "Detonation Trigger",
-        "Ionic Crystal"
-      ],
+      "collectibles": ["Ionic Crystal"],
+      "biome": "Wasteland",
+      "type": "Overworld",
       "injectables": [
         {
+          "name": "Dark Conduit",
+          "injectables": ["Supply Ship"]
+        },
+        {
           "name": "Events",
-          "injectables": ["Titan's Reach", "Extraction Hub", "Engineer"]
+          "injectables": ["Titan's Reach", "Extraction Hub"]
+        },
+        {
+          "name": "Engineer",
+          "injectables": ["Engineer"]
         },
         {
           "name": "World Drops",
@@ -85,32 +97,36 @@
         }
       ]
     },
-    "Seeker's Rest": {
-      "name": "Seeker's Rest",
-      "addedIn": "Remnant 2",
-      "wikiLinks": ["/Seeker's%20Rest", "/Seeker's%20Rest"],
-      "collectibles": []
-    },
     "Alepsis-Taura": {
       "name": "Alepsis-Taura",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Alepsis-Taura", "/Alepsis-Taura"],
-      "collectibles": ["Void Heart"]
+      "collectibles": ["Void Heart"],
+      "biome": "Other",
+      "type": "Other"
     },
     "Sentinel's Keep": {
       "name": "Sentinel's Keep",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Sentinel's%20Keep", "/Sentinel's%20Keep"],
-      "collectibles": ["Eidolon Shard", "Power Saver", "Void Cinder"]
+      "collectibles": ["Eidolon Shard", "Power Saver", "Void Cinder"],
+      "biome": "Tower",
+      "type": "Main Dungeon"
     },
     "Abyssal Rift": {
       "name": "Abyssal Rift",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Abyssal%20Rift", "/Abyssal%20Rift"],
       "collectibles": [],
+      "biome": "Wasteland",
+      "type": "Overworld",
       "injectables": [
         {
-          "name": "Events",
+          "name": "Dark Conduit",
+          "injectables": ["Supply Ship"]
+        },
+        {
+          "name": "Ascension Spire",
           "injectables": ["Ascension Spire"]
         },
         {
@@ -123,18 +139,21 @@
       "name": "The Eon Vault",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Eon%20Vault", "/The%20Eon%20Vault"],
-      "collectibles": [
-        "Blasting Cap Ring",
-        "Detonation Trigger",
-        "Difference Engine",
-        "Galvanized Resupply Band",
-        "Star Shot",
-        "Stasis Core"
-      ],
+      "collectibles": ["Stasis Core"],
+      "biome": "Wasteland",
+      "type": "Overworld",
       "injectables": [
         {
+          "name": "Dark Conduit",
+          "injectables": ["Supply Ship"]
+        },
+        {
           "name": "Events",
-          "injectables": ["Titan's Reach", "Extraction Hub", "Engineer"]
+          "injectables": ["Titan's Reach", "Extraction Hub"]
+        },
+        {
+          "name": "Engineer",
+          "injectables": ["Engineer"]
         },
         {
           "name": "World Drops",
@@ -146,23 +165,13 @@
       "name": "Forgotten Prison",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Forgotten%20Prison", "/Forgotten%20Prison"],
+      "biome": "Other",
+      "type": "Main Dungeon",
       "collectibles": [
         "Spiced Bile",
         "Acidic Jawbone",
         "Navigator's Pendant",
         "Shining Essence Echo"
-      ]
-    },
-    "Ascension Spire": {
-      "name": "Ascension Spire",
-      "addedIn": "Remnant 2",
-      "wikiLinks": ["/Ascension%20Spire", "/Ascension%20Spire"],
-      "collectibles": [],
-      "injectables": [
-        {
-          "name": "Events",
-          "injectables": ["Ascension Spire"]
-        }
       ]
     },
     "Astropath's Respíte": {
@@ -172,6 +181,8 @@
         "/Astropath's%20Resp%C3%ADte",
         "/Astropath's%20Resp%C3%ADte"
       ],
+      "biome": "Tower",
+      "type": "Main Dungeon",
       "collectibles": ["Rusted Navigator's Pendant", "Seeker Residue"],
       "injectables": [
         {
@@ -193,6 +204,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Spectrum%20Nexus", "/Spectrum%20Nexus"],
       "collectibles": ["Sentry's Old Iris"],
+      "biome": "Tower",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -213,6 +226,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Terminus%20Station", "/Terminus%20Station"],
       "collectibles": ["Atom Smasher", "Footwork", "Hyperconductor"],
+      "biome": "Tower",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -238,6 +253,8 @@
         "Stone of Continuance",
         "Shielded Heart"
       ],
+      "biome": "Tower",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -258,6 +275,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Putrid%20Domain", "/The%20Putrid%20Domain"],
       "collectibles": ["Mutated Growth"],
+      "biome": "Stasis Chamber",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -284,6 +303,8 @@
         "/Vault%20of%20the%20Formless"
       ],
       "collectibles": ["Metal Driver", "Rupture Cannon", "Fitness"],
+      "biome": "Stasis Chamber",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -314,6 +335,8 @@
         "Space Worker Legs",
         "Space Worker Gloves"
       ],
+      "biome": "Stasis Chamber",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -339,13 +362,17 @@
         "/Dormant%20N'erudian%20Facility",
         "/Dormant%20N'erudian%20Facility"
       ],
-      "collectibles": ["Siphoner", "Leech", "Toxic Release Valve", "Failsafe"]
+      "collectibles": ["Siphoner", "Leech", "Toxic Release Valve", "Failsafe"],
+      "biome": "Infested Facility",
+      "type": "Side Dungeon"
     },
     "The Dark Conduit": {
       "name": "The Dark Conduit",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Dark%20Conduit", "/The%20Dark%20Conduit"],
       "collectibles": ["Crystal Heart"],
+      "biome": "Infested Facility",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -369,6 +396,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Hatchery", "/The%20Hatchery"],
       "collectibles": ["Cracked Shell"],
+      "biome": "Infested Facility",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -419,7 +448,11 @@
     },
     "Extraction Hub": {
       "name": "Extraction Hub",
-      "collectibles": ["Navigator's Helm"],
+      "collectibles": [
+        "Navigator's Helm",
+        "Blasting Cap Ring",
+        "Detonation Trigger"
+      ],
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Extraction%20Hub", "/Extraction%20Hub"]
     },
@@ -492,6 +525,16 @@
       "collectibles": ["Momentum Driver", "Atom Splitter"],
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Stasis%20Pod%20Chamber", "/Stasis%20Pod%20Chamber"]
+    },
+    "Supply Ship": {
+      "name": "Supply Ship",
+      "collectibles": [
+        "Difference Engine",
+        "Galvanized Resupply Band",
+        "Star Shot"
+      ],
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Supply%20Ship", "/Supply%20Ship"]
     },
     "N'Erud: World Drops": {
       "name": "N'Erud: World Drops",

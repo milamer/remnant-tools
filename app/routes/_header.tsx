@@ -198,7 +198,7 @@ export default function Header() {
       <div className="h-16" />
       <main
         className="mx-auto h-[calc(100vh-theme('spacing.16'))] max-w-screen-2xl overflow-y-auto p-4
-          md:p-10"
+          md:px-8"
       >
         <Outlet />
         <UploadSaveDialogContent />

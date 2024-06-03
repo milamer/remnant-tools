@@ -69,11 +69,7 @@
       "wikiLinks": ["/Butcher's%20Fetish", "/Butcher's%20Fetish"],
       "description": "",
       "imageUrl": "",
-      "requirements": [
-        {
-          "name": "Veteran Clear"
-        }
-      ]
+      "requirements": [["Veteran Clear"]]
     },
     {
       "name": "Cervine Keepsake",
@@ -83,11 +79,7 @@
       "wikiLinks": ["/Cervine%20Keepsake", "/Cervine%20Keepsake"],
       "description": "",
       "imageUrl": "",
-      "requirements": [
-        {
-          "name": "Red Doe Sigil"
-        }
-      ]
+      "requirements": [["Red Doe Sigil"]]
     },
     {
       "name": "Chains of Amplification",
@@ -157,7 +149,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Death's%20Embrace", "/Death's%20Embrace"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["!Wear: Ravager's Mark"]]
     },
     {
       "name": "Death-Soaked Idol",
@@ -318,7 +311,7 @@
       "wikiLinks": ["/Gift%20of%20the%20Unbound", "/Gift%20of%20the%20Unbound"],
       "description": "",
       "imageUrl": "",
-      "requirements": [["Nimue's Blood-Marred Vow"]]
+      "requirements": [["Nimue's Blood-Marred Vow", "Kill: The One True King"]]
     },
     {
       "name": "Golden Ribbon",
@@ -327,8 +320,7 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Golden%20Ribbon", "/Golden%20Ribbon"],
       "description": "",
-      "imageUrl": "",
-      "requirements": [["Plain Ribbon"]]
+      "imageUrl": ""
     },
     {
       "name": "Gunfire Security Lanyard",
@@ -463,8 +455,7 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Leto's%20Amulet", "/Leto's%20Amulet"],
       "description": "",
-      "imageUrl": "",
-      "requirements": [["100 Flops"]]
+      "imageUrl": ""
     },
     {
       "name": "Magnifying Glass",
@@ -501,7 +492,7 @@
       "wikiLinks": ["/Navigator's%20Pendant", "/Navigator's%20Pendant"],
       "description": "",
       "imageUrl": "",
-      "requirements": ["Rusted Navigator's Pendant"]
+      "craftedFrom": [["Rusted Navigator's Pendant"]]
     },
     {
       "name": "Neckbone Necklace",
@@ -560,7 +551,7 @@
       "wikiLinks": ["/Nimue's%20Ribbon", "/Nimue's%20Ribbon"],
       "description": "",
       "imageUrl": "",
-      "requirements": [["Gold Ribbon", "Silver Ribbon"]]
+      "craftedFrom": [["Gold Ribbon", "Silver Ribbon"]]
     },
     {
       "name": "One-Eyed Joker Idol",
@@ -579,7 +570,7 @@
       "wikiLinks": ["/One%20True%20King%20Sigil", "/One%20True%20King%20Sigil"],
       "description": "",
       "imageUrl": "",
-      "requirements": [["Faelin's Sigil", "Faerin's Sigil"]]
+      "craftedFrom": [["Faelin's Sigil", "Faerin's Sigil"]]
     },
     {
       "name": "Onyx Pendulum",
@@ -665,8 +656,7 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Samoflange", "/Samoflange"],
       "description": "",
-      "imageUrl": "",
-      "requirements": [["Stellar-Powered Cell", "Stellar-Powered Cell"]]
+      "imageUrl": ""
     },
     {
       "name": "Scavenger's Bauble",
@@ -757,7 +747,8 @@
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Stoneshaper's%20Chisel", "/Stoneshaper's%20Chisel"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Lydusa's Curse"]]
     },
     {
       "name": "Talisman of the Sun",
@@ -830,7 +821,8 @@
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Worn%20Dog%20Tags", "/Worn%20Dog%20Tags"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": ["Clear: Lydusa"]
     },
     {
       "name": "Zero Divide",
@@ -863,7 +855,8 @@
       "wikiLinks": ["/Philosopher's%20Stone", "/Philosopher's%20Stone"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Alchemist", "Mysterious Stone", "Potency"]
+      "linkedCollectibles": ["Alchemist", "Mysterious Stone", "Potency"],
+      "craftedFrom": [["Mysterious Stone"]]
     },
     {
       "name": "Archon",
@@ -883,7 +876,8 @@
       "wikiLinks": ["/Hexahedron", "/Hexahedron"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Archon", "Strange Box", "Flash Caster"]
+      "linkedCollectibles": ["Archon", "Strange Box", "Flash Caster"],
+      "craftedFrom": [["Strange Box"]]
     },
     {
       "name": "Challenger",
@@ -903,7 +897,8 @@
       "wikiLinks": ["/Steel%20Enswell", "/Steel%20Enswell"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Old Metal Tool", "Challenger", "Strong Back"]
+      "linkedCollectibles": ["Old Metal Tool", "Challenger", "Strong Back"],
+      "craftedFrom": [["Old Metal Tool"]]
     },
     {
       "name": "Engineer",
@@ -923,7 +918,8 @@
       "wikiLinks": ["/Drzyr%20Caliper", "/Drzyr%20Caliper"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Engineer", "Alien Device", "Fortify"]
+      "linkedCollectibles": ["Engineer", "Alien Device", "Fortify"],
+      "craftedFrom": [["Alien Device"]]
     },
     {
       "name": "Explorer",
@@ -943,7 +939,8 @@
       "wikiLinks": ["/Golden Compass", "/Golden Compass"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Explorer", "Broken Compass", "Swiftness"]
+      "linkedCollectibles": ["Explorer", "Broken Compass", "Swiftness"],
+      "craftedFrom": [["Broken Compass"]]
     },
     {
       "name": "Gunslinger",
@@ -953,7 +950,7 @@
       "wikiLinks": ["/Gunslinger", "/Gunslinger"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Iron Cylinder", "Worn Cylinder"]
+      "linkedCollectibles": ["Iron Cylinder", "Worn Cylinder", "Ammo Reserves"]
     },
     {
       "name": "Iron Cylinder",
@@ -963,7 +960,8 @@
       "wikiLinks": ["/Iron%20Cylinder", "/Iron%20Cylinder"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Gunslinger", "Worn Cylinder"]
+      "linkedCollectibles": ["Gunslinger", "Worn Cylinder", "Ammo Reserves"],
+      "craftedFrom": [["Worn Cylinder"]]
     },
     {
       "name": "Handler",
@@ -983,7 +981,8 @@
       "wikiLinks": ["/Silent%20Whistle", "/Silent%20Whistle"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Handler", "Old Whistle", "Kinship"]
+      "linkedCollectibles": ["Handler", "Old Whistle", "Kinship"],
+      "craftedFrom": [["Old Whistle"]]
     },
     {
       "name": "Hunter",
@@ -1003,7 +1002,8 @@
       "wikiLinks": ["/Sniper%20War%20Medal", "/Sniper%20War%20Medal"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Rusty Medal", "Hunter", "Longshot"]
+      "linkedCollectibles": ["Rusty Medal", "Hunter", "Longshot"],
+      "craftedFrom": [["Rusty Medal"]]
     },
     {
       "name": "Invader",
@@ -1027,7 +1027,8 @@
       "wikiLinks": ["/Serrated Root Blade", "/Serrated Root Blade"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Invader", "Wooden Shiv", "Untouchable"]
+      "linkedCollectibles": ["Invader", "Wooden Shiv", "Untouchable"],
+      "craftedFrom": [["Wooden Shiv"]]
     },
     {
       "name": "Invoker",
@@ -1047,7 +1048,8 @@
       "wikiLinks": ["/Spirit%20Flute", "/Spirit%20Flute"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Invoker", "Old Flute", "Gifted"]
+      "linkedCollectibles": ["Invoker", "Old Flute", "Gifted"],
+      "craftedFrom": [["Old Flute"]]
     },
     {
       "name": "Medic",
@@ -1067,7 +1069,8 @@
       "wikiLinks": ["/Caduceus%20Idol", "/Caduceus%20Idol"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Medic", "Medic Pin"]
+      "linkedCollectibles": ["Medic", "Medic Pin", "Triage"],
+      "craftedFrom": [["Medic Pin"]]
     },
     {
       "name": "Ritualist",
@@ -1087,7 +1090,8 @@
       "wikiLinks": ["/Cursed%20Effigy", "/Cursed%20Effigy"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Ritualist", "Ragged Poppet", "Affliction"]
+      "linkedCollectibles": ["Ritualist", "Ragged Poppet", "Affliction"],
+      "craftedFrom": [["Ragged Poppet"]]
     },
     {
       "name": "Summoner",
@@ -1111,7 +1115,8 @@
       "wikiLinks": ["/Tome%20of%20The%20Bringer", "/Tome%20of%20The%20Bringer"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Summoner", "Faded Grimoire", "Regrowth"]
+      "linkedCollectibles": ["Summoner", "Faded Grimoire", "Regrowth"],
+      "craftedFrom": [["Faded Grimoire"]]
     },
     {
       "name": "Academic's Hat",
@@ -1129,7 +1134,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Bandit's%20Mask", "/Bandit's%20Mask"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Clear: Campaign"]]
     },
     {
       "name": "Bandit Trousers",
@@ -1138,7 +1144,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Bandit%20Trousers", "/Bandit%20Trousers"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Clear: Campaign"]]
     },
     {
       "name": "Battle Helmet",
@@ -1174,7 +1181,10 @@
       "addedIn": "The Awakened King",
       "wikiLinks": ["/Crimson%20Guard%20Shroud", "/Crimson%20Guard%20Shroud"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [
+        ["Kill: The One True King", "Talk: Red Prince -> Tribute"]
+      ]
     },
     {
       "name": "Crown of the Red Prince",
@@ -1186,7 +1196,8 @@
         "/Crown%20of%20the%20Red%20Prince"
       ],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Assassin's Dagger"]]
     },
     {
       "name": "Cultist Hat",
@@ -1195,7 +1206,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Cultist%20Hat", "/Cultist%20Hat"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Clear: Campaign"]]
     },
     {
       "name": "Dandy Topper",
@@ -1285,7 +1297,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Labyrinth%20Headplate", "/Labyrinth%20Headplate"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Archon"]]
     },
     {
       "name": "Leto Mark 1 Helmet",
@@ -1294,7 +1307,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Leto%20Mark%201%20Helmet", "/Leto%20Mark%201%20Helmet"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Clear: Campaign"]]
     },
     {
       "name": "Leto Mark II Helmet",
@@ -1402,7 +1416,8 @@
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/True%20Crimson%20Crown", "/True%20Crimson%20Crown"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "craftedFrom": [["Crimson Guard Shroud", "Crown of the Red Prince"]]
     },
     {
       "name": "Void Skull",
@@ -1438,7 +1453,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Bandit%20Jacket", "/Bandit%20Jacket"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Clear: Campaign"]]
     },
     {
       "name": "Battle Shirt",
@@ -1465,7 +1481,10 @@
       "addedIn": "The Awakened King",
       "wikiLinks": ["/Crimson%20Guard%20Plate", "/Crimson%20Guard%20Plate"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [
+        ["Kill: The One True King", "Talk: Red Prince -> Tribute"]
+      ]
     },
     {
       "name": "Cultist Duster",
@@ -1474,7 +1493,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Cultist%20Duster", "/Cultist%20Duster"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Clear: Campaign"]]
     },
     {
       "name": "Dendroid Chest",
@@ -1546,7 +1566,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Labyrinth%20Mantle", "/Labyrinth%20Mantle"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Archon"]]
     },
     {
       "name": "Leto Mark 1 Armor",
@@ -1555,7 +1576,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Leto%20Mark%201%20Armor", "/Leto%20Mark%201%20Armor"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Clear: Campaign"]]
     },
     {
       "name": "Leto Mark II Armor",
@@ -1693,7 +1715,10 @@
         "/Crimson%20Guard%20Sabatons"
       ],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [
+        ["Kill: The One True King", "Talk: Red Prince -> Tribute"]
+      ]
     },
     {
       "name": "Cultist Britches",
@@ -1702,7 +1727,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Cultist%20Britches", "/Cultist%20Britches"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Clear: Campaign"]]
     },
     {
       "name": "Dendroid Leggings",
@@ -1774,7 +1800,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Labyrinth%20Treads", "/Labyrinth%20Treads"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Archon"]]
     },
     {
       "name": "Leto Mark 1 Leggings",
@@ -1786,7 +1813,8 @@
         "/Leto%20Mark%201%20Leggings"
       ],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Clear: Campaign"]]
     },
     {
       "name": "Leto Mark II Leggings",
@@ -1906,7 +1934,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Bandit%20Gloves", "/Bandit%20Gloves"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Clear: Campaign"]]
     },
     {
       "name": "Battle Gloves",
@@ -1936,7 +1965,10 @@
         "/Crimson%20Guard%20Gauntlets"
       ],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [
+        ["Kill: The One True King", "Talk: Red Prince -> Tribute"]
+      ]
     },
     {
       "name": "Cultist Gloves",
@@ -1945,7 +1977,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Cultist%20Gloves", "/Cultist%20Gloves"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Clear: Campaign"]]
     },
     {
       "name": "Dendroid Grips",
@@ -2017,7 +2050,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Labyrinth%20Gauntlets", "/Labyrinth%20Gauntlets"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Archon"]]
     },
     {
       "name": "Leto Mark 1 Gloves",
@@ -2026,7 +2060,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Leto%20Mark%201%20Gloves", "/Leto%20Mark%201%20Gloves"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Clear: Campaign"]]
     },
     {
       "name": "Leto Mark II Gloves",
@@ -2135,7 +2170,8 @@
       "wikiLinks": ["/Abrasive%20Rounds", "/Abrasive%20Rounds"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Pallid Lodestone"]
+      "linkedCollectibles": ["Pallid Lodestone"],
+      "craftedFrom": [["Pallid Lodestone"]]
     },
     {
       "name": "77 79 68",
@@ -2163,7 +2199,8 @@
       "wikiLinks": ["/Astral%20Burst", "/Astral%20Burst"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Faith Seed"]
+      "linkedCollectibles": ["Faith Seed"],
+      "craftedFrom": [["Faith Seed"]]
     },
     {
       "name": "Awakening",
@@ -2227,7 +2264,8 @@
       "wikiLinks": ["/Blood%20Draw", "/Blood%20Draw"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Bloody Steel Splinter"]
+      "linkedCollectibles": ["Bloody Steel Splinter"],
+      "craftedFrom": [["Bloody Steel Splinter"]]
     },
     {
       "name": "Bloodline",
@@ -2264,7 +2302,8 @@
       "wikiLinks": ["/Bore", "/Bore"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Mutated Growth"]
+      "linkedCollectibles": ["Mutated Growth"],
+      "craftedFrom": [["Mutated Growth"]]
     },
     {
       "name": "Chain of Command",
@@ -2292,7 +2331,8 @@
       "wikiLinks": ["/Concussive%20Shot", "/Concussive%20Shot"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Root Ganglia"]
+      "linkedCollectibles": ["Root Ganglia"],
+      "craftedFrom": [["Root Ganglia"]]
     },
     {
       "name": "Corrosive Rounds",
@@ -2302,7 +2342,8 @@
       "wikiLinks": ["/Corrosive%20Rounds", "/Corrosive%20Rounds"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Tainted Ichor"]
+      "linkedCollectibles": ["Tainted Ichor"],
+      "craftedFrom": [["Tainted Ichor"]]
     },
     {
       "name": "Creeping Mist",
@@ -2312,7 +2353,8 @@
       "wikiLinks": ["/Creeping%20Mist", "/Creeping%20Mist"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Hex Wreath"]
+      "linkedCollectibles": ["Hex Wreath"],
+      "craftedFrom": [["Hex Wreath"]]
     },
     {
       "name": "Cube Room",
@@ -2385,7 +2427,8 @@
       "wikiLinks": ["/Defrag", "/Defrag"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Necrocyte Strand"]
+      "linkedCollectibles": ["Necrocyte Strand"],
+      "craftedFrom": [["Necrocyte Strand"]]
     },
     {
       "name": "Dreadwalker",
@@ -2422,7 +2465,8 @@
       "wikiLinks": ["/Energy%20Wall", "/Energy%20Wall"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Ionic Crystal"]
+      "linkedCollectibles": ["Ionic Crystal"],
+      "craftedFrom": [["Ionic Crystal"]]
     },
     {
       "name": "Energy Wave",
@@ -2459,7 +2503,8 @@
       "wikiLinks": ["/Familiar", "/Familiar"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Sacred Hunt Feather"]
+      "linkedCollectibles": ["Sacred Hunt Feather"],
+      "craftedFrom": [["Sacred Hunt Feather"]]
     },
     {
       "name": "Fargazer",
@@ -2469,7 +2514,8 @@
       "wikiLinks": ["/Fargazer", "/Fargazer"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Agnosia Driftwood"]
+      "linkedCollectibles": ["Agnosia Driftwood"],
+      "craftedFrom": [["Agnosia Driftwood"]]
     },
     {
       "name": "Fathomless Deep",
@@ -2497,7 +2543,8 @@
       "wikiLinks": ["/Firestorm", "/Firestorm"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Forlorn Fragment"]
+      "linkedCollectibles": ["Forlorn Fragment"],
+      "craftedFrom": [["Forlorn Fragment"]]
     },
     {
       "name": "Fission Strike",
@@ -2516,7 +2563,8 @@
       "wikiLinks": ["/Flying%20Bomb%20Trap", "/Flying%20Bomb%20Trap"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Ceramic Flask"]
+      "linkedCollectibles": ["Ceramic Flask"],
+      "craftedFrom": [["Ceramic Flask"]]
     },
     {
       "name": "Fracture",
@@ -2571,7 +2619,8 @@
       "wikiLinks": ["/Heatwave", "/Heatwave"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Forge Ember"]
+      "linkedCollectibles": ["Forge Ember"],
+      "craftedFrom": [["Forge Ember"]]
     },
     {
       "name": "Healing Shot",
@@ -2581,7 +2630,8 @@
       "wikiLinks": ["/Healing%20Shot", "/Healing%20Shot"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Root Ganglia"]
+      "linkedCollectibles": ["Root Ganglia"],
+      "craftedFrom": [["Root Ganglia"]]
     },
     {
       "name": "Heat Sink",
@@ -2600,7 +2650,8 @@
       "wikiLinks": ["/Helix", "/Helix"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Seeker Residue"]
+      "linkedCollectibles": ["Seeker Residue"],
+      "craftedFrom": [["Seeker Residue"]]
     },
     {
       "name": "Horizon Strike",
@@ -2619,7 +2670,8 @@
       "wikiLinks": ["/Hot%20Shot", "/Hot%20Shot"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Root Ganglia"]
+      "linkedCollectibles": ["Root Ganglia"],
+      "craftedFrom": [["Root Ganglia"]]
     },
     {
       "name": "Javelin",
@@ -2638,7 +2690,8 @@
       "wikiLinks": ["/Knight%20Guard", "/Knight%20Guard"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Cremated Soul Ash"]
+      "linkedCollectibles": ["Cremated Soul Ash"],
+      "craftedFrom": [["Cremated Soul Ash"]]
     },
     {
       "name": "Krell Edge",
@@ -2720,7 +2773,8 @@
       "wikiLinks": ["/Overflow", "/Overflow"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Escalation Circuit"]
+      "linkedCollectibles": ["Escalation Circuit"],
+      "craftedFrom": [["Escalation Circuit"]]
     },
     {
       "name": "Power Stone",
@@ -2739,7 +2793,8 @@
       "wikiLinks": ["/Prismatic%20Driver", "/Prismatic%20Driver"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Sentry's Old Iris"]
+      "linkedCollectibles": ["Sentry's Old Iris"],
+      "craftedFrom": [["Sentry's Old Iris"]]
     },
     {
       "name": "Reaver",
@@ -2758,7 +2813,8 @@
       "wikiLinks": ["/Ring%20Of%20Spears", "/Ring%20Of%20Spears"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Wretched Skull"]
+      "linkedCollectibles": ["Wretched Skull"],
+      "craftedFrom": [["Wretched Skull"]]
     },
     {
       "name": "Rootlash",
@@ -2768,7 +2824,8 @@
       "wikiLinks": ["/Rootlash", "/Rootlash"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Twilight Dactylus"]
+      "linkedCollectibles": ["Twilight Dactylus"],
+      "craftedFrom": [["Twilight Dactylus"]]
     },
     {
       "name": "Rotted Arrow",
@@ -2778,7 +2835,8 @@
       "wikiLinks": ["/Rotted%20Arrow", "/Rotted%20Arrow"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Soul Sliver"]
+      "linkedCollectibles": ["Soul Sliver"],
+      "craftedFrom": [["Soul Sliver"]]
     },
     {
       "name": "Sandstorm",
@@ -2797,7 +2855,8 @@
       "wikiLinks": ["/Scrap%20Shot", "/Scrap%20Shot"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Root Ganglia"]
+      "linkedCollectibles": ["Root Ganglia"],
+      "craftedFrom": [["Root Ganglia"]]
     },
     {
       "name": "Screamer",
@@ -2825,7 +2884,8 @@
       "wikiLinks": ["/Skewer%202.0", "/Skewer%202.0"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Dread Core"]
+      "linkedCollectibles": ["Dread Core"],
+      "craftedFrom": [["Dread Core"]]
     },
     {
       "name": "Song of Eafir",
@@ -2835,7 +2895,8 @@
       "wikiLinks": ["/Song%20of%20Eafir", "/Song%20of%20Eafir"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Scroll of Binding"]
+      "linkedCollectibles": ["Scroll of Binding"],
+      "craftedFrom": [["Scroll of Binding"]]
     },
     {
       "name": "Soul Brand",
@@ -2854,7 +2915,8 @@
       "wikiLinks": ["/Soulbinder", "/Soulbinder"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Heart Seed"]
+      "linkedCollectibles": ["Heart Seed"],
+      "craftedFrom": [["Heart Seed"]]
     },
     {
       "name": "Space Crabs",
@@ -2864,7 +2926,8 @@
       "wikiLinks": ["/Space%20Crabs", "/Space%20Crabs"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Cracked Shell"]
+      "linkedCollectibles": ["Cracked Shell"],
+      "craftedFrom": [["Cracked Shell"]]
     },
     {
       "name": "Spore Shot",
@@ -2892,7 +2955,8 @@
       "wikiLinks": ["/Stasis%20Beam", "/Stasis%20Beam"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Stasis Core"]
+      "linkedCollectibles": ["Stasis Core"],
+      "craftedFrom": [["Stasis Core"]]
     },
     {
       "name": "Supernova",
@@ -2911,7 +2975,8 @@
       "wikiLinks": ["/Time%20Lapse", "/Time%20Lapse"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Broken Timepiece"]
+      "linkedCollectibles": ["Broken Timepiece"],
+      "craftedFrom": [["Broken Timepiece"]]
     },
     {
       "name": "Tremor",
@@ -2921,7 +2986,8 @@
       "wikiLinks": ["/Tremor", "/Tremor"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Cordyceps Gland"]
+      "linkedCollectibles": ["Cordyceps Gland"],
+      "craftedFrom": [["Cordyceps Gland"]]
     },
     {
       "name": "Voltaic Rondure",
@@ -2931,7 +2997,8 @@
       "wikiLinks": ["/Voltaic%20Rondure", "/Voltaic%20Rondure"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Bone Sap"]
+      "linkedCollectibles": ["Bone Sap"],
+      "craftedFrom": [["Bone Sap"]]
     },
     {
       "name": "Whirlwind",
@@ -2968,7 +3035,8 @@
       "wikiLinks": ["/Witchfire", "/Witchfire"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Alkahest Powder"]
+      "linkedCollectibles": ["Alkahest Powder"],
+      "craftedFrom": [["Alkahest Powder"]]
     },
     {
       "name": "Bandit",
@@ -3094,7 +3162,8 @@
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Far-Sighted", "/Far-Sighted"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Clear: Lydusa"]]
     },
     {
       "name": "Feedback",
@@ -3121,7 +3190,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Ghost%20Shell", "/Ghost%20Shell"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["Red Doe Sigil"]]
     },
     {
       "name": "Gladiator",
@@ -3292,7 +3362,8 @@
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Searing%20Wounds", "/Searing%20Wounds"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "requirements": [["!Have: Cherished Fracture"]]
     },
     {
       "name": "Sequenced Shot",
@@ -3493,7 +3564,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Ammo Pickups",
+      "name": "RF: Ammo Pickups",
       "saveFileFlag": "RelicFragment_AmmoPickups_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3502,16 +3573,16 @@
       "imageUrl": ""
     },
     {
-      "name": "Ammo Reserves",
+      "name": "RF: Ammo Reserves",
       "saveFileFlag": "RelicFragment_AmmoReserves_C",
-      "type": "Trait",
+      "type": "Relic Fragment",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Ammo%20Reserves", "/Ammo%20Reserves"],
       "description": "",
       "imageUrl": ""
     },
     {
-      "name": "Armor Effectiveness",
+      "name": "RF: Armor Effectiveness",
       "saveFileFlag": "RelicFragment_ArmorEffectiveness_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3520,7 +3591,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Blight Resistance",
+      "name": "RF: Blight Resistance",
       "saveFileFlag": "RelicFragment_BlightResistance_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3529,7 +3600,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Casting Speed",
+      "name": "RF: Casting Speed",
       "saveFileFlag": "RelicFragment_CastSpeed_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3538,7 +3609,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Charge Melee Cost",
+      "name": "RF: Charge Melee Cost",
       "saveFileFlag": "RelicFragment_ChargeMeleeCost_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3547,7 +3618,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Consumable Duration",
+      "name": "RF: Consumable Duration",
       "saveFileFlag": "RelicFragment_ConsumableDuration_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3556,7 +3627,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Consumable Speed",
+      "name": "RF: Consumable Speed",
       "saveFileFlag": "RelicFragment_ConsumableSpeed_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3565,7 +3636,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Damage Reduction",
+      "name": "RF: Damage Reduction",
       "saveFileFlag": "RelicFragment_DamageReduction_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3574,7 +3645,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Elemental Damage",
+      "name": "RF: Elemental Damage",
       "saveFileFlag": "RelicFragment_ElementalDamage_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3583,7 +3654,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Elemental Resistance",
+      "name": "RF: Elemental Resistance",
       "saveFileFlag": "RelicFragment_ElementalResistance_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3592,7 +3663,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Grey Health Rate",
+      "name": "RF: Grey Health Rate",
       "saveFileFlag": "RelicFragment_GreyHealthRate_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3601,7 +3672,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Healing Effectiveness",
+      "name": "RF: Healing Effectiveness",
       "saveFileFlag": "RelicFragment_HealingEffectiveness_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3610,7 +3681,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Health",
+      "name": "RF: Health",
       "saveFileFlag": "RelicFragment_Health_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3619,7 +3690,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Melee Speed",
+      "name": "RF: Melee Speed",
       "saveFileFlag": "RelicFragment_MeleeAttackSpeed_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3628,7 +3699,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Melee Critical Chance",
+      "name": "RF: Melee Critical Chance",
       "saveFileFlag": "RelicFragment_MeleeCritChance_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3637,7 +3708,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Melee Critical Damage",
+      "name": "RF: Melee Critical Damage",
       "saveFileFlag": "RelicFragment_MeleeCritDamage_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3646,7 +3717,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Melee Damage",
+      "name": "RF: Melee Damage",
       "saveFileFlag": "RelicFragment_MeleeDamage_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3655,7 +3726,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Mod Cost",
+      "name": "RF: Mod Cost",
       "saveFileFlag": "RelicFragment_ModCost_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3664,7 +3735,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Mod Damage",
+      "name": "RF: Mod Damage",
       "saveFileFlag": "RelicFragment_ModDamage_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3673,7 +3744,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Mod Duration",
+      "name": "RF: Mod Duration",
       "saveFileFlag": "RelicFragment_ModDuration_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3682,7 +3753,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Ranged Critical Chance",
+      "name": "RF: Ranged Critical Chance",
       "saveFileFlag": "RelicFragment_RangedCritChance_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3694,7 +3765,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Ranged Critical Damage",
+      "name": "RF: Ranged Critical Damage",
       "saveFileFlag": "RelicFragment_RangedCritDamage_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3706,7 +3777,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Ranged Damage",
+      "name": "RF: Ranged Damage",
       "saveFileFlag": "RelicFragment_RangedDamage_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3715,7 +3786,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Ranged Fire Rate",
+      "name": "RF: Ranged Fire Rate",
       "saveFileFlag": "RelicFragment_RangedFireRate_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3724,7 +3795,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Recoil",
+      "name": "RF: Recoil",
       "saveFileFlag": "RelicFragment_Recoil_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3733,7 +3804,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Revive Speed",
+      "name": "RF: Revive Speed",
       "saveFileFlag": "RelicFragment_ReviveSpeed_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3742,7 +3813,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Shield Effectiveness",
+      "name": "RF: Shield Effectiveness",
       "saveFileFlag": "RelicFragment_ShieldEffectiveness_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3751,7 +3822,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Skill Cooldown",
+      "name": "RF: Skill Cooldown",
       "saveFileFlag": "RelicFragment_SkillCooldown_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3760,7 +3831,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Skill Damage",
+      "name": "RF: Skill Damage",
       "saveFileFlag": "RelicFragment_SkillDamage_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3769,7 +3840,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Skill Duration",
+      "name": "RF: Skill Duration",
       "saveFileFlag": "RelicFragment_SkillDuration_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3778,7 +3849,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Spread Recovery",
+      "name": "RF: Spread Recovery",
       "saveFileFlag": "RelicFragment_SpreadRecovery_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3787,7 +3858,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Stagger Damage",
+      "name": "RF: Stagger Damage",
       "saveFileFlag": "RelicFragment_StaggerDamage_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3796,7 +3867,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Stamina",
+      "name": "RF: Stamina",
       "saveFileFlag": "RelicFragment_Stamina_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3805,7 +3876,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Stamina Cost",
+      "name": "RF: Stamina Cost",
       "saveFileFlag": "RelicFragment_StaminaCosts_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3814,7 +3885,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Stamina Recovery Delay",
+      "name": "RF: Stamina Recovery Delay",
       "saveFileFlag": "RelicFragment_StaminaRecoveryDelay_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3826,7 +3897,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Weakspot Damage",
+      "name": "RF: Weakspot Damage",
       "saveFileFlag": "RelicFragment_RangedWeakspotDamage_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3835,7 +3906,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Weapon Spread",
+      "name": "RF: Weapon Spread",
       "saveFileFlag": "RelicFragment_WeaponSpread_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",
@@ -3844,7 +3915,7 @@
       "imageUrl": ""
     },
     {
-      "name": "Weapon Swap",
+      "name": "RF: Weapon Swap",
       "saveFileFlag": "RelicFragment_WeaponSwapSpeed_C",
       "type": "Relic Fragment",
       "addedIn": "Remnant 2",

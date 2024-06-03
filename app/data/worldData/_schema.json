@@ -38,6 +38,20 @@
           "name": {
             "type": "string"
           },
+          "biome": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "Overworld",
+              "Main Dungeon",
+              "Side Dungeon",
+              "Field Location",
+              "Other"
+            ]
+          },
+
           "addedIn": {
             "type": "string",
             "enum": ["Remnant 2", "The Awakened King", "The Forgotten Kingdom"]

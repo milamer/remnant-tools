@@ -45,19 +45,25 @@
         "Strange Box",
         "Bisected Ring",
         "Gunfire Security Lanyard"
-      ]
+      ],
+      "biome": "Special",
+      "type": "Other"
     },
     "Inner Sanctum": {
       "name": "Inner Sanctum",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Inner%20Sanctum", "/Inner%20Sanctum"],
-      "collectibles": ["Soul Stone"]
+      "collectibles": ["Soul Stone"],
+      "biome": "Field Location",
+      "type": "Overworld"
     },
     "Colosseum of Ruin": {
       "name": "Colosseum of Ruin",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Colosseum%20of%20Ruin", "/Colosseum%20of%20Ruin"],
-      "collectibles": ["Amplitude", "Conflux Prism"]
+      "collectibles": ["Amplitude", "Conflux Prism"],
+      "biome": "Field Location",
+      "type": "Overworld"
     },
     "Fractured Ingress": {
       "name": "Fractured Ingress",
@@ -72,14 +78,24 @@
         "Labyrinth Staff",
         "Reprocessed Heart",
         "Dense Silicon Ring",
-        "Encrypted Ring"
-      ]
+        "Encrypted Ring",
+
+        "Chicago Typewriter",
+        "Leto Mark II Armor",
+        "Leto Mark II Gloves",
+        "Leto Mark II Helmet",
+        "Leto Mark II Leggings"
+      ],
+      "biome": "Field Location",
+      "type": "Overworld"
     },
     "Entangled Gauntlet": {
       "name": "Entangled Gauntlet",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Entangled%20Gauntlet", "/Entangled%20Gauntlet"],
-      "collectibles": ["Runed Heart"]
+      "collectibles": ["Runed Heart"],
+      "biome": "Field Location",
+      "type": "Overworld"
     },
     "Whispers": {
       "name": "Whispers",
@@ -128,7 +144,9 @@
         "Leto Mark 1 Gloves",
         "Leto Mark 1 Helmet",
         "Leto Mark 1 Leggings"
-      ]
+      ],
+      "biome": "Shop",
+      "type": "Other"
     },
     "Brabus": {
       "name": "Brabus",
@@ -168,13 +186,17 @@
         "World's Edge",
         "Savior",
         "Steel Scythe"
-      ]
+      ],
+      "biome": "Shop",
+      "type": "Other"
     },
     "Dr. Norah": {
       "name": "Dr. Norah",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Dr.%20Norah", "/Dr.%20Norah"],
-      "collectibles": ["Medic Pin"]
+      "collectibles": ["Medic Pin"],
+      "biome": "Shop",
+      "type": "Other"
     },
     "Dwell": {
       "name": "Dwell",
@@ -206,7 +228,9 @@
         "Fetid Wounds",
         "Tainted Blade",
         "Spellweaver"
-      ]
+      ],
+      "biome": "Shop",
+      "type": "Other"
     },
     "McCabe": {
       "name": "McCabe",
@@ -271,7 +295,9 @@
         "Thorn",
         "Mirage",
         "Anguish"
-      ]
+      ],
+      "biome": "Crafting",
+      "type": "Other"
     },
     "Mudtooth": {
       "name": "Mudtooth",
@@ -283,7 +309,9 @@
         "Gunslinger's Charm",
         "Mudtooth's Hat",
         "Worn Cylinder"
-      ]
+      ],
+      "biome": "Shop",
+      "type": "Other"
     },
     "Reggie": {
       "name": "Reggie",
@@ -309,7 +337,9 @@
         "Leto's Amulet",
         "Old Metal Tool",
         "Dull Steel Ring"
-      ]
+      ],
+      "biome": "Shop",
+      "type": "Other"
     },
     "Wallace": {
       "name": "Wallace",
@@ -330,7 +360,9 @@
         "Spirit Flute",
         "Serrated Root Blade",
         "Tome of The Bringer"
-      ]
+      ],
+      "biome": "Crafting",
+      "type": "Other"
     },
     "Cass": {
       "name": "Cass",
@@ -357,23 +389,22 @@
         "Constrained Heart",
         "Diverting Heart",
         "Enlarged Heart"
-      ]
+      ],
+      "biome": "Shop",
+      "type": "Other"
     },
     "Ward 13": {
       "name": "Ward 13",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Ward 13", "/Ward 13"],
       "collectibles": [
-        "Chicago Typewriter",
         "MP60-R",
-        "Leto Mark II Armor",
-        "Leto Mark II Gloves",
-        "Leto Mark II Helmet",
-        "Leto Mark II Leggings",
         "Tarnished Ring",
         "Dragon Heart",
         "Ripened Heart"
-      ]
+      ],
+      "biome": "Hideout",
+      "type": "Overworld"
     },
     "Ashen Wasteland": {
       "name": "Ashen Wasteland",
@@ -394,6 +425,8 @@
         "Resonating Heart",
         "Handling"
       ],
+      "biome": "Root",
+      "type": "Overworld",
       "injectables": [
         {
           "name": "World Drops",
@@ -417,6 +450,8 @@
         "Wooden Shiv",
         "Chakra"
       ],
+      "biome": "Root",
+      "type": "Overworld",
       "injectables": [
         {
           "name": "World Drops",
@@ -428,7 +463,9 @@
       "name": "Blackened Citadel",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Blackened%20Citadel", "/Blackened%20Citadel"],
-      "collectibles": ["Forgotten Memory", "Broken Compass", "Scholar"]
+      "collectibles": ["Forgotten Memory", "Broken Compass", "Scholar"],
+      "biome": "Root",
+      "type": "Main Dungeon"
     }
   },
   "injectables": {

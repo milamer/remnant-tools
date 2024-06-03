@@ -101,6 +101,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Brocwithe%20Quarter", "/Brocwithe%20Quarter"],
       "collectibles": [],
+      "biome": "Streets",
+      "type": "Overworld",
       "injectables": [
         {
           "name": "Events",
@@ -117,6 +119,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Ironborough", "/Ironborough"],
       "collectibles": [],
+      "biome": "Streets",
+      "type": "Overworld",
       "injectables": [
         {
           "name": "Events",
@@ -135,6 +139,8 @@
     "Beatific Palace": {
       "name": "Beatific Palace",
       "addedIn": "Remnant 2",
+      "biome": "Golden Halls",
+      "type": "Overworld",
       "wikiLinks": ["/Beatific%20Palace", "/Beatific%20Palace"],
       "collectibles": ["Cataloger's Jewel", "Jester's Bell", "Unsullied Heart"]
     },
@@ -142,6 +148,8 @@
       "name": "Nimue's Retreat",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Nimue's%20Retreat", "/Nimue's%20Retreat"],
+      "biome": "Other",
+      "type": "Other",
       "collectibles": [
         "Anamy's Echo",
         "Hex Ward",
@@ -160,19 +168,25 @@
         "Misfortune",
         "One-Eyed Joker Idol",
         "Shaed Bloom Crystal"
-      ]
+      ],
+      "biome": "Shaed Halls",
+      "type": "Overworld"
     },
     "Beatific Gallery": {
       "name": "Beatific Gallery",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Beatific%20Gallery", "/Beatific%20Gallery"],
-      "collectibles": ["Faelin's Sigil", "Imposter's Heart"]
+      "collectibles": ["Faelin's Sigil", "Imposter's Heart"],
+      "biome": "Golden Halls",
+      "type": "Main Dungeon"
     },
     "Malefic Gallery": {
       "name": "Malefic Gallery",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Malefic%20Gallery", "/Malefic%20Gallery"],
-      "collectibles": ["Faerin's Sigil", "Melded Hilt"]
+      "collectibles": ["Faerin's Sigil", "Melded Hilt"],
+      "biome": "Shaed Halls",
+      "type": "Main Dungeon"
     },
     "Morrow Parish": {
       "name": "Morrow Parish",
@@ -184,6 +198,8 @@
         "Double Barrel",
         "Striker"
       ],
+      "biome": "Streets",
+      "type": "Overworld",
       "injectables": [
         {
           "name": "Events",
@@ -200,6 +216,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Forsaken%20Quarter", "/Forsaken%20Quarter"],
       "collectibles": [],
+      "biome": "Streets",
+      "type": "Overworld",
       "injectables": [
         {
           "name": "Events",
@@ -223,7 +241,9 @@
         "Cursed Dream Silks",
         "Nightweaver's Finger",
         "Decrepit Rune"
-      ]
+      ],
+      "biome": "Other",
+      "type": "Main Dungeon"
     },
     "Forlorn Coast": {
       "name": "Forlorn Coast",
@@ -249,19 +269,9 @@
         "Executor",
         "Paper Heart",
         "Dark Pact"
-      ]
-    },
-    "Drowned Wen": {
-      "name": "Drowned Wen",
-      "addedIn": "Remnant 2",
-      "wikiLinks": ["/Drowned%20Wen", "/Drowned%20Wen"],
-      "collectibles": []
-    },
-    "Mournful Promenade": {
-      "name": "Mournful Promenade",
-      "addedIn": "Remnant 2",
-      "wikiLinks": ["/Mournful%20Promenade", "/Mournful%20Promenade"],
-      "collectibles": ["Elevated Ring", "Maelstrom"]
+      ],
+      "biome": "Other",
+      "type": "Overworld"
     },
     "Palace of the One True King": {
       "name": "Palace of the One True King",
@@ -270,7 +280,9 @@
         "/Palace%20of%20the%20One%20True%20King",
         "/Palace%20of%20the%20One%20True%20King"
       ],
-      "collectibles": []
+      "collectibles": [],
+      "biome": "Other",
+      "type": "Overworld"
     },
     "Chamber of the Faithless": {
       "name": "Chamber of the Faithless",
@@ -288,6 +300,8 @@
         "Cost of Betrayal",
         "Gift of the Unbound"
       ],
+      "biome": "Other",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -304,6 +318,8 @@
         "Ornate Blade",
         "Assassin's Dagger"
       ],
+      "biome": "Golden Halls",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -329,6 +345,8 @@
         "Forlorn Fragment",
         "Crown of the Red Prince"
       ],
+      "biome": "Golden Halls",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -357,13 +375,17 @@
         "Fae Royal Greaves",
         "Fae Royal Bodyplate",
         "Fae Royal Vambraces"
-      ]
+      ],
+      "biome": "Golden Halls",
+      "type": "Side Dungeon"
     },
     "Glistering Cloister": {
       "name": "Glistering Cloister",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Glistering%20Cloister", "/Glistering%20Cloister"],
       "collectibles": ["Wretched Skull"],
+      "biome": "Golden Halls",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -384,19 +406,25 @@
       "name": "Walk of Remembrance",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Walk%20of%20Remembrance", "/Walk%20of%20Remembrance"],
-      "collectibles": ["Gift of Euphoria"]
+      "collectibles": ["Gift of Euphoria"],
+      "biome": "Golden Halls",
+      "type": "Side Dungeon"
     },
     "Council Tribunal": {
       "name": "Council Tribunal",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Council%20Tribunal", "/Council%20Tribunal"],
-      "collectibles": ["Assassin's Seal"]
+      "collectibles": ["Assassin's Seal"],
+      "biome": "Shaed Halls",
+      "type": "Side Dungeon"
     },
     "Shattered Gallery": {
       "name": "Shattered Gallery",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Shattered%20Gallery", "/Shattered%20Gallery"],
       "collectibles": ["Tainted Ichor"],
+      "biome": "Shaed Halls",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -424,6 +452,8 @@
         "Bone Chopper",
         "White Glass Bead"
       ],
+      "biome": "Shaed Halls",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -453,6 +483,8 @@
         "Cremated Soul Ash",
         "Bitter Memento"
       ],
+      "biome": "Shaed Halls",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -474,6 +506,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Butcher's%20Quarter", "/Butcher's%20Quarter"],
       "collectibles": ["Singed Ring", "Dran Memento", "Shadeskin"],
+      "biome": "Burning City",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -495,6 +529,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Cotton's%20Kiln", "/Cotton's%20Kiln"],
       "collectibles": ["Alkahest Powder"],
+      "biome": "Burning City",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -515,13 +551,17 @@
       "name": "Lemark District",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Lemark%20District", "/Lemark%20District"],
-      "collectibles": []
+      "collectibles": [],
+      "biome": "Burning City",
+      "type": "Overworld"
     },
     "Sunken Haunt": {
       "name": "Sunken Haunt",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Sunken%20Haunt", "/Sunken%20Haunt"],
       "collectibles": ["Hex Wreath"],
+      "biome": "Burning City",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -547,6 +587,8 @@
         "Sparkfire Shotgun",
         "Sleeper"
       ],
+      "biome": "Burning City",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -568,6 +610,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Harvester's%20Reach", "/Harvester's%20Reach"],
       "collectibles": ["Lithely", "Ring of Grace", "Arcane Strike"],
+      "biome": "Sewers",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -593,6 +637,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Great%20Sewers", "/The%20Great%20Sewers"],
       "collectibles": ["Bone Sap"],
+      "biome": "Sewers",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -618,6 +664,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Tiller's%20Rest", "/Tiller's%20Rest"],
       "collectibles": ["Spirit Wisp Amulet", "Outcast Ring"],
+      "biome": "Sewers",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -643,6 +691,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Forgotten%20Commune", "/The%20Forgotten%20Commune"],
       "collectibles": ["Guts", "Ritualist Scythe"],
+      "biome": "Sewers",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",

@@ -247,7 +247,7 @@ export async function updateCharacters(file: File) {
   await setCharacterProgressWithRawSav(rawSaveFile);
 }
 
-async function setCharacterProgressWithRawSav(raw: string) {
+async function setCharacterProgressWithRawSav(raw: string | null) {
   const inMemoryDB = getDB();
   const characters = extractCharacters(
     raw,
@@ -312,9 +312,7 @@ export async function updateWorlds(
   inMemoryDB.collectibles = collectibles;
 
   const raw = localStorage.getItem('@remnant-save-raw');
-  if (raw) {
-    await setCharacterProgressWithRawSav(raw);
-  }
+  await setCharacterProgressWithRawSav(raw);
 
   const characters = inMemoryDB.characters;
   if (characters) {

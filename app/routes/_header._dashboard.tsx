@@ -77,6 +77,9 @@ export default function Dashboard() {
                   style={{ color: world.mainColor }}
                 >
                   {world.name}{' '}
+                  <span className="text-2xl">
+                    {worldProgress?.totalProgress ?? 0}%
+                  </span>
                 </CardTitle>
                 <div className="flex gap-4 text-xs">
                   <div>
@@ -180,13 +183,15 @@ export default function Dashboard() {
                           </div>
                           <div className="relative basis-1/3">
                             <div className="absolute inset-0 flex justify-center">
-                              <img
-                                width="448"
-                                height="558"
-                                src={worldToImage[storyline.name]}
-                                className="-mt-4 h-full max-w-[fit-content] grayscale transition-transform
-                                  group-hover:scale-110 group-hover:grayscale-0"
-                              />
+                              <div className="absolute bottom-0 flex h-[120%] items-end justify-center overflow-hidden">
+                                <img
+                                  width="448"
+                                  height="558"
+                                  src={worldToImage[storyline.name]}
+                                  className="h-[90%] max-w-[fit-content] grayscale transition-transform group-hover:scale-110
+                                    group-hover:grayscale-0"
+                                />
+                              </div>
                             </div>
                           </div>
                         </div>

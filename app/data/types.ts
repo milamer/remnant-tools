@@ -55,6 +55,14 @@ export const locationSchema = z.object({
   addedIn: z.nativeEnum(GameDLC),
   wikiLinks: wikiLinksSchema,
   collectibles: z.array(z.string()),
+  biome: z.string(),
+  type: z.enum([
+    'Overworld',
+    'Main Dungeon',
+    'Side Dungeon',
+    'Field Location',
+    'Other',
+  ]),
   injectables: z
     .array(
       z.object({

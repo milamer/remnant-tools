@@ -53,9 +53,17 @@ export async function decompressSave(rawData: Uint8Array): Promise<string> {
  * @returns Array containing characters.
  */
 export function extractCharacters(
-  data: string,
+  data: string | null,
   collectibles: Array<{ name: string; saveFileFlag: string }>,
 ): Array<Character> {
+  if (data === null) {
+    return [
+      {
+        inventory: [],
+      },
+    ];
+  }
+
   const characters: Character[] = [];
 
   const matches = data.matchAll(inventoryPatternRegex);

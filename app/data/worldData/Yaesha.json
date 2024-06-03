@@ -101,6 +101,8 @@
         "Conjurer's Circle",
         "Near-Sighted"
       ],
+      "biome": "Undead Tomb",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -122,6 +124,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Withering%20Weald", "/The%20Withering%20Weald"],
       "collectibles": [],
+      "biome": "Jungle",
+      "type": "Overworld",
       "injectables": [
         {
           "name": "Events",
@@ -138,6 +142,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Far%20Woods", "/The%20Far%20Woods"],
       "collectibles": [],
+      "biome": "Jungle",
+      "type": "Overworld",
       "injectables": [
         {
           "name": "Events",
@@ -153,6 +159,8 @@
       "name": "The Red Throne",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Red%20Throne", "/The%20Red%20Throne"],
+      "biome": "Floating Forest",
+      "type": "Overworld",
       "collectibles": [
         "Burden of the Rebel",
         "Red Doe Sigil",
@@ -167,6 +175,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Widow's%20Court", "/The%20Widow's%20Court"],
       "collectibles": ["Matriarch's Insignia", "Ghost Shell"],
+      "biome": "Floating Forest",
+      "type": "Overworld",
       "Quest items": [
         "Tarnished Key",
         "Ornate Key",
@@ -178,7 +188,9 @@
       "name": "The Great Bole",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Great%20Bole", "/The%20Great%20Bole"],
-      "collectibles": ["Hollow Heart", "Twisted Lazurite"]
+      "collectibles": ["Hollow Heart", "Twisted Lazurite"],
+      "biome": "Floating Forest",
+      "type": "Main Dungeon"
     },
     "The Forbidden Grove": {
       "name": "The Forbidden Grove",
@@ -196,6 +208,8 @@
         "Lifeless Heart",
         "Scroll of Binding"
       ],
+      "biome": "Jungle",
+      "type": "Overworld",
       "injectables": [
         {
           "name": "Events",
@@ -207,17 +221,13 @@
         }
       ]
     },
-    "The Lost Temple": {
-      "name": "The Lost Temple",
-      "addedIn": "Remnant 2",
-      "wikiLinks": ["/The%20Lost%20Temple", "/The%20Lost%20Temple"],
-      "collectibles": []
-    },
     "Faithless Thicket": {
       "name": "Faithless Thicket",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Faithless%20Thicket", "/Faithless%20Thicket"],
       "collectibles": [],
+      "biome": "Jungle",
+      "type": "Overworld",
       "injectables": [
         {
           "name": "Events",
@@ -238,34 +248,17 @@
         "Crimson Membrane",
         "Ravager's Mark",
         "Doe's Antler"
-      ]
-    },
-    "Bird's Nest": {
-      "name": "Bird's Nest",
-      "addedIn": "Remnant 2",
-      "wikiLinks": ["/Bird's%20Nest", "/Bird's%20Nest"],
-      "collectibles": []
-    },
-    "The Dappled Glade": {
-      "name": "The Dappled Glade",
-      "addedIn": "Remnant 2",
-      "wikiLinks": ["/The%20Dappled%20Glade", "/The%20Dappled%20Glade"],
-      "collectibles": []
-    },
-    "Root Nexus (Field Location)": {
-      "name": "Root Nexus (Field Location)",
-      "addedIn": "Remnant 2",
-      "wikiLinks": [
-        "/Root%20Nexus%20(Field%20Location)",
-        "/Root%20Nexus%20(Field%20Location)"
       ],
-      "collectibles": []
+      "biome": "Undead Tomb",
+      "type": "Main Dungeon"
     },
     "The Expanding Glade": {
       "name": "The Expanding Glade",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Expanding%20Glade", "/The%20Expanding%20Glade"],
       "collectibles": ["Soul Sliver"],
+      "biome": "Floating Forest",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -287,6 +280,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Nameless%20Nest", "/The%20Nameless%20Nest"],
       "collectibles": ["Cordyceps Gland"],
+      "biome": "Floating Forest",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -307,6 +302,8 @@
       "name": "Forgotten Field",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Forgotten%20Field", "/Forgotten%20Field"],
+      "biome": "Floating Forest",
+      "type": "Side Dungeon",
       "collectibles": [
         "Reinvigorate",
         "Laemir Censer",
@@ -339,6 +336,8 @@
         "Full Moon Circlet",
         "Momentum"
       ],
+      "biome": "Floating Forest",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -360,6 +359,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Twisted%20Chantry", "/The%20Twisted%20Chantry"],
       "collectibles": ["Agnosia Driftwood"],
+      "biome": "Undead Tomb",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -381,6 +382,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Chimney", "/The%20Chimney"],
       "collectibles": ["Heart Seed", "Downward Spiral"],
+      "biome": "Undead Tomb",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -411,6 +414,8 @@
         "Blood Tinged Ring",
         "Lodestone Crown"
       ],
+      "biome": "Undead Tomb",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -432,6 +437,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Kaeula's%20Rest", "/Kaeula's%20Rest"],
       "collectibles": ["Tear of Kaeula", "Twilight Dactylus"],
+      "biome": "Ziggurat",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "World Drops",
@@ -451,6 +458,8 @@
         "Pulsing Heart",
         "Captain's Insignia"
       ],
+      "biome": "Ziggurat",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -471,7 +480,9 @@
       "name": "Cathedral of Omens",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Cathedral%20of%20Omens", "/Cathedral%20of%20Omens"],
-      "collectibles": ["Faith Seed", "Sagittarius", "Ring of Omens"]
+      "collectibles": ["Faith Seed", "Sagittarius", "Ring of Omens"],
+      "biome": "Ziggurat",
+      "type": "Side Dungeon"
     },
     "Ancient Canopy": {
       "name": "Ancient Canopy",
@@ -490,13 +501,17 @@
         "Disciple Mantle",
         "Disciple Greaves",
         "Disciple Vambraces"
-      ]
+      ],
+      "biome": "Floating Forest",
+      "type": "Overworld"
     },
     "Deserted Atelier": {
       "name": "Deserted Atelier",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Deserted%20Atelier", "/Deserted%20Atelier"],
       "collectibles": ["Forge Ember"],
+      "biome": "Floating Forest",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -518,6 +533,8 @@
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Earthen%20Coliseum", "/Earthen%20Coliseum"],
       "collectibles": ["Pallid Lodestone"],
+      "biome": "Ziggurat",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -545,6 +562,8 @@
         "Searing Wounds",
         "Blossoming Core"
       ],
+      "biome": "Floating Forest",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -565,7 +584,9 @@
       "name": "The Bloodless Throne",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/The%20Bloodless%20Throne", "/The%20Bloodless%20Throne"],
-      "collectibles": ["Eye of Lydusa", "Tear of Lydusa"]
+      "collectibles": ["Eye of Lydusa", "Tear of Lydusa"],
+      "biome": "Other",
+      "type": "Main Dungeon"
     },
     "Luminous Vale": {
       "name": "Luminous Vale",
@@ -578,7 +599,9 @@
         "Echo of the Forest",
         "Worn Dog Tags",
         "Far-Sighted"
-      ]
+      ],
+      "biome": "Jungle",
+      "type": "Overworld"
     },
     "Proving Grounds": {
       "name": "Proving Grounds",
@@ -594,6 +617,8 @@
         "Battle Gloves",
         "Battle Slacks"
       ],
+      "biome": "Ziggurat",
+      "type": "Side Dungeon",
       "injectables": [
         {
           "name": "Events",
