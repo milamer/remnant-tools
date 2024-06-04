@@ -125,8 +125,8 @@ export default function World() {
             </div>
             <div className="flex h-full flex-col gap-2 p-4 pt-0">
               {Object.entries(locationGroups).map(([group, locations]) => (
-                <div>
-                  <div>{group}</div>
+                <div className="flex h-full flex-col gap-2 p-4 pt-0">
+                  <div className="text-2xl font-bold">{group}</div>
                   {locations.map(([locationName, location]) => {
                     const locationProgress =
                       character?.worlds[world.name]?.locations[locationName];

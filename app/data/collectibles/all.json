@@ -3049,7 +3049,7 @@
     },
     {
       "name": "Battle Mage",
-      "saveFileFlag": "MetaGem_BattleMage.MetaGem_BattleMage_C",
+      "saveFileFlag": "MetaGem_BattleMage_C",
       "type": "Mutator",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Battle%20Mage", "/Battle%20Mage"],
@@ -3231,7 +3231,7 @@
     },
     {
       "name": "Kill Switch",
-      "saveFileFlag": "MetaGem_Killswitch_C",
+      "saveFileFlag": "MetaGem_KillSwitch_C",
       "type": "Mutator",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Kill%20Switch", "/Kill%20Switch"],
@@ -3312,7 +3312,7 @@
     },
     {
       "name": "Pressure Point",
-      "saveFileFlag": "MetaGem_PressurePoint.MetaGem_PressurePoint_C",
+      "saveFileFlag": "MetaGem_PressurePoint_C",
       "type": "Mutator",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Pressure%20Point", "/Pressure%20Point"],
@@ -3357,7 +3357,7 @@
     },
     {
       "name": "Searing Wounds",
-      "saveFileFlag": "MetaGem_SearingWounds.MetaGem_SearingWounds_C",
+      "saveFileFlag": "MetaGem_SearingWounds_C",
       "type": "Mutator",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Searing%20Wounds", "/Searing%20Wounds"],
@@ -3412,7 +3412,7 @@
     },
     {
       "name": "Spellweaver",
-      "saveFileFlag": "MetaGem_Spellweaver.MetaGem_Spellweaver_C",
+      "saveFileFlag": "MetaGem_Spellweaver_C",
       "type": "Mutator",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Spellweaver", "/Spellweaver"],
@@ -3484,7 +3484,7 @@
     },
     {
       "name": "Thousand Cuts",
-      "saveFileFlag": "MetaGem_ThousandCuts.MetaGem_ThousandCuts_C",
+      "saveFileFlag": "MetaGem_ThousandCuts_C",
       "type": "Mutator",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Thousand%20Cuts", "/Thousand%20Cuts"],
@@ -3502,7 +3502,7 @@
     },
     {
       "name": "Top Heavy",
-      "saveFileFlag": "MetaGem_Topheavy_C",
+      "saveFileFlag": "MetaGem_TopHeavy_C",
       "type": "Mutator",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Top%20Heavy", "/Top%20Heavy"],
