@@ -6309,7 +6309,12 @@
       "wikiLinks": ["/Aphelion", "/Aphelion"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Void Cinder", "Supernova"]
+      "linkedCollectibles": [
+        "Void Cinder",
+        "Supernova",
+        "Micronova",
+        "Corrupted Aphelion"
+      ]
     },
     {
       "name": "AS-10 \"Bulldog\"",
@@ -6355,7 +6360,12 @@
       "wikiLinks": ["/Corrupted%20Aphelion", "/Corrupted%20Aphelion"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Micronova"]
+      "linkedCollectibles": [
+        "Void Cinder",
+        "Supernova",
+        "Micronova",
+        "Aphelion"
+      ]
     },
     {
       "name": "Corrupted Arbalest",
@@ -6365,7 +6375,12 @@
       "wikiLinks": ["/Corrupted%20Arbalest", "/Corrupted%20Arbalest"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Guardian's Fury"]
+      "linkedCollectibles": [
+        "Twisted Lazurite",
+        "Guardian's Call",
+        "Guardian's Fury",
+        "Arbalest"
+      ]
     },
     {
       "name": "Corrupted Deceit",
@@ -6375,7 +6390,12 @@
       "wikiLinks": ["/Corrupted%20Deceit", "/Corrupted%20Deceit"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Windfall"]
+      "linkedCollectibles": [
+        "Imposter's Heart",
+        "Ouroboros",
+        "Windfall",
+        "Deceit"
+      ]
     },
     {
       "name": "Corrupted Merciless",
@@ -6385,7 +6405,12 @@
       "wikiLinks": ["/Corrupted%20Merciless", "/Corrupted%20Merciless"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Bloodshot"]
+      "linkedCollectibles": [
+        "Bloodshot",
+        "Merciless",
+        "Bloodline",
+        "Crimson Membrane"
+      ]
     },
     {
       "name": "Corrupted Savior",
@@ -6395,7 +6420,7 @@
       "wikiLinks": ["/Corrupted%20Savior", "/Corrupted%20Savior"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Fusion Cannon"]
+      "linkedCollectibles": ["Fusion Cannon", "Shatterstar", "Savior"]
     },
     {
       "name": "Crescent Moon",
@@ -6424,7 +6449,12 @@
       "wikiLinks": ["/Deceit", "/Deceit"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Imposter's Heart", "Ouroboros"]
+      "linkedCollectibles": [
+        "Imposter's Heart",
+        "Ouroboros",
+        "Windfall",
+        "Corrupted Deceit"
+      ]
     },
     {
       "name": "Ford's Scattergun",
@@ -6452,7 +6482,12 @@
       "wikiLinks": ["/Merciless", "/Merciless"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Crimson Membrane", "Bloodline"]
+      "linkedCollectibles": [
+        "Crimson Membrane",
+        "Bloodline",
+        "Corrupted Merciless",
+        "Bloodshot"
+      ]
     },
     {
       "name": "Monarch",
@@ -6563,7 +6598,7 @@
       "wikiLinks": ["/Savior", "/Savior"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Shatterstar"]
+      "linkedCollectibles": ["Fusion Cannon", "Shatterstar", "Corrupted Savior"]
     },
     {
       "name": "Sparkfire Shotgun",
@@ -6612,7 +6647,12 @@
       "wikiLinks": ["/Twisted%20Arbalest", "/Twisted%20Arbalest"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Twisted Lazurite", "Guardian's Call"]
+      "linkedCollectibles": [
+        "Twisted Lazurite",
+        "Guardian's Call",
+        "Guardian's Fury",
+        "Corrupted Arbalest"
+      ]
     },
     {
       "name": "Trinity Crossbow",
@@ -7093,7 +7133,12 @@
       "wikiLinks": ["/Corrupted%20Cube%20Gun", "/Corrupted%20Cube%20Gun"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Cube Room"]
+      "linkedCollectibles": [
+        "Cube Room",
+        "Conflux Prism",
+        "Cube Shield",
+        "Cube Gun"
+      ]
     },
     {
       "name": "Corrupted Meridian",
@@ -7103,7 +7148,7 @@
       "wikiLinks": ["/Corrupted%20Meridian", "/Corrupted%20Meridian"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Deadpoint"]
+      "linkedCollectibles": ["Screamer", "Meridian", "Deadpoint"]
     },
     {
       "name": "Corrupted Nebula",
@@ -7113,7 +7158,12 @@
       "wikiLinks": ["/Corrupted%20Nebula", "/Corrupted%20Nebula"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Nano Phase"]
+      "linkedCollectibles": [
+        "Nano Phase",
+        "Spiced Bile",
+        "Nano Swarm",
+        "Nebula"
+      ]
     },
     {
       "name": "Corrupted Rune Pistol",
@@ -7123,7 +7173,12 @@
       "wikiLinks": ["/Corrupted%20Rune%20Pistol", "/Corrupted%20Rune%20Pistol"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Death Brand"]
+      "linkedCollectibles": [
+        "Death Brand",
+        "Decrepit Rune",
+        "Soul Brand",
+        "Rune Pistol"
+      ]
     },
     {
       "name": "Corrupted Sorrow",
@@ -7133,7 +7188,7 @@
       "wikiLinks": ["/Corrupted%20Sorrow", "/Corrupted%20Sorrow"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Will of the Wisp"]
+      "linkedCollectibles": ["Will of the Wisp", "Eulogy", "Sorrow"]
     },
     {
       "name": "Cube Gun",
@@ -7143,7 +7198,12 @@
       "wikiLinks": ["/Cube%20Gun", "/Cube%20Gun"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Conflux Prism", "Cube Shield"]
+      "linkedCollectibles": [
+        "Conflux Prism",
+        "Cube Shield",
+        "Corrupted Cube Gun",
+        "Cube Room"
+      ]
     },
     {
       "name": "Double Barrel",
@@ -7182,7 +7242,7 @@
       "wikiLinks": ["/Meridian", "/Meridian"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Screamer"]
+      "linkedCollectibles": ["Screamer", "Corrupted Meridian", "Deadpoint"]
     },
     {
       "name": "MP60-R",
@@ -7201,7 +7261,12 @@
       "wikiLinks": ["/Nebula", "/Nebula"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Spiced Bile", "Nano Swarm"]
+      "linkedCollectibles": [
+        "Nano Phase",
+        "Spiced Bile",
+        "Nano Swarm",
+        "Corrupted Nebula"
+      ]
     },
     {
       "name": "Repeater Pistol",
@@ -7220,7 +7285,12 @@
       "wikiLinks": ["/Rune%20Pistol", "/Rune%20Pistol"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Decrepit Rune", "Soul Brand"]
+      "linkedCollectibles": [
+        "Death Brand",
+        "Decrepit Rune",
+        "Soul Brand",
+        "Corrupted Rune Pistol"
+      ]
     },
     {
       "name": "Rupture Cannon",
@@ -7266,7 +7336,7 @@
       "wikiLinks": ["/Sorrow", "/Sorrow"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Eulogy"]
+      "linkedCollectibles": ["Will of the Wisp", "Eulogy", "Corrupted Sorrow"]
     },
     {
       "name": "Star Shot",
