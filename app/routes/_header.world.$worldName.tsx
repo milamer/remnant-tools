@@ -4,6 +4,7 @@ import {
   NavLink,
   Outlet,
   useLoaderData,
+  useSearchParams,
 } from '@remix-run/react';
 import { SearchIcon, SparklesIcon } from 'lucide-react';
 import { useMemo, useState } from 'react';
@@ -12,17 +13,24 @@ import { Input } from '~/lib/components/ui/input';
 import { ScrollArea } from '~/lib/components/ui/scroll-area';
 import { getCharacter, getWorld } from '~/lib/db';
 import { cn } from '~/lib/lib/utils';
+import clsx from 'clsx';
 
-export function clientLoader({ params }: ClientLoaderFunctionArgs) {
+export function clientLoader({ params, request }: ClientLoaderFunctionArgs) {
   const worldName = z.string().parse(params.worldName);
+  const url = new URL(request.url);
+  const storyline = z
+    .string()
+    .nullable()
+    .parse(url.searchParams.get('storyline'));
+
   const world = getWorld(worldName);
   if (!world) throw new Error(`World ${worldName} not found`);
   const character = getCharacter();
-  return { world, character };
+  return { world, character, storyline };
 }
 
 export default function World() {
-  const { world, character } = useLoaderData<typeof clientLoader>();
+  const { world, character, storyline } = useLoaderData<typeof clientLoader>();
 
   const [filter, setFilter] = useState<
     'All' | 'FullyCompleted' | 'Completed' | 'Uncompleted'
@@ -32,8 +40,18 @@ export default function World() {
   );
 
   const [search, setSearch] = useState('');
+  const storylineLocations = useMemo(() => {
+    const worldLocations = Object.keys(world.locations);
+    if (!storyline) return new Set(worldLocations);
+    return new Set(
+      world.storylines.find((s) => s.name === storyline)?.locations ??
+        worldLocations,
+    );
+  }, [storyline, world.locations, world.storylines]);
   const filteredLocations = useMemo(() => {
-    const locations = Object.entries(world.locations);
+    const locations = Object.entries(world.locations).filter((location) => {
+      return storylineLocations.has(location[0]);
+    });
     if (!search) return locations;
     return locations.filter(([locationName]) =>
       locationName.toLowerCase().includes(search.toLowerCase()),
@@ -47,6 +65,8 @@ export default function World() {
       return progress?.state === filter;
     });
   }, [filter, filteredLocations]);
+
+  const [searchParams] = useSearchParams();
 
   const locationGroups = useMemo(() => {
     const groups: Record<string, typeof locations> = {};
@@ -130,45 +150,68 @@ export default function World() {
                   {locations.map(([locationName, location]) => {
                     const locationProgress =
                       character?.worlds[world.name]?.locations[locationName];
+                    const eventProgress = Object.entries(
+                      locationProgress?.bonusProgress ?? {},
+                    ).filter(([key, value]) => value[1] !== 0);
+
+                    if (locationProgress?.baseProgress?.[1] !== 0) {
+                      eventProgress.unshift([
+                        'Base',
+                        locationProgress!.baseProgress,
+                      ]);
+                    }
                     return (
                       <NavLink
-                        to={`location/${encodeURIComponent(locationName)}`}
+                        to={{
+                          pathname: `location/${encodeURIComponent(locationName)}`,
+                          search: searchParams.toString(),
+                        }}
                         key={locationName}
                         className={({ isActive }) =>
                           cn(
-                            `flex flex-col items-start gap-2 rounded-lg border p-3 text-left text-sm
+                            `flex flex-col items-start gap-2 rounded-lg border px-4 py-2 text-left text-sm
                             transition-all hover:bg-primary-foreground`,
                             isActive && 'bg-primary-foreground',
                           )
                         }
                       >
-                        <div className="flex w-full flex-col gap-1">
-                          <div className="flex items-center">
-                            <div className="flex items-center gap-2">
-                              <div className="font-semibold">
+                        <div className="flex w-full justify-between gap-2">
+                          <div className="max-w-[50%] space-y-2">
+                            <div className="flex items-center gap-2 text-xl font-semibold">
+                              <span className="overflow-hidden text-clip text-nowrap">
                                 {locationName}
-                              </div>
-                              <span>
-                                Base:{' '}
-                                {locationProgress?.baseProgress.join('/') ??
-                                  'N/A'}
                               </span>
-                              {Object.entries(
-                                locationProgress?.bonusProgress ?? {},
-                              ).map(([key, value]) => (
-                                <span>
-                                  {key}: {value.join('/')}
-                                </span>
-                              ))}
-                              {!location.injectables?.some(
-                                (injectable) =>
-                                  injectable.name === 'World Drops',
-                              ) ? (
-                                <div className="h-6 w-6" />
-                              ) : (
-                                <SparklesIcon className="h-6 w-6" />
+                              {locationProgress?.state === 'FullyCompleted' && (
+                                <SparklesIcon className="h-4 w-4" />
                               )}
                             </div>
+                            <div className="flex gap-2 overflow-hidden text-ellipsis text-nowrap">
+                              <div className="rounded-full bg-accent px-2 py-1">
+                                {location.biome}
+                              </div>
+                              <div className="rounded-full bg-accent px-2 py-1">
+                                {location.type}
+                              </div>
+                            </div>
+                          </div>
+                          <div className="grid auto-cols-fr grid-flow-col grid-rows-2 gap-2 py-2">
+                            {eventProgress.map(([key, value]) => (
+                              <div className="flex justify-between">
+                                <span className="overflow-hidden text-ellipsis text-nowrap text-muted-foreground">
+                                  {key}:
+                                </span>
+                                <span
+                                  className={clsx({
+                                    'text-green-400': value[0] === value[1],
+                                    'text-red-400': value[0] === 0,
+                                    'text-yellow-400':
+                                      value[0] !== 0 && value[0] !== value[1],
+                                  })}
+                                >
+                                  {value.join('/')}
+                                </span>
+                              </div>
+                            ))}
                           </div>
                         </div>
                       </NavLink>

@@ -125,7 +125,12 @@ export default function Dashboard() {
                       }}
                     >
                       <Link
-                        to={`/world/${world.name}`}
+                        to={{
+                          pathname: `/world/${world.name}`,
+                          search: new URLSearchParams([
+                            ['storyline', storyline.name],
+                          ]).toString(),
+                        }}
                         className="group block rounded-lg"
                       >
                         <div className="flex">
