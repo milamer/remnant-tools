@@ -150,6 +150,10 @@
           "injectables": ["Dappled Glade", "Koara Kuri Nest", "Root Nexus"]
         },
         {
+          "name": "Bloodmoon Altar",
+          "injectables": ["Bloodmoon Altar"]
+        },
+        {
           "name": "World Drops",
           "injectables": ["Yaesha: World Drops"]
         }
@@ -214,6 +218,10 @@
         {
           "name": "Events",
           "injectables": ["Dappled Glade", "Koara Kuri Nest", "Root Nexus"]
+        },
+        {
+          "name": "Bloodmoon Altar",
+          "injectables": ["Bloodmoon Altar"]
         },
         {
           "name": "World Drops",
@@ -600,6 +608,12 @@
         "Worn Dog Tags",
         "Far-Sighted"
       ],
+      "injectables": [
+        {
+          "name": "World Drops",
+          "injectables": ["Yaesha: World Drops"]
+        }
+      ],
       "biome": "Jungle",
       "type": "Overworld"
     },
@@ -758,6 +772,21 @@
       ],
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Yaesha%3A%20World%20Drops", "/Yaesha%3A%20World%20Drops"]
+    },
+    "Bloodmoon Altar": {
+      "name": "Bloodmoon Altar",
+      "addedIn": "Remnant 2",
+      "wikiLinks": ["/Bloodmoon%20Altar", "/Bloodmoon%20Altar"],
+      "collectibles": [
+        "Faded Grimoire",
+        "Knotted Helm",
+        "Knotted Cage",
+        "Knotted Greaves",
+        "Knotted Gloves",
+        "Soul Anchor",
+        "Soul Guard",
+        "Blade of Gul"
+      ]
     }
   }
 }

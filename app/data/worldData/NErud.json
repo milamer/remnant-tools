@@ -363,6 +363,12 @@
         "/Dormant%20N'erudian%20Facility"
       ],
       "collectibles": ["Siphoner", "Leech", "Toxic Release Valve", "Failsafe"],
+      "injectables": [
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
+      ],
       "biome": "Infested Facility",
       "type": "Side Dungeon"
     },

@@ -377,6 +377,12 @@
         "Fae Royal Bodyplate",
         "Fae Royal Vambraces"
       ],
+      "injectables": [
+        {
+          "name": "World Drops",
+          "injectables": ["Losomn: World Drops"]
+        }
+      ],
       "biome": "Golden Halls",
       "type": "Side Dungeon"
     },
