@@ -1283,7 +1283,7 @@
     },
     {
       "name": "Knotted Helm",
-      "saveFileFlag": "Armor_Head_summoner_C",
+      "saveFileFlag": "Armor_Head_Summoner_C",
       "type": "Armor",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Knotted%20Helm", "/Knotted%20Helm"],
@@ -1552,7 +1552,7 @@
     },
     {
       "name": "Knotted Cage",
-      "saveFileFlag": "Armor_Body_summoner_C",
+      "saveFileFlag": "Armor_Body_Summoner_C",
       "type": "Armor",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Knotted%20Cage", "/Knotted%20Cage"],
@@ -1786,7 +1786,7 @@
     },
     {
       "name": "Knotted Greaves",
-      "saveFileFlag": "Armor_Legs_summoner_C",
+      "saveFileFlag": "Armor_Legs_Summoner_C",
       "type": "Armor",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Knotted%20Greaves", "/Knotted%20Greaves"],
@@ -2036,7 +2036,7 @@
     },
     {
       "name": "Knotted Gloves",
-      "saveFileFlag": "Armor_Gloves_summoner_C",
+      "saveFileFlag": "Armor_Gloves_Summoner_C",
       "type": "Armor",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Knotted%20Gloves", "/Knotted%20Gloves"],
