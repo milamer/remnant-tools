@@ -339,5 +339,38 @@ export function getLocation(worldName: string, locationName: string) {
 
 export function getCollectibles() {
   const inMemoryDB = getDB();
-  return inMemoryDB.collectibles;
+
+  const collectibleToWorldData: Record<
+    string,
+    { world: string; location: string }
+  > = {};
+  for (const world of Object.values(inMemoryDB.worlds)) {
+    for (const location of Object.values(world.locations)) {
+      for (const collectible of location.collectibles) {
+        collectibleToWorldData[collectible] = {
+          world: world.name,
+          location: location.name,
+        };
+      }
+    }
+    for (const injectable of Object.values(world.injectables)) {
+      for (const collectible of injectable.collectibles) {
+        collectibleToWorldData[collectible] = {
+          world: world.name,
+          location: `Injectable: ${injectable.name}`,
+        };
+      }
+    }
+  }
+
+  return Object.values(inMemoryDB.collectibles).map((collectible) => ({
+    ...collectible,
+    ...(collectibleToWorldData[collectible.name] ?? {
+      world: 'Unknown',
+      location: 'Unknown',
+    }),
+    lockState:
+      inMemoryDB.characters?.[inMemoryDB.selectedCharacterIdx ?? 0]
+        ?.collectibles[collectible.name] ?? 'Uncollected',
+  }));
 }
