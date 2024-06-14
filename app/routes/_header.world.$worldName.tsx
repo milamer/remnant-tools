@@ -1,6 +1,7 @@
 import { Tabs, TabsList, TabsTrigger } from '~/lib/components/ui/tabs';
 import {
   ClientLoaderFunctionArgs,
+  MetaFunction,
   NavLink,
   Outlet,
   useLoaderData,
@@ -28,6 +29,19 @@ export function clientLoader({ params, request }: ClientLoaderFunctionArgs) {
   const character = getCharacter();
   return { world, character, storyline };
 }
+
+export const meta: MetaFunction = ({ params }) => {
+  const worldName = z.string().parse(params.worldName);
+  return [
+    {
+      title: `Tracker ${worldName} - Remnant Tools`,
+    },
+    {
+      name: 'description',
+      content: `All locations for ${worldName} in Remnant 2.`,
+    },
+  ];
+};
 
 export default function World() {
   const { world, character, storyline } = useLoaderData<typeof clientLoader>();

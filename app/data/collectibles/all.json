@@ -4151,7 +4151,7 @@
     },
     {
       "name": "A'Taerii Booster",
-      "saveFileFlag": "Ring_AtaeriiBooster_C",
+      "saveFileFlag": "Ring_ATaeriiBooster_C",
       "type": "Ring",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/A'Taerii%20Booster", "/A'Taerii%20Booster"],
@@ -7316,7 +7316,7 @@
       "craftInto": ["Fargazer"]
     },
     {
-      "name": "Blossoming Core ",
+      "name": "Blossoming Core",
       "saveFileFlag": "Material_BlossomingCore_C",
       "type": "Material",
       "addedIn": "The Forgotten Kingdom",
@@ -7757,15 +7757,6 @@
       "description": "",
       "imageUrl": "",
       "craftInto": ["Prismatic Driver"]
-    },
-    {
-      "name": "Serum W-13",
-      "saveFileFlag": "Material_SerumW13_C",
-      "type": "Material",
-      "addedIn": "Remnant 2",
-      "wikiLinks": ["/Serum%20W-13", "/Serum%20W-13"],
-      "description": "",
-      "imageUrl": ""
     },
     {
       "name": "Shining Essence Echo",

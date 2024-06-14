@@ -1,3 +1,4 @@
+import { MetaFunction } from '@remix-run/node';
 import {
   ClientLoaderFunctionArgs,
   Link,
@@ -31,6 +32,24 @@ export function clientLoader({ params }: ClientLoaderFunctionArgs) {
   const character = getCharacter();
   return { locationName, injectables: world.injectables, location, character };
 }
+
+export const meta: MetaFunction = ({ params }) => {
+  const { locationName, worldName } = z
+    .object({
+      locationName: z.string(),
+      worldName: z.string(),
+    })
+    .parse(params);
+  return [
+    {
+      title: `Tracker ${locationName} - Remnant Tools`,
+    },
+    {
+      name: 'description',
+      content: `All collectibles for ${locationName} in ${worldName} in Remnant 2.`,
+    },
+  ];
+};
 
 export default function World() {
   const { locationName, injectables, location, character } =
