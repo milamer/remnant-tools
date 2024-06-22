@@ -519,7 +519,7 @@
       "wikiLinks": ["/Deserted%20Atelier", "/Deserted%20Atelier"],
       "collectibles": ["Forge Ember"],
       "biome": "Floating Forest",
-      "type": "Side Dungeon",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -542,7 +542,7 @@
       "wikiLinks": ["/Earthen%20Coliseum", "/Earthen%20Coliseum"],
       "collectibles": ["Pallid Lodestone"],
       "biome": "Ziggurat",
-      "type": "Side Dungeon",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
