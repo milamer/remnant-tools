@@ -19,7 +19,11 @@
       "name": "Special",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Special", "/Special"],
-      "collectibles": ["Participation Medal", "Revivalist"],
+      "collectibles": [
+        "Participation Medal",
+        "Revivalist",
+        "Prism of Voracity"
+      ],
       "biome": "Special",
       "type": "Other"
     },
@@ -80,6 +84,14 @@
         "Spirit",
         "Vigor"
       ],
+      "biome": "Special",
+      "type": "Other"
+    },
+    "Boss Rush": {
+      "name": "Boss Rush",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Boss%20Rush", "/Boss%20Rush"],
+      "collectibles": ["Prism of Hatred", "Prism of Passion", "Prism of Pride"],
       "biome": "Special",
       "type": "Other"
     }

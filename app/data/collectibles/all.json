@@ -2174,7 +2174,7 @@
     },
     {
       "name": "77 79 68",
-      "saveFileFlag": "Weapon_Polygun_C",
+      "saveFileFlag": "Mod_Polyactuator_C",
       "type": "Mod",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/77%2079%2068", "/77%2079%2068"],
@@ -2634,7 +2634,7 @@
     },
     {
       "name": "Heat Sink",
-      "saveFileFlag": "Weapon_PlasmaCutter_C",
+      "saveFileFlag": "Mod_HeatSink_C",
       "type": "Mod",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Heat%20Sink", "/Heat%20Sink"],
@@ -2721,7 +2721,7 @@
     },
     {
       "name": "Micronova",
-      "saveFileFlag": "Weapon_CorruptedAphelion_C",
+      "saveFileFlag": "Mod_Micronova_C",
       "type": "Mod",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Micronova", "/Micronova"],
@@ -2739,7 +2739,7 @@
     },
     {
       "name": "Nano Phase",
-      "saveFileFlag": "Weapon_CorruptedNebula_C",
+      "saveFileFlag": "Mod_NanoPhase_C",
       "type": "Mod",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Nano%20Phase", "/Nano%20Phase"],
@@ -2757,7 +2757,7 @@
     },
     {
       "name": "Ouroboros",
-      "saveFileFlag": "Weapon_Deceit_C",
+      "saveFileFlag": "Mod_Ouroboros_C",
       "type": "Mod",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Ouroboros", "/Ouroboros"],
@@ -2859,7 +2859,7 @@
     },
     {
       "name": "Screamer",
-      "saveFileFlag": "Weapon_Meridian_C",
+      "saveFileFlag": "Mod_Screamer_C",
       "type": "Mod",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Screamer", "/Screamer"],
@@ -2868,7 +2868,7 @@
     },
     {
       "name": "Shatterstar",
-      "saveFileFlag": "Weapon_Savior_C",
+      "saveFileFlag": "Mod_Shatterstar_C",
       "type": "Mod",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Shatterstar", "/Shatterstar"],
@@ -2899,7 +2899,7 @@
     },
     {
       "name": "Soul Brand",
-      "saveFileFlag": "Weapon_RunePistol_C",
+      "saveFileFlag": "Mod_Soulbrand_C",
       "type": "Mod",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Soul%20Brand", "/Soul%20Brand"],
@@ -3010,7 +3010,7 @@
     },
     {
       "name": "Will of the Wisp",
-      "saveFileFlag": "Weapon_CorruptedSorrow_C",
+      "saveFileFlag": "Mod_WillOfTheWisp_C",
       "type": "Mod",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Will%20of%20the%20Wisp", "/Will%20of%20the%20Wisp"],
@@ -3019,7 +3019,7 @@
     },
     {
       "name": "Windfall",
-      "saveFileFlag": "Weapon_CorruptedDeceit_C",
+      "saveFileFlag": "Mod_Windfall_C",
       "type": "Mod",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Windfall", "/Windfall"],
@@ -3194,7 +3194,7 @@
     },
     {
       "name": "Gladiator",
-      "saveFileFlag": "MetaGem_Gladiator.MetaGem_Gladiator_C",
+      "saveFileFlag": "MetaGem_Gladiator_C",
       "type": "Mutator",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Gladiator", "/Gladiator"],
@@ -3987,7 +3987,7 @@
     },
     {
       "name": "Dragon Heart",
-      "saveFileFlag": "DragonHeart",
+      "saveFileFlag": "Consumable_DragonHeart_C",
       "type": "Relic",
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Dragon%20Heart", "/Dragon%20Heart"],
@@ -4324,7 +4324,7 @@
     },
     {
       "name": "Black Spinel",
-      "saveFileFlag": "Ring_BlackSpinel.Ring_BlackSpinel_C",
+      "saveFileFlag": "Ring_BlackSpinel_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Black%20Spinel", "/Black%20Spinel"],
@@ -4507,7 +4507,7 @@
     },
     {
       "name": "Burden of the Mason",
-      "saveFileFlag": "Ring_BurdenOfTheMason.Ring_BurdenOfTheMason_C",
+      "saveFileFlag": "Ring_BurdenOfTheMason_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Burden%20of%20the%20Mason", "/Burden%20of%20the%20Mason"],
@@ -4516,7 +4516,7 @@
     },
     {
       "name": "Burden of the Mesmer",
-      "saveFileFlag": "Ring_BurdenOfTheMesmer.Ring_BurdenOfTheMesmer_C",
+      "saveFileFlag": "Ring_BurdenOfTheMesmer_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": [
@@ -4600,7 +4600,7 @@
     },
     {
       "name": "Closed Loop",
-      "saveFileFlag": "Ring_ClosedLoop.Ring_ClosedLoop_C",
+      "saveFileFlag": "Ring_ClosedLoop_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Closed%20Loop", "/Closed%20Loop"],
@@ -4618,7 +4618,7 @@
     },
     {
       "name": "Conjurer's Circle",
-      "saveFileFlag": "Ring_ConjurersCircle.Ring_ConjurersCircle_C",
+      "saveFileFlag": "Ring_ConjurersCircle_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Conjurer's%20Circle", "/Conjurer's%20Circle"],
@@ -4657,7 +4657,7 @@
     },
     {
       "name": "Dark Sea Armada Crest",
-      "saveFileFlag": "Ring_DarkSeaArmadaCrest.Ring_DarkSeaArmadaCrest_C",
+      "saveFileFlag": "Ring_DarkSeaArmadaCrest_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": [
@@ -4924,7 +4924,7 @@
     },
     {
       "name": "Feathery Binding",
-      "saveFileFlag": "Ring_FeatheryBinding.Ring_FeatheryBinding_C",
+      "saveFileFlag": "Ring_FeatheryBinding_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Feathery%20Binding", "/Feathery%20Binding"],
@@ -4951,7 +4951,7 @@
     },
     {
       "name": "Floodlit Diamond",
-      "saveFileFlag": "Ring_FloodlitDiamond.Ring_FloodlitDiamond_C",
+      "saveFileFlag": "Ring_FloodlitDiamond_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Floodlit%20Diamond", "/Floodlit%20Diamond"],
@@ -5035,7 +5035,7 @@
     },
     {
       "name": "Gul Signet",
-      "saveFileFlag": "Ring_GulSignet.Ring_GulSignet_C",
+      "saveFileFlag": "Ring_GulSignet_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Gul%20Signet", "/Gul%20Signet"],
@@ -5119,7 +5119,7 @@
     },
     {
       "name": "Kolket Eyelet",
-      "saveFileFlag": "Ring_KolketEyelet.Ring_KolketEyelet_C",
+      "saveFileFlag": "Ring_KolketEyelet_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Kolket%20Eyelet", "/Kolket%20Eyelet"],
@@ -5128,7 +5128,7 @@
     },
     {
       "name": "Leaking Gemstone",
-      "saveFileFlag": "Ring_LeakingGemstone.Ring_LeakingGemstone_C",
+      "saveFileFlag": "Ring_LeakingGemstone_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Leaking%20Gemstone", "/Leaking%20Gemstone"],
@@ -5179,7 +5179,7 @@
     },
     {
       "name": "Mark of the Destroyer",
-      "saveFileFlag": "Ring_MarkOfTheDestroyer.Ring_MarkOfTheDestroyer_C",
+      "saveFileFlag": "Ring_MarkOfTheDestroyer_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": [
@@ -5191,7 +5191,7 @@
     },
     {
       "name": "Matriarch's Ring",
-      "saveFileFlag": "Ring_MatriarchsRing.Ring_MatriarchsRing_C",
+      "saveFileFlag": "Ring_MatriarchsRing_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Matriarch's%20Ring", "/Matriarch's%20Ring"],
@@ -5272,7 +5272,7 @@
     },
     {
       "name": "Pan War Band",
-      "saveFileFlag": "Ring_PanWarBand.Ring_PanWarBand_C",
+      "saveFileFlag": "Ring_PanWarBand_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Pan%20War%20Band", "/Pan%20War%20Band"],
@@ -5335,7 +5335,7 @@
     },
     {
       "name": "Rally Band",
-      "saveFileFlag": "Ring_RallyBand.Ring_RallyBand_C",
+      "saveFileFlag": "Ring_RallyBand_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Rally%20Band", "/Rally%20Band"],
@@ -5344,7 +5344,7 @@
     },
     {
       "name": "Ravager's Bargain",
-      "saveFileFlag": "Ring_RavagersBargain.Ring_RavagersBargain_C",
+      "saveFileFlag": "Ring_RavagersBargain_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Ravager's%20Bargain", "/Ravager's%20Bargain"],
@@ -5467,7 +5467,7 @@
     },
     {
       "name": "Ring Of Ordnance",
-      "saveFileFlag": "Ring_RingOfOrdnance.Ring_RingOfOrdnance_C",
+      "saveFileFlag": "Ring_RingOfOrdnance_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Ring%20Of%20Ordnance", "/Ring%20Of%20Ordnance"],
@@ -5494,7 +5494,7 @@
     },
     {
       "name": "Ring of Spirits",
-      "saveFileFlag": "Ring_RingOfSpirits.Ring_RingOfSpirits_C",
+      "saveFileFlag": "Ring_RingOfSpirits_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Ring%20of%20Spirits", "/Ring%20of%20Spirits"],
@@ -5599,7 +5599,7 @@
     },
     {
       "name": "Sealed Resin Loop",
-      "saveFileFlag": "Ring_SealedResinLoop.Ring_SealedResinLoop_C",
+      "saveFileFlag": "Ring_SealedResinLoop_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Sealed%20Resin%20Loop", "/Sealed%20Resin%20Loop"],
@@ -5671,7 +5671,7 @@
     },
     {
       "name": "Soul Feast",
-      "saveFileFlag": "Ring_SoulFeast.Ring_SoulFeast_C",
+      "saveFileFlag": "Ring_SoulFeast_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Soul%20Feast", "/Soul%20Feast"],
@@ -5815,7 +5815,7 @@
     },
     {
       "name": "Tear of Lydusa",
-      "saveFileFlag": "Ring_TearOfLydusa.Ring_TearOfLydusa_C",
+      "saveFileFlag": "Ring_TearOfLydusa_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Tear%20of%20Lydusa", "/Tear%20of%20Lydusa"],
@@ -5833,7 +5833,7 @@
     },
     {
       "name": "Thalos Eyelet",
-      "saveFileFlag": "Ring_ThalosEyelet.Ring_ThalosEyelet_C",
+      "saveFileFlag": "Ring_ThalosEyelet_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Thalos%20Eyelet", "/Thalos%20Eyelet"],
@@ -5860,7 +5860,7 @@
     },
     {
       "name": "Token of Favor",
-      "saveFileFlag": "Ring_TokenOfFavor.Ring_TokenOfFavor_C",
+      "saveFileFlag": "Ring_TokenOfFavor_C",
       "type": "Ring",
       "addedIn": "The Forgotten Kingdom",
       "wikiLinks": ["/Token%20of%20Favor", "/Token%20of%20Favor"],
@@ -8041,6 +8041,1428 @@
       "type": "Consumable",
       "addedIn": "Remnant 2",
       "wikiLinks": ["All-Seeing%20Eye", "All-Seeing%20Eye"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Brazen Amalgam",
+      "saveFileFlag": "Amulet_BrazenAlloy_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Brazen_Amalgam", "/Brazen_Amalgam"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Canine Keepsake",
+      "saveFileFlag": "Amulet_CanineKeepsake_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Canine_Keepsake", "/Canine_Keepsake"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Cessation Bulbel",
+      "saveFileFlag": "Amulet_CessationBulbel_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Cessation_Bulbel", "/Cessation_Bulbel"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Chef Medal",
+      "saveFileFlag": "Amulet_ChefMedal_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Chef_Medal", "/Chef_Medal"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Crisis Core",
+      "saveFileFlag": "Amulet_CrisisCore_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Crisis_Core", "/Crisis_Core"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Echo Chamber",
+      "saveFileFlag": "Amulet_EchoChamber_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Echo_Chamber", "/Echo_Chamber"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Exhaust Valve",
+      "saveFileFlag": "Amulet_ExhaustValve_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Exhaust_Valve", "/Exhaust_Valve"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Hangman's Noose",
+      "saveFileFlag": "Amulet_HangmansNoose_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Hangman's_Noose", "/Hangman's_Noose"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Insipid Talon",
+      "saveFileFlag": "Amulet_InsipidTalon_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Insipid_Talon", "/Insipid_Talon"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Ornate Amulet",
+      "saveFileFlag": "Amulet_OrnateAmulet_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Ornate_Amulet", "/Ornate_Amulet"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Quantum Memory",
+      "saveFileFlag": "Amulet_QuantumMemory_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Quantum_Memory", "/Quantum_Memory"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Reaction Chain",
+      "saveFileFlag": "Amulet_ReactionChain_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Reaction_Chain", "/Reaction_Chain"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Relay Device",
+      "saveFileFlag": "Amulet_RelayDevice_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relay_Device", "/Relay_Device"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Short Circuit",
+      "saveFileFlag": "Amulet_ShortCircuit_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Short_Circuit", "/Short_Circuit"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Timekeeper's Forfeit",
+      "saveFileFlag": "Amulet_TimekeepersForfeit_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Timekeeper's_Forfeit", "/Timekeeper's_Forfeit"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Volatile Cartridge",
+      "saveFileFlag": "Amulet_VolatileCartridge_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Volatile_Cartridge", "/Volatile_Cartridge"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Zero Hour",
+      "saveFileFlag": "Amulet_ZeroHour_C",
+      "type": "Amulet",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Zero_Hour", "/Zero_Hour"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Nanoplated Transmitter",
+      "saveFileFlag": "Armor_Head_Warden_C",
+      "type": "Armor",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Nanoplated_Transmitter", "/Nanoplated_Transmitter"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Phetyr Sensor",
+      "saveFileFlag": "Armor_Head_NerudWarrior_C",
+      "type": "Armor",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Phetyr_Sensor", "/Phetyr_Sensor"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Nanoplated Vestments",
+      "saveFileFlag": "Armor_Body_Warden_C",
+      "type": "Armor",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Nanoplated_Vestments", "/Nanoplated_Vestments"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Phetyr Chassis",
+      "saveFileFlag": "Armor_Body_NerudWarrior_C",
+      "type": "Armor",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Phetyr_Chasis", "/Phetyr_Chasis"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Nanoplated Waist",
+      "saveFileFlag": "Armor_Legs_Warden_C",
+      "type": "Armor",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Nanoplated_Waist", "/Nanoplated_Waist"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Phetyr Locomotor",
+      "saveFileFlag": "Armor_Legs_NerudWarrior_C",
+      "type": "Armor",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Phetyr_Locomotor", "/Phetyr_Locomotor"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Nanoplated Hands",
+      "saveFileFlag": "Armor_Gloves_Warden_C",
+      "type": "Armor",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Nanoplated_Hands", "/Nanoplated_Hands"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Phetyr Crushers",
+      "saveFileFlag": "Armor_Gloves_NerudWarrior_C",
+      "type": "Armor",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Phetyr_Crushers", "/Phetyr_Crushers"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Welding Goggles",
+      "saveFileFlag": "Armor_Head_WeldingGoggles_C",
+      "type": "Armor",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Welding_Goggles", "/Welding_Goggles"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Warden",
+      "saveFileFlag": "Engram_Warden_C",
+      "type": "Archetype",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Warden", "/Warden"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Aftermath",
+      "saveFileFlag": "Mod_Aftermath_C",
+      "type": "Mod",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Redeemer", "/Redeemer"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Harvester Bots",
+      "saveFileFlag": "Mod_HarvesterBots_C",
+      "type": "Mod",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Harvester_Bots", "/Harvester_Bots"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Indomitable Strike",
+      "saveFileFlag": "Mod_IndomitableStrike_C",
+      "type": "Mod",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Black_Greatsword", "/Black_Greatsword"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Kilonova",
+      "saveFileFlag": "Mod_Kilonova_C",
+      "type": "Mod",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Dark_Matter_Gauntlets", "/Dark_Matter_Gauntlets"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Mega Drive",
+      "saveFileFlag": "Mod_MegaDrive_C",
+      "type": "Mod",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Genesis", "/Genesis"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Phantom Blade",
+      "saveFileFlag": "Mod_PhantomBlade_C",
+      "type": "Mod",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Harvester_Scythe", "/Harvester_Scythe"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Recoil Dampener",
+      "saveFileFlag": "Mod_RecoilDampener_C",
+      "type": "Mod",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Monorail", "/Monorail"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Shielding Shot",
+      "saveFileFlag": "Mod_ShieldingShot_C",
+      "type": "Mod",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Shielding_Shot", "/Shielding_Shot"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Voidlight",
+      "saveFileFlag": "Mod_Voidlight_C",
+      "type": "Mod",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Voidlight", "/Voidlight"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Charged Wounds",
+      "saveFileFlag": "MetaGem_ChargedWounds_C",
+      "type": "Mutator",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Charged_Wounds", "/Charged_Wounds"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Detonator",
+      "saveFileFlag": "MetaGem_Detonator_C",
+      "type": "Mutator",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Detonator", "/Detonator"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Hidden Power",
+      "saveFileFlag": "MetaGem_HiddenPower_C",
+      "type": "Mutator",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Hidden_Power", "/Hidden_Power"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Hyper Charger",
+      "saveFileFlag": "MetaGem_HyperCharger_C",
+      "type": "Mutator",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Hyper_Charger", "/Hyper_Charger"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Insulator",
+      "saveFileFlag": "MetaGem_Insulator_C",
+      "type": "Mutator",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Insulator", "/Insulator"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Repercussion",
+      "saveFileFlag": "MetaGem_Repercussion_C",
+      "type": "Mutator",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Repercussion", "/Repercussion"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Superheated",
+      "saveFileFlag": "MetaGem_SuperHeated_C",
+      "type": "Mutator",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Superheated", "/Superheated"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Volatile Strike",
+      "saveFileFlag": "MetaGem_VolatileStrike_C",
+      "type": "Mutator",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Volatile_Strike", "/Volatile_Strike"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Prism of Greed",
+      "saveFileFlag": "PrismOfGreed_C",
+      "type": "Prism",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Prism", "/Prism"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Prism of Hatred",
+      "saveFileFlag": "PrismOfHatred_C",
+      "type": "Prism",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Prism", "/Prism"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Prism of Jealousy",
+      "saveFileFlag": "PrismOfJealousy_C",
+      "type": "Prism",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Prism", "/Prism"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Prism of Lethargy",
+      "saveFileFlag": "PrismOfLethargy_C",
+      "type": "Prism",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Prism", "/Prism"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Prism of Passion",
+      "saveFileFlag": "PrismOfPassion_C",
+      "type": "Prism",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Prism", "/Prism"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Prism of Pride",
+      "saveFileFlag": "PrismOfPride_C",
+      "type": "Prism",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Prism", "/Prism"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Prism of Voracity",
+      "saveFileFlag": "PrismOfVoracity_C",
+      "type": "Prism",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Prism", "/Prism"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Allegiance",
+      "saveFileFlag": "RelicFragment_Allegiance_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Allegiance", "/Allegiance"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Altruistic",
+      "saveFileFlag": "RelicFragment_Altruistic_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Altruistic", "/Altruistic"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Artful Dodger",
+      "saveFileFlag": "RelicFragment_ArtfulDodger_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Base Armor",
+      "saveFileFlag": "RelicFragment_ArmorFlat_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Base Health",
+      "saveFileFlag": "RelicFragment_HealthFlat_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Base Stamina",
+      "saveFileFlag": "RelicFragment_StaminaFlat_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Bodyguard",
+      "saveFileFlag": "RelicFragment_Bodyguard_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Boundless Energy",
+      "saveFileFlag": "RelicFragment_BoundlessEnergy_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Brutality",
+      "saveFileFlag": "RelicFragment_Brutality_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Consumable Duration",
+      "saveFileFlag": "RelicFragment_CriticalDamage_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Critical Damage",
+      "saveFileFlag": "RelicFragment_CriticalDamage_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Critical Situation",
+      "saveFileFlag": "RelicFragment_CriticalSituation_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Dark Omen",
+      "saveFileFlag": "RelicFragment_DarkOmen_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Defense Measures",
+      "saveFileFlag": "RelicFragment_DefensiveMeasures_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Evade Distance",
+      "saveFileFlag": "RelicFragment_EvadeDistance_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Evade Speed",
+      "saveFileFlag": "RelicFragment_EvadeSpeed_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Exhausted",
+      "saveFileFlag": "RelicFragment_Exhausted_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Explosive Damage",
+      "saveFileFlag": "RelicFragment_ExplosiveDamage_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Firearm Charge Time",
+      "saveFileFlag": "RelicFragment_RangedChargeSpeed_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Fleet Footed",
+      "saveFileFlag": "RelicFragment_FleetFooted_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Full Hearted",
+      "saveFileFlag": "RelicFragment_FullHearted_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Gigantic",
+      "saveFileFlag": "RelicFragment_Gigantic_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "God Tear",
+      "saveFileFlag": "RelicFragment_GodTear_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Health Regeneration",
+      "saveFileFlag": "RelicFragment_HealthRegen_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Heat Generation",
+      "saveFileFlag": "RelicFragment_HeatGenReduction_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Heavy Drinker",
+      "saveFileFlag": "RelicFragment_HeavyDrinker_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Hyperactive",
+      "saveFileFlag": "RelicFragment_Hyperactive_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Immovable",
+      "saveFileFlag": "RelicFragment_Immovable_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Impervious",
+      "saveFileFlag": "RelicFragment_Impervious_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Insult to Injury",
+      "saveFileFlag": "RelicFragment_InsultToInjury_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Jack of All Trades",
+      "saveFileFlag": "RelicFragment_JackOfAllTrades_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Luck of the Devil",
+      "saveFileFlag": "RelicFragment_LuckOfTheDevil_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Master Killer",
+      "saveFileFlag": "RelicFragment_MasterKiller_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Mod Critical Chance",
+      "saveFileFlag": "RelicFragment_ModCritChance_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Mod Power Generation",
+      "saveFileFlag": "RelicFragment_ModGeneration_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Movement Speed",
+      "saveFileFlag": "RelicFragment_MovementSpeed_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Outlaw",
+      "saveFileFlag": "RelicFragment_Outlaw_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Overpowered",
+      "saveFileFlag": "RelicFragment_Overpowered_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Peak Conditioning",
+      "saveFileFlag": "RelicFragment_PeakConditioning_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Physician",
+      "saveFileFlag": "RelicFragment_Physician_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Power Fantasy",
+      "saveFileFlag": "RelicFragment_PowerFantasy_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Power Trip",
+      "saveFileFlag": "RelicFragment_PowerTrip_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Prime Time",
+      "saveFileFlag": "RelicFragment_PrimeTime_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Projectile Speed",
+      "saveFileFlag": "RelicFragment_ProjectileSpeed_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Reload Speed",
+      "saveFileFlag": "RelicFragment_ReloadSpeed_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Reverberation",
+      "saveFileFlag": "RelicFragment_Reverberation_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Sadistic",
+      "saveFileFlag": "RelicFragment_Sadistic_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Sharpshooter",
+      "saveFileFlag": "RelicFragment_Sharpshooter_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Shield Duration",
+      "saveFileFlag": "RelicFragment_ShieldDuration_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Size Matters",
+      "saveFileFlag": "RelicFragment_SizeMatters_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Skill Critical Chance",
+      "saveFileFlag": "RelicFragment_SkillCritChance_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Soulmate",
+      "saveFileFlag": "RelicFragment_Soulmate_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Spectrum",
+      "saveFileFlag": "RelicFragment_Spectrum_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Speed Demon",
+      "saveFileFlag": "RelicFragment_SpeedDemon_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Status Damage",
+      "saveFileFlag": "RelicFragment_StatusDamage_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Steel Plating",
+      "saveFileFlag": "RelicFragment_SteelPlating_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Traitor",
+      "saveFileFlag": "RelicFragment_Traitor_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Unbreakable",
+      "saveFileFlag": "RelicFragment_Unbreakable_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Unbridled",
+      "saveFileFlag": "RelicFragment_Unbridled_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Vaccinated",
+      "saveFileFlag": "RelicFragment_Vaccinated_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Weakspot Damage",
+      "saveFileFlag": "RelicFragment_WeakspotDamage_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Weapon Ideal Range",
+      "saveFileFlag": "RelicFragment_IdealRange_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Wrecking Ball",
+      "saveFileFlag": "RelicFragment_WreckingBall_C",
+      "type": "Relic Fragment",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Relic_Fragment", "/Relic_Fragment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Gossamer Heart",
+      "saveFileFlag": "Relic_Consumable_GossamerHeart_C",
+      "type": "Relic",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Gossamer_Heart", "/Gossamer_Heart"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Latent Heart",
+      "saveFileFlag": "Relic_Consumable_LatentHeart_C",
+      "type": "Relic",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Latent_Heart", "/Latent_Heart"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Breach Accelerator",
+      "saveFileFlag": "Ring_BreachAccelerator_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Breach_Accelerator", "/Breach_Accelerator"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Burden of the Excavator",
+      "saveFileFlag": "Ring_BurdenOfTheExcavator_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Burden_of_the_Excavator", "/Burden_of_the_Excavator"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Burden of the Protector",
+      "saveFileFlag": "Ring_BurdenOfTheProtector_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Burden_of_the_Protector", "/Burden_of_the_Protector"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Bypass Primer",
+      "saveFileFlag": "Ring_BypassPrimer_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Bypass_Primer", "/Bypass_Primer"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Clear Halo",
+      "saveFileFlag": "Ring_ClearHalo_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Clear_Halo", "/Clear_Halo"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Combat Shield Generator",
+      "saveFileFlag": "Ring_CombatShieldGenerator_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Combat_Shield_Generator", "/Combat_Shield_Generator"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Custodian's Bastion",
+      "saveFileFlag": "Ring_CustodiansBastion_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Custodian's_Bastion", "/Custodian's_Bastion"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Demolition Coil",
+      "saveFileFlag": "Ring_DemolitionCoil_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Demolition_Coil", "/Demolition_Coil"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Detonating Cord",
+      "saveFileFlag": "Ring_DetonatingCord_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Detonating_Cord", "/Detonating_Cord"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Disaster Converter",
+      "saveFileFlag": "Ring_DisasterConverter_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Disaster_Converter", "/Disaster_Converter"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Empowering Loop",
+      "saveFileFlag": "Ring_EmpoweringLoop_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Empowering_Loop", "/Empowering_Loop"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Feeding Tube",
+      "saveFileFlag": "Ring_FeedingTube_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Feeding_Tube", "/Feeding_Tube"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Force Multiplier",
+      "saveFileFlag": "Ring_ForceMultiplier_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Force_Multiplier", "/Force_Multiplier"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Impact Augment",
+      "saveFileFlag": "Ring_ImpactAugment_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Impact_Augment", "/Impact_Augment"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Infinity Pocket",
+      "saveFileFlag": "Ring_InfinityPocket_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Infinity_Pocket", "/Infinity_Pocket"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Mortal Coil",
+      "saveFileFlag": "Ring_MortalCoil_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Mortal_Coil", "/Mortal_Coil"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Nanofiber Strand",
+      "saveFileFlag": "Ring_NanoFiberStrand_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Nanofiber_Strand", "/Nanofiber_Strand"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Nightmare Sigil",
+      "saveFileFlag": "Ring_NightmareSigil_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Nightmare_Sigil", "/Nightmare_Sigil"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Ring of Ashes",
+      "saveFileFlag": "Ring_RingOfAshes_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Ring_of_Ashes", "/Ring_of_Ashes"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Ring of Bones",
+      "saveFileFlag": "Ring_RingOfBones_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Ring_of_Bones", "/Ring_of_Bones"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Ring of Phantom Pain",
+      "saveFileFlag": "Ring_PhantomPain_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Ring_Of_Phantom_Pain", "/Ring_Of_Phantom_Pain"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Security Half-Measure",
+      "saveFileFlag": "Ring_SecurityHalfMeasure_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Security_Half-Measure", "/Security_Half-Measure"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Shield Alternator",
+      "saveFileFlag": "Ring_ShieldAlternator_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Shield_Alternator", "/Shield_Alternator"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Siphon Filter",
+      "saveFileFlag": "Ring_SiphonFilter_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Siphon_Filter", "/Siphon_Filter"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Spirit Alternator",
+      "saveFileFlag": "Ring_SpiritAlternator_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Spirit_Alternator", "/Spirit_Alternator"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Stone of Revelation",
+      "saveFileFlag": "Ring_StoneOfRevelation_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Stone_of_Revelation", "/Stone_of_Revelation"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Strand of Sinew",
+      "saveFileFlag": "Ring_StrandOfSinew_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Strand_of_Sinew", "/Strand_of_Sinew"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Symbol of Royalty",
+      "saveFileFlag": "Ring_SymbolOfRoyalty_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Symbol_of_Royalty", "/Symbol_of_Royalty"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Tolerance Band",
+      "saveFileFlag": "Ring_ToleranceBand_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Tolerance_Band", "/Tolerance_Band"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Transient Cord",
+      "saveFileFlag": "Ring_TransientCord_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Transient_Cord", "/Transient_Cord"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Wired Inhibitor",
+      "saveFileFlag": "Ring_WiredInhibitor_C",
+      "type": "Ring",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Wired_Inhibitor", "/Wired_Inhibitor"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Barrier",
+      "saveFileFlag": "Trait_Barrier_C",
+      "type": "Trait",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Barrier", "/Barrier"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Insight",
+      "saveFileFlag": "Trait_Insight_C",
+      "type": "Trait",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Insight", "/Insight"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Perception",
+      "saveFileFlag": "Trait_Perception_C",
+      "type": "Trait",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Perception", "/Perception"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Preservation",
+      "saveFileFlag": "Trait_Preservation_C",
+      "type": "Trait",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Preservation", "/Preservation"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Black Greatsword",
+      "saveFileFlag": "Weapon_BlackGreatsword_C",
+      "type": "Weapon",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Black_Greatsword", "/Black_Greatsword"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Genesis",
+      "saveFileFlag": "Weapon_Genesis_C",
+      "type": "Weapon",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Genesis", "/Genesis"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Monorail",
+      "saveFileFlag": "Weapon_Monorail_C",
+      "type": "Weapon",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Monorail", "/Monorail"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Dark Matter Gauntlets",
+      "saveFileFlag": "Weapon_DarkMatterGauntlets_C",
+      "type": "Weapon",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Dark_Matter_Gauntlets", "/Dark_Matter_Gauntlets"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Harvester Scythe",
+      "saveFileFlag": "Weapon_HarvesterScythe_C",
+      "type": "Weapon",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Harvester_Scythe", "/Harvester_Scythe"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Repair Tool",
+      "saveFileFlag": "Weapon_RepairTool_C",
+      "type": "Weapon",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Repair_Tool", "/Repair_Tool"],
+      "description": "",
+      "imageUrl": ""
+    },
+    {
+      "name": "Redeemer",
+      "saveFileFlag": "Weapon_Redeemer_C",
+      "type": "Weapon",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Redeemer", "/Redeemer"],
       "description": "",
       "imageUrl": ""
     }

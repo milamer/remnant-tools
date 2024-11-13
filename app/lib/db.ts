@@ -15,7 +15,6 @@ const CharacterLocationSchema = z.object({
   baseProgress: z.tuple([z.number(), z.number()]),
   state: z.enum(['FullyCompleted', 'Completed', 'Uncompleted']),
 });
-type CharacterLocation = z.infer<typeof CharacterLocationSchema>;
 
 const progressSchema = z.object({
   locationProgress: z.tuple([z.number(), z.number()]),

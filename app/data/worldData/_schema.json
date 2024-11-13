@@ -54,7 +54,12 @@
 
           "addedIn": {
             "type": "string",
-            "enum": ["Remnant 2", "The Awakened King", "The Forgotten Kingdom"]
+            "enum": [
+              "Remnant 2",
+              "The Awakened King",
+              "The Forgotten Kingdom",
+              "The Dark Horizon"
+            ]
           },
           "wikiLinks": {
             "type": "array",
@@ -102,7 +107,12 @@
           },
           "addedIn": {
             "type": "string",
-            "enum": ["Remnant 2", "The Awakened King", "The Forgotten Kingdom"]
+            "enum": [
+              "Remnant 2",
+              "The Awakened King",
+              "The Forgotten Kingdom",
+              "The Dark Horizon"
+            ]
           },
           "wikiLinks": {
             "type": "array",

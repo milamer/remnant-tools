@@ -23,7 +23,12 @@
         "Void Vessel Facility",
         "Dormant N'erudian Facility",
         "The Dark Conduit",
-        "The Hatchery"
+        "The Hatchery",
+        "Athenaeum Wek",
+        "Mucid Terrarium",
+        "Stagnant Manufactory",
+        "Logistics Bridge",
+        "Detritus Foundry"
       ]
     },
     {
@@ -44,7 +49,38 @@
         "Void Vessel Facility",
         "Dormant N'erudian Facility",
         "The Dark Conduit",
-        "The Hatchery"
+        "The Hatchery",
+        "Athenaeum Wek",
+        "Mucid Terrarium",
+        "Stagnant Manufactory",
+        "Logistics Bridge",
+        "Detritus Foundry"
+      ]
+    },
+    {
+      "name": "Alepsis-Taura",
+      "mainColor": "hsl(200, 50%, 10%)",
+      "locations": [
+        "The Convergence",
+        "Withered Necropolis",
+        "Agronomy Sectort",
+
+        "Ascension Spire",
+        "Astropath's Respíte",
+        "Spectrum Nexus",
+        "Terminus Station",
+        "Tower of the Unseen",
+        "The Putrid Domain",
+        "Vault of the Formless",
+        "Void Vessel Facility",
+        "Dormant N'erudian Facility",
+        "The Dark Conduit",
+        "The Hatchery",
+        "Athenaeum Wek",
+        "Mucid Terrarium",
+        "Stagnant Manufactory",
+        "Logistics Bridge",
+        "Detritus Foundry"
       ]
     }
   ],
@@ -421,6 +457,102 @@
           "injectables": ["N'Erud: World Drops"]
         }
       ]
+    },
+    "Logistics Bridge": {
+      "name": "Logistics Bridge",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Logistics_Bridge", "/Logistics_Bridge"],
+      "collectibles": [
+        "Brazen Amalgam",
+        "Phetyr Sensor",
+        "Phetyr Chassis",
+        "Phetyr Locomotor",
+        "Phetyr Crushers",
+        "Hyper Charger",
+        "Burden of the Excavator",
+        "Siphon Filter"
+      ],
+      "biome": "Stasis Chamber",
+      "type": "Side Dungeon",
+      "injectables": []
+    },
+    "Athenaeum Wek": {
+      "name": "Athenaeum Wek",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Athenaeum_Wek", "/Athenaeum_Wek"],
+      "collectibles": [
+        "Echo Chamber",
+        "Shielding Shot",
+        "Clear Halo",
+        "Insulator"
+      ],
+      "biome": "Tower",
+      "type": "Side Dungeon",
+      "injectables": []
+    },
+    "Stagnant Manufactory": {
+      "name": "Stagnant Manufactory",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Stagnant_Manufactory", "/Stagnant_Manufactory"],
+      "collectibles": ["Exhaust Valve", "Superheated", "Perception"],
+      "biome": "Infested Facility",
+      "type": "Side Dungeon",
+      "injectables": []
+    },
+    "Withered Necropolis": {
+      "name": "Withered Necropolis",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Withered_Necropolis", "/Withered_Necropolis"],
+      "collectibles": [
+        "Relay Device",
+        "Nanoplated Transmitter",
+        "Nanoplated Vestments",
+        "Nanoplated Waist",
+        "Nanoplated Hands",
+        "Custodian's Bastion",
+        "Security Half-Measure",
+        "Genesis"
+      ],
+      "biome": "",
+      "type": "Overworld",
+      "injectables": []
+    },
+    "Detritus Foundry": {
+      "name": "Detritus Foundry",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Detritus_Foundry", "/Detritus_Foundry"],
+      "collectibles": ["Harvester Bots"],
+      "biome": "Tower",
+      "type": "Side Dungeon",
+      "injectables": []
+    },
+    "Agronomy Sector": {
+      "name": "Agronomy Sector",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Agronomy_Sector", "/Agronomy_Sector"],
+      "collectibles": [
+        "Detonator",
+        "Latent Heart",
+        "Harvester Scythe",
+        "Repair Tool",
+        "Preservation",
+        "Disaster Converter",
+        "Spirit Alternator",
+        "Charged Wounds",
+        "Shield Alternator"
+      ],
+      "biome": "",
+      "type": "Overworld",
+      "injectables": []
+    },
+    "The Convergence": {
+      "name": "The Convergence",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/The_Convergence", "/The_Convergence"],
+      "collectibles": ["Insight", "Black Mass", "Eternity Chamber"],
+      "biome": "Other",
+      "type": "Main Dungeon",
+      "injectables": []
     }
   },
   "injectables": {
@@ -562,10 +694,40 @@
         "Kinetic Shield Exchanger",
         "Inert Overcharger",
         "Legacy Protocol",
-        "Zero Divide"
+        "Zero Divide",
+        "Crisis Core",
+        "Zero Hour",
+        "Breach Accelerator",
+        "Demolition Coil",
+        "Detonating Cord",
+        "Feeding Tube",
+        "Impact Augment",
+        "Infinity Pocket",
+        "Nanofiber Strand",
+        "Tolerance Band",
+        "Transient Cord",
+        "Reaction Chain"
       ],
       "addedIn": "Remnant 2",
       "wikiLinks": ["/N'Erud:%20World%20Drops", "/N'Erud:%20World%20Drops"]
+    },
+    "Crop Lab": {
+      "name": "Crop Lab",
+      "collectibles": ["Quantum Memory", "Repercussion", "Gossamer Heart"],
+      "wikiLinks": ["/Crop_Lab", "/Crop_Lab"],
+      "addedIn": "The Dark Horizon"
+    },
+    "Power Hub": {
+      "name": "Power Hub",
+      "collectibles": ["Short Circuit", "Combat Shield Generator"],
+      "wikiLinks": ["/Power_Hub", "/Power_Hub"],
+      "addedIn": "The Dark Horizon"
+    },
+    "Security Drone Maze": {
+      "name": "Security Drone Maze",
+      "collectibles": ["Burden of the Protector", "Bypass Primer"],
+      "wikiLinks": ["/Security_Drone_Maze", "/Security_Drone_Maze"],
+      "addedIn": "The Dark Horizon"
     }
   }
 }

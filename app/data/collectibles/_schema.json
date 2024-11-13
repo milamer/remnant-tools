@@ -27,13 +27,19 @@
               "Relic Fragment",
               "Trait",
               "Engram",
-              "Consumable"
+              "Consumable",
+              "Prism"
             ],
             "description": "Type of the collectible"
           },
           "addedIn": {
             "type": "string",
-            "enum": ["Remnant 2", "The Awakened King", "The Forgotten Kingdom"],
+            "enum": [
+              "Remnant 2",
+              "The Awakened King",
+              "The Forgotten Kingdom",
+              "The Dark Horizon"
+            ],
             "description": "Version or DLC in which the collectible was added"
           },
           "craftInto": {

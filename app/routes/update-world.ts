@@ -12,7 +12,7 @@ export async function action() {
     worlds.map((world) => [world.name, world]),
   );
   const collectibleNameToCollectible = Object.fromEntries(
-    collectibles.map((colectible) => [colectible.name, colectible]),
+    collectibles.map((collectible) => [collectible.name, collectible]),
   );
   return json({
     collectibles: collectibleNameToCollectible,

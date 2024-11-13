@@ -70,7 +70,7 @@ export default function World() {
     return locations.filter(([locationName]) =>
       locationName.toLowerCase().includes(search.toLowerCase()),
     );
-  }, [search, world.locations]);
+  }, [search, storylineLocations, world.locations]);
 
   const locations = useMemo(() => {
     if (filter === 'All') return filteredLocations;
@@ -78,7 +78,7 @@ export default function World() {
       const progress = character?.worlds[world.name]?.locations[locationName];
       return progress?.state === filter;
     });
-  }, [filter, filteredLocations]);
+  }, [character?.worlds, filter, filteredLocations, world.name]);
 
   const [searchParams] = useSearchParams();
 
@@ -110,7 +110,7 @@ export default function World() {
       }
     }
     return groups;
-  }, [groupBy, locations]);
+  }, [character?.worlds, groupBy, locations, world.name]);
 
   return (
     <>
@@ -159,14 +159,17 @@ export default function World() {
             </div>
             <div className="flex h-full flex-col gap-2 p-4 pt-0">
               {Object.entries(locationGroups).map(([group, locations]) => (
-                <div className="flex h-full flex-col gap-2 p-4 pt-0">
+                <div
+                  className="flex h-full flex-col gap-2 p-4 pt-0"
+                  key={group}
+                >
                   <div className="text-2xl font-bold">{group}</div>
                   {locations.map(([locationName, location]) => {
                     const locationProgress =
                       character?.worlds[world.name]?.locations[locationName];
                     const eventProgress = Object.entries(
                       locationProgress?.bonusProgress ?? {},
-                    ).filter(([key, value]) => value[1] !== 0);
+                    ).filter(([, value]) => value[1] !== 0);
 
                     if (locationProgress?.baseProgress?.[1] !== 0) {
                       eventProgress.unshift([
@@ -210,7 +213,7 @@ export default function World() {
                           </div>
                           <div className="grid auto-cols-fr grid-flow-col grid-rows-2 gap-2 py-2">
                             {eventProgress.map(([key, value]) => (
-                              <div className="flex justify-between">
+                              <div className="flex justify-between" key={key}>
                                 <span className="overflow-hidden text-ellipsis text-nowrap text-muted-foreground">
                                   {key}:
                                 </span>

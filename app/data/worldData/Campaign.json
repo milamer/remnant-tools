@@ -16,7 +16,10 @@
         "Reggie",
         "Wallace",
         "Cass",
-        "Ward 13"
+        "Ward 13",
+        "Root Bramble",
+        "Spark",
+        "Duane"
       ]
     },
     {
@@ -37,6 +40,33 @@
     }
   ],
   "locations": {
+    "Duane": {
+      "name": "Duane",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Duane", "/Duane"],
+      "collectibles": ["Chef Medal"],
+      "biome": "Crafting",
+      "type": "Other"
+    },
+    "Spark": {
+      "name": "Spark",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Spark", "/Spark"],
+      "collectibles": [
+        "Ornate Amulet",
+        "Timekeeper's Forfeit",
+        "Volatile Cartridge",
+        "Mortal Coil",
+        "Symbol of Royalty",
+        "Strand of Sinew",
+        "Ring of Ashes",
+        "Wired Inhibitor",
+        "Force Multiplier",
+        "Redeemer"
+      ],
+      "biome": "Crafting",
+      "type": "Other"
+    },
     "The Backrooms": {
       "name": "The Backrooms",
       "addedIn": "Remnant 2",
@@ -143,7 +173,8 @@
         "Leto Mark 1 Armor",
         "Leto Mark 1 Gloves",
         "Leto Mark 1 Helmet",
-        "Leto Mark 1 Leggings"
+        "Leto Mark 1 Leggings",
+        "Welding_Goggles"
       ],
       "biome": "Shop",
       "type": "Other"
@@ -185,7 +216,8 @@
         "Starkiller",
         "World's Edge",
         "Savior",
-        "Steel Scythe"
+        "Steel Scythe",
+        "Black Metal Bars"
       ],
       "biome": "Shop",
       "type": "Other"
@@ -227,7 +259,10 @@
         "Weaponlord",
         "Fetid Wounds",
         "Tainted Blade",
-        "Spellweaver"
+        "Spellweaver",
+        "Hidden Power",
+        "Volatile Strike",
+        "Prism of Lethargy"
       ],
       "biome": "Shop",
       "type": "Other"
@@ -293,7 +328,11 @@
         "Monolith",
         "Thorn",
         "Mirage",
-        "Anguish"
+        "Anguish",
+        "Voidlight",
+        "Black Greatsword",
+        "Monorail",
+        "Dark Matter Gauntlets"
       ],
       "biome": "Crafting",
       "type": "Other"
@@ -335,7 +374,8 @@
         "Daredevil's Charm",
         "Leto's Amulet",
         "Old Metal Tool",
-        "Dull Steel Ring"
+        "Dull Steel Ring",
+        "Ring of Phantom Pain"
       ],
       "biome": "Shop",
       "type": "Other"
@@ -358,7 +398,8 @@
         "Silent Whistle",
         "Spirit Flute",
         "Serrated Root Blade",
-        "Tome of The Bringer"
+        "Tome of The Bringer",
+        "Prism of Jealousy"
       ],
       "biome": "Crafting",
       "type": "Other"
@@ -387,9 +428,18 @@
         "Rock of Anguish",
         "Constrained Heart",
         "Diverting Heart",
-        "Enlarged Heart"
+        "Enlarged Heart",
+        "Prism of Greed"
       ],
       "biome": "Shop",
+      "type": "Other"
+    },
+    "Root Bramble": {
+      "name": "Root Bramble",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Root_Bramble", "/Root_Bramble"],
+      "collectibles": ["Cessation Bulbel"],
+      "biome": "Crafting",
       "type": "Other"
     },
     "Ward 13": {

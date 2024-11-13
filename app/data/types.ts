@@ -13,6 +13,7 @@ export enum CollectibleType {
   RelicFragment = 'Relic Fragment',
   Trait = 'Trait',
   Engram = 'Engram',
+  Prism = 'Prism',
   // There are a few Consumables that are "Collectibles"
   Consumable = 'Consumable',
 
@@ -25,6 +26,7 @@ export enum GameDLC {
   BASE = 'Remnant 2',
   DLC1 = 'The Awakened King',
   DLC2 = 'The Forgotten Kingdom',
+  DLC3 = 'The Dark Horizon',
 }
 
 export const collectibleSchema = z.object({

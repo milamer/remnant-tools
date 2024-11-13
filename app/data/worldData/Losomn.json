@@ -299,7 +299,8 @@
         "Broken Heart",
         "Jewel of the Beholden",
         "Cost of Betrayal",
-        "Gift of the Unbound"
+        "Gift of the Unbound",
+        "Insipid Talon"
       ],
       "biome": "Other",
       "type": "Main Dungeon",
@@ -886,7 +887,11 @@
         "Brewmaster's Cork",
         "Magnifying Glass",
         "Black Spinel",
-        "Leaking Gemstone"
+        "Leaking Gemstone",
+        "Hangman's Noose",
+        "Nightmare Sigil",
+        "Ring of Bones",
+        "Stone of Revelation"
       ],
       "addedIn": "Remnant 2",
       "wikiLinks": ["/Losomn:%20World%20Drops", "/Losomn:%20World%20Drops"]

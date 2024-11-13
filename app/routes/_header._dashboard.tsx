@@ -12,13 +12,14 @@ import worldstoneUrl from '~/assets/worldstone.png';
 import nightweaverUrl from '~/assets/nighweaver.png';
 import queenUrl from '~/assets/queen.png';
 import keeperUrl from '~/assets/keeper.png';
+import annihilationUrl from '~/assets/annihilation.png';
 import kingUrl from '~/assets/king.png';
 import lydusaUrl from '~/assets/lydusa.png';
 
 const worldToImage: Record<string, string> = {
   'Ward 13': worldstoneUrl,
   Labyrinth: keeperUrl,
-  'Root Earth': keeperUrl,
+  'Root Earth': annihilationUrl,
 
   'Eternal Empress': queenUrl,
   Ravager: keeperUrl,
@@ -30,6 +31,7 @@ const worldToImage: Record<string, string> = {
 
   "Sha'hala": queenUrl,
   "Tal'ratha": queenUrl,
+  'Alepsis-Taura': queenUrl,
 
   'In Game': keeperUrl,
   'W/E': keeperUrl,
@@ -117,6 +119,7 @@ export default function Dashboard() {
                   };
                   return (
                     <Card
+                      key={storyline.name}
                       className="border-b-0
                         bg-[linear-gradient(135deg,hsl(var(--background))50%,var(--story-color)170%)]
                         hover:bg-[linear-gradient(45deg,hsl(var(--background))50%,var(--story-color)170%)]"
@@ -188,8 +191,9 @@ export default function Dashboard() {
                           </div>
                           <div className="relative basis-1/3">
                             <div className="absolute inset-0 flex justify-center">
-                              <div className="absolute bottom-0 flex h-[120%] items-end justify-center overflow-hidden">
+                              <div className="absolute bottom-0 flex h-[120%] items-end justify-center">
                                 <img
+                                  alt={`${storyline.name} boss`}
                                   width="448"
                                   height="558"
                                   src={worldToImage[storyline.name]}

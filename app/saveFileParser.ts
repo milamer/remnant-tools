@@ -15,7 +15,7 @@ export async function decompressSave(rawData: Uint8Array): Promise<string> {
   const totalSize = dataView.getUint32(4, true);
   // const unknown = dataView.getUint32(8, true);
 
-  let decompressedData = new Uint8Array(totalSize);
+  const decompressedData = new Uint8Array(totalSize);
 
   let decompressedOffset = 0;
   let offset = 12;

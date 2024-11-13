@@ -63,7 +63,7 @@ function Collectibles({
 
   useEffect(() => {
     if (page > maxPage) setPage(1);
-  }, [maxPage]);
+  }, [maxPage, page]);
 
   const order = orderBy.startsWith('-') ? orderBy.slice(1) : orderBy;
   const orderIcon = orderBy.startsWith('-') ? (
