@@ -226,7 +226,8 @@
           "injectables": [
             "Gravity Drive",
             "Hidden Elevator",
-            "Stargazer's Tomb"
+            "Stargazer's Tomb",
+            "Crop Lab"
           ]
         },
         {
@@ -248,7 +249,8 @@
           "injectables": [
             "Gravity Drive",
             "Hidden Elevator",
-            "Stargazer's Tomb"
+            "Stargazer's Tomb",
+            "Crop Lab"
           ]
         },
         {
@@ -270,7 +272,8 @@
           "injectables": [
             "Gravity Drive",
             "Hidden Elevator",
-            "Stargazer's Tomb"
+            "Stargazer's Tomb",
+            "Crop Lab"
           ]
         },
         {
@@ -297,7 +300,8 @@
           "injectables": [
             "Gravity Drive",
             "Hidden Elevator",
-            "Stargazer's Tomb"
+            "Stargazer's Tomb",
+            "Crop Lab"
           ]
         },
         {
@@ -322,7 +326,9 @@
             "The Flooded Room",
             "Crashed Train",
             "Robot Hangar",
-            "Stasis Pod Chamber"
+            "Stasis Pod Chamber",
+            "Power Hub",
+            "Security Drone Maze"
           ]
         },
         {
@@ -350,7 +356,9 @@
             "The Flooded Room",
             "Crashed Train",
             "Robot Hangar",
-            "Stasis Pod Chamber"
+            "Stasis Pod Chamber",
+            "Power Hub",
+            "Security Drone Maze"
           ]
         },
         {
@@ -382,7 +390,9 @@
             "The Flooded Room",
             "Crashed Train",
             "Robot Hangar",
-            "Stasis Pod Chamber"
+            "Stasis Pod Chamber",
+            "Power Hub",
+            "Security Drone Maze"
           ]
         },
         {
@@ -424,7 +434,9 @@
             "The Flooded Room",
             "Crashed Train",
             "Robot Hangar",
-            "Stasis Pod Chamber"
+            "Stasis Pod Chamber",
+            "Power Hub",
+            "Security Drone Maze"
           ]
         },
         {
@@ -449,7 +461,9 @@
             "The Flooded Room",
             "Crashed Train",
             "Robot Hangar",
-            "Stasis Pod Chamber"
+            "Stasis Pod Chamber",
+            "Power Hub",
+            "Security Drone Maze"
           ]
         },
         {
@@ -474,7 +488,25 @@
       ],
       "biome": "Stasis Chamber",
       "type": "Side Dungeon",
-      "injectables": []
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Aerary Glyph Door",
+            "Broken Cable",
+            "The Flooded Room",
+            "Crashed Train",
+            "Robot Hangar",
+            "Stasis Pod Chamber",
+            "Power Hub",
+            "Security Drone Maze"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
+      ]
     },
     "Athenaeum Wek": {
       "name": "Athenaeum Wek",
@@ -488,7 +520,21 @@
       ],
       "biome": "Tower",
       "type": "Side Dungeon",
-      "injectables": []
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Gravity Drive",
+            "Hidden Elevator",
+            "Stargazer's Tomb",
+            "Crop Lab"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
+      ]
     },
     "Stagnant Manufactory": {
       "name": "Stagnant Manufactory",
@@ -497,7 +543,25 @@
       "collectibles": ["Exhaust Valve", "Superheated", "Perception"],
       "biome": "Infested Facility",
       "type": "Side Dungeon",
-      "injectables": []
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Aerary Glyph Door",
+            "Broken Cable",
+            "The Flooded Room",
+            "Crashed Train",
+            "Robot Hangar",
+            "Stasis Pod Chamber",
+            "Power Hub",
+            "Security Drone Maze"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
+      ]
     },
     "Withered Necropolis": {
       "name": "Withered Necropolis",
@@ -524,7 +588,21 @@
       "collectibles": ["Harvester Bots"],
       "biome": "Tower",
       "type": "Side Dungeon",
-      "injectables": []
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Gravity Drive",
+            "Hidden Elevator",
+            "Stargazer's Tomb",
+            "Crop Lab"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
+      ]
     },
     "Agronomy Sector": {
       "name": "Agronomy Sector",
