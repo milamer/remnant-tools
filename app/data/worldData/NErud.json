@@ -63,7 +63,7 @@
       "locations": [
         "The Convergence",
         "Withered Necropolis",
-        "Agronomy Sectort",
+        "Agronomy Sector",
 
         "Ascension Spire",
         "Astropath's Respíte",
@@ -577,7 +577,7 @@
         "Security Half-Measure",
         "Genesis"
       ],
-      "biome": "",
+      "biome": "Singularity",
       "type": "Overworld",
       "injectables": []
     },
@@ -619,7 +619,7 @@
         "Charged Wounds",
         "Shield Alternator"
       ],
-      "biome": "",
+      "biome": "Singularity",
       "type": "Overworld",
       "injectables": []
     },
@@ -631,6 +631,33 @@
       "biome": "Other",
       "type": "Main Dungeon",
       "injectables": []
+    },
+    "Mucid Terrarium": {
+      "name": "Mucid Terrarium",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Mucid_Terrarium", "/Mucid_Terrarium"],
+      "collectibles": [],
+      "biome": "Stasis Chamber",
+      "type": "Side Dungeon",
+      "injectables": [
+        {
+          "name": "Events",
+          "injectables": [
+            "Aerary Glyph Door",
+            "Broken Cable",
+            "The Flooded Room",
+            "Crashed Train",
+            "Robot Hangar",
+            "Stasis Pod Chamber",
+            "Power Hub",
+            "Security Drone Maze"
+          ]
+        },
+        {
+          "name": "World Drops",
+          "injectables": ["N'Erud: World Drops"]
+        }
+      ]
     }
   },
   "injectables": {
