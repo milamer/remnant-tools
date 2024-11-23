@@ -8285,7 +8285,9 @@
       "addedIn": "The Dark Horizon",
       "wikiLinks": ["/Warden", "/Warden"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "linkedCollectibles": ["Weathered Mechanism"],
+      "craftedFrom": [["Weathered Mechanism"]]
     },
     {
       "name": "Aftermath",
@@ -8303,7 +8305,9 @@
       "addedIn": "The Dark Horizon",
       "wikiLinks": ["/Harvester_Bots", "/Harvester_Bots"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "linkedCollectibles": ["Replication Pod"],
+      "craftedFrom": [["Replication Pod"]]
     },
     {
       "name": "Indomitable Strike",
@@ -8357,7 +8361,9 @@
       "addedIn": "The Dark Horizon",
       "wikiLinks": ["/Shielding_Shot", "/Shielding_Shot"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "linkedCollectibles": ["Iron Rod"],
+      "craftedFrom": [["Iron Rod"]]
     },
     {
       "name": "Voidlight",
@@ -8366,7 +8372,9 @@
       "addedIn": "The Dark Horizon",
       "wikiLinks": ["/Voidlight", "/Voidlight"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "linkedCollectibles": ["Voidlight Core"],
+      "craftedFrom": [["Voidlight Core"]]
     },
     {
       "name": "Charged Wounds",
@@ -8465,7 +8473,19 @@
       "addedIn": "The Dark Horizon",
       "wikiLinks": ["/Prism", "/Prism"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "linkedCollectibles": [
+        "Prismatic Stone Blue",
+        "Prismatic Stone Yellow",
+        "Prismatic Stone Red"
+      ],
+      "craftedFrom": [
+        [
+          "Prismatic Stone Blue",
+          "Prismatic Stone Yellow",
+          "Prismatic Stone Red"
+        ]
+      ]
     },
     {
       "name": "Prism of Lethargy",
@@ -9410,7 +9430,9 @@
       "addedIn": "The Dark Horizon",
       "wikiLinks": ["/Black_Greatsword", "/Black_Greatsword"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "linkedCollectibles": ["Black Metal Bars"],
+      "craftedFrom": [["Black Metal Bars"]]
     },
     {
       "name": "Genesis",
@@ -9428,7 +9450,9 @@
       "addedIn": "The Dark Horizon",
       "wikiLinks": ["/Monorail", "/Monorail"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "craftedFrom": [["Eternity Chamber"]],
+      "linkedCollectibles": ["Eternity Chamber"]
     },
     {
       "name": "Dark Matter Gauntlets",
@@ -9437,7 +9461,9 @@
       "addedIn": "The Dark Horizon",
       "wikiLinks": ["/Dark_Matter_Gauntlets", "/Dark_Matter_Gauntlets"],
       "description": "",
-      "imageUrl": ""
+      "imageUrl": "",
+      "linkedCollectibles": ["Black Mass"],
+      "craftedFrom": [["Black Mass"]]
     },
     {
       "name": "Harvester Scythe",
@@ -9465,6 +9491,106 @@
       "wikiLinks": ["/Redeemer", "/Redeemer"],
       "description": "",
       "imageUrl": ""
+    },
+    {
+      "name": "Black Mass",
+      "saveFileFlag": "Material_BlackMass_C",
+      "type": "Material",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Black_Mass", "/Black_Mass"],
+      "description": "",
+      "imageUrl": "",
+      "craftInto": ["Dark Matter Gauntlets"]
+    },
+    {
+      "name": "Eternity Chamber",
+      "saveFileFlag": "Material_EternityChamber_C",
+      "type": "Material",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Eternity_Chamber", "/Eternity_Chamber"],
+      "description": "",
+      "imageUrl": "",
+      "craftInto": ["Monorail"]
+    },
+    {
+      "name": "Iron Rod",
+      "saveFileFlag": "Material_IronRod_C",
+      "type": "Material",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Iron_Rod", "/Iron_Rod"],
+      "description": "",
+      "imageUrl": "",
+      "craftInto": ["Shielding Shot"]
+    },
+    {
+      "name": "Prismatic Stone Blue",
+      "saveFileFlag": "Material_PrismaticStoneBlue_C",
+      "type": "Material",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Prismatic_Stone_Blue", "/Prismatic_Stone_Blue"],
+      "description": "",
+      "imageUrl": "",
+      "craftInto": ["Prism of Jealousy"]
+    },
+    {
+      "name": "Prismatic Stone Yellow",
+      "saveFileFlag": "Material_PrismaticStoneYellow_C",
+      "type": "Material",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Prismatic_Stone_Yellow", "/Prismatic_Stone_Yellow"],
+      "description": "",
+      "imageUrl": "",
+      "craftInto": ["Prism of Jealousy"]
+    },
+    {
+      "name": "Prismatic Stone Red",
+      "saveFileFlag": "Material_PrismaticStoneRed_C",
+      "type": "Material",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Prismatic_Stone_Red", "/Prismatic_Stone_Red"],
+      "description": "",
+      "imageUrl": "",
+      "craftInto": ["Prism of Jealousy"]
+    },
+    {
+      "name": "Replication Pod",
+      "saveFileFlag": "Material_ReplicationPod_C",
+      "type": "Material",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Replication_Pod", "/Replication_Pod"],
+      "description": "",
+      "imageUrl": "",
+      "craftInto": ["Harvester Bots"]
+    },
+    {
+      "name": "Voidlight Core",
+      "saveFileFlag": "Material_VoidlightCore_C",
+      "type": "Material",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Voidlight_Core", "/Voidlight_Core"],
+      "description": "",
+      "imageUrl": "",
+      "craftInto": ["Voidlight"]
+    },
+    {
+      "name": "Weathered Mechanism",
+      "saveFileFlag": "Material_WeatheredMechanism_C",
+      "type": "Material",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Weathered_Mechanism", "/Weathered_Mechanism"],
+      "description": "",
+      "imageUrl": "",
+      "craftInto": ["Warden"]
+    },
+    {
+      "name": "Black Metal Bars",
+      "saveFileFlag": "Material_BlackMetalBars_C",
+      "type": "Material",
+      "addedIn": "The Dark Horizon",
+      "wikiLinks": ["/Black_Metal_Bars", "/Black_Metal_Bars"],
+      "description": "",
+      "imageUrl": "",
+      "craftInto": ["Black Greatsword"]
     }
   ]
 }

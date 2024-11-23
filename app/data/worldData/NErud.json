@@ -512,12 +512,7 @@
       "name": "Athenaeum Wek",
       "addedIn": "The Dark Horizon",
       "wikiLinks": ["/Athenaeum_Wek", "/Athenaeum_Wek"],
-      "collectibles": [
-        "Echo Chamber",
-        "Shielding Shot",
-        "Clear Halo",
-        "Insulator"
-      ],
+      "collectibles": ["Echo Chamber", "Ion Rod", "Clear Halo", "Insulator"],
       "biome": "Tower",
       "type": "Side Dungeon",
       "injectables": [
@@ -575,7 +570,8 @@
         "Nanoplated Hands",
         "Custodian's Bastion",
         "Security Half-Measure",
-        "Genesis"
+        "Genesis",
+        "Weathered Mechanism"
       ],
       "biome": "Singularity",
       "type": "Overworld",
@@ -585,9 +581,9 @@
       "name": "Detritus Foundry",
       "addedIn": "The Dark Horizon",
       "wikiLinks": ["/Detritus_Foundry", "/Detritus_Foundry"],
-      "collectibles": ["Harvester Bots"],
+      "collectibles": ["Replication Pod"],
       "biome": "Tower",
-      "type": "Side Dungeon",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
@@ -636,9 +632,9 @@
       "name": "Mucid Terrarium",
       "addedIn": "The Dark Horizon",
       "wikiLinks": ["/Mucid_Terrarium", "/Mucid_Terrarium"],
-      "collectibles": [],
+      "collectibles": ["Voidlight Core"],
       "biome": "Stasis Chamber",
-      "type": "Side Dungeon",
+      "type": "Main Dungeon",
       "injectables": [
         {
           "name": "Events",
