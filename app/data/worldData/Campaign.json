@@ -61,8 +61,7 @@
         "Strand of Sinew",
         "Ring of Ashes",
         "Wired Inhibitor",
-        "Force Multiplier",
-        "Redeemer"
+        "Force Multiplier"
       ],
       "biome": "Crafting",
       "type": "Other"
@@ -175,7 +174,7 @@
         "Leto Mark 1 Gloves",
         "Leto Mark 1 Helmet",
         "Leto Mark 1 Leggings",
-        "Welding_Goggles"
+        "Welding Goggles"
       ],
       "biome": "Shop",
       "type": "Other"
@@ -218,7 +217,8 @@
         "World's Edge",
         "Savior",
         "Steel Scythe",
-        "Black Metal Bars"
+        "Black Metal Bars",
+        "Redeemer"
       ],
       "biome": "Shop",
       "type": "Other"

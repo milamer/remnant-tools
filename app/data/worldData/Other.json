@@ -6,7 +6,7 @@
     {
       "name": "In Game",
       "mainColor": "",
-      "locations": ["Special", "Aberration"]
+      "locations": ["Special", "Aberration", "Boss Rush"]
     },
     {
       "name": "W/E",

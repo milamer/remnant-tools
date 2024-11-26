@@ -9524,7 +9524,7 @@
     },
     {
       "name": "Prismatic Stone Blue",
-      "saveFileFlag": "Material_PrismaticStoneBlue_C",
+      "saveFileFlag": "Material_PrismaticStone_2_C",
       "type": "Material",
       "addedIn": "The Dark Horizon",
       "wikiLinks": ["/Prismatic_Stone_Blue", "/Prismatic_Stone_Blue"],
@@ -9534,7 +9534,7 @@
     },
     {
       "name": "Prismatic Stone Yellow",
-      "saveFileFlag": "Material_PrismaticStoneYellow_C",
+      "saveFileFlag": "Material_PrismaticStone_1_C",
       "type": "Material",
       "addedIn": "The Dark Horizon",
       "wikiLinks": ["/Prismatic_Stone_Yellow", "/Prismatic_Stone_Yellow"],
@@ -9544,7 +9544,7 @@
     },
     {
       "name": "Prismatic Stone Red",
-      "saveFileFlag": "Material_PrismaticStoneRed_C",
+      "saveFileFlag": "Material_PrismaticStone_3_C",
       "type": "Material",
       "addedIn": "The Dark Horizon",
       "wikiLinks": ["/Prismatic_Stone_Red", "/Prismatic_Stone_Red"],
