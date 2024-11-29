@@ -8362,8 +8362,8 @@
       "wikiLinks": ["/Shielding_Shot", "/Shielding_Shot"],
       "description": "",
       "imageUrl": "",
-      "linkedCollectibles": ["Iron Rod"],
-      "craftedFrom": [["Iron Rod"]]
+      "linkedCollectibles": ["Ion Rod"],
+      "craftedFrom": [["Ion Rod"]]
     },
     {
       "name": "Voidlight",
@@ -9513,11 +9513,11 @@
       "craftInto": ["Monorail"]
     },
     {
-      "name": "Iron Rod",
-      "saveFileFlag": "Material_IronRod_C",
+      "name": "Ion Rod",
+      "saveFileFlag": "Material_IonRod_C",
       "type": "Material",
       "addedIn": "The Dark Horizon",
-      "wikiLinks": ["/Iron_Rod", "/Iron_Rod"],
+      "wikiLinks": ["/Ion_Rod", "/Ion_Rod"],
       "description": "",
       "imageUrl": "",
       "craftInto": ["Shielding Shot"]
